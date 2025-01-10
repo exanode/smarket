@@ -1,2 +1,2 @@
 # smarket
-My first product
+My first product.
