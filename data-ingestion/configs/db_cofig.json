@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "port": 5430,
+    "dbname": "smarket_db",
+    "user": "exanode",
+    "password": "exanode"
+}

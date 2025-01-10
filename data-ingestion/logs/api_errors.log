@@ -1,0 +1,26 @@
+[2025-01-08 09:25:57] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=DRREDDY&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:25:57] Failed to fetch historical archives for symbol: DRREDDY, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:25:59] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=ONGC&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:25:59] Failed to fetch historical archives for symbol: ONGC, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:01] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=BAJAJHLDNG&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:01] Failed to fetch historical archives for symbol: BAJAJHLDNG, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:03] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=GAIL&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:03] Failed to fetch historical archives for symbol: GAIL, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:04] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=RELIANCE&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:04] Failed to fetch historical archives for symbol: RELIANCE, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:06] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=CIPLA&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:06] Failed to fetch historical archives for symbol: CIPLA, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:10] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=TCS&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:10] Failed to fetch historical archives for symbol: TCS, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:18] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=MARUTI&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:18] Failed to fetch historical archives for symbol: MARUTI, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:26:20] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=SUNPHARMA&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:26:20] Failed to fetch historical archives for symbol: SUNPHARMA, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:31:55] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=DRREDDY&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:31:55] Failed to fetch historical archives for symbol: DRREDDY, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:31:57] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=BAJAJHLDNG&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:31:57] Failed to fetch historical archives for symbol: BAJAJHLDNG, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:32:02] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=ONGC&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:32:02] Failed to fetch historical archives for symbol: ONGC, from: 2024-01-09, to: 2025-01-08
+[2025-01-08 09:32:03] Error fetching data from API: 422 Client Error: Unprocessable Entity for url: https://www.nseindia.com/api/historical/securityArchives?from=2024-01-09&to=2025-01-08&symbol=RELIANCE&dataType=priceVolumeDeliverable&series=ALL
+[2025-01-08 09:32:03] Failed to fetch historical archives for symbol: RELIANCE, from: 2024-01-09, to: 2025-01-08

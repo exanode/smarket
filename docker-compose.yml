@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: smarket
+    environment:
+      POSTGRES_USER: exanode
+      POSTGRES_PASSWORD: exanode
+      POSTGRES_DB: smarket_db
+    ports:
+      - "5430:5432"
+    volumes:
+      - smarket_postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  smarket_postgres_data:
+    driver: local

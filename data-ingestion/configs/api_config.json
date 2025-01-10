@@ -1,0 +1,9 @@
+{
+  "nse_base_url": "https://www.nseindia.com/api",
+  "endpoints": {
+    "equity_stock_indices": "/equity-stockIndices?index={index_name}",
+    "historical_security_archives": "/historical/securityArchives?from={from_date}&to={to_date}&symbol={symbol}&dataType=priceVolumeDeliverable&series=ALL"
+  },
+  "default_index_name": "NIFTY 100",
+  "default_symbol": ""
+}

@@ -1,0 +1,11 @@
+{
+    "data": [],
+    "meta": {
+        "series": "ALL",
+        "fromDate": "09-01-2024",
+        "toDate": "08-01-2025",
+        "symbols": [
+            "M"
+        ]
+    }
+}
