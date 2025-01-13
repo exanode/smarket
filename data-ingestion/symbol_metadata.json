@@ -1,0 +1,602 @@
+[
+    {
+        "symbol": "TCS",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "LTIM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TECHM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HCLTECH",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "INFY",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "WIPRO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "IRCTC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "JSWSTEEL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SBILIFE",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BAJAJFINSV",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "LT",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BRITANNIA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BHARTIARTL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BAJFINANCE",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TATACONSUM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HINDUNILVR",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ATGL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ONGC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HDFCLIFE",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "LICI",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HEROMOTOCO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TATAMOTORS",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "NESTLEIND",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ZYDUSLIFE",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HDFCBANK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BPCL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BAJAJ-AUTO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "RELIANCE",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ICICIPRULI",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "GODREJCP",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TRENT",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ZOMATO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "MARUTI",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "DABUR",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ICICIBANK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "COALINDIA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "APOLLOHOSP",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ABB",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "DRREDDY",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "CIPLA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "NAUKRI",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "M&M",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-13"
+    },
+    {
+        "symbol": "IOC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ICICIGI",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "DIVISLAB",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "INDIGO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ASIANPAINT",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TITAN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ITC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "JINDALSTEL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "EICHERMOT",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "VEDL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SHREECEM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "VBL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TATASTEEL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ADANIPORTS",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "NHPC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TORNTPHARM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "KOTAKBANK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TVSMOTOR",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "GAIL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "POWERGRID",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HAVELLS",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "PIDILITIND",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "GRASIM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "AXISBANK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SBIN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BANKBARODA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "LODHA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SUNPHARMA",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SIEMENS",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ADANIENSOL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HINDALCO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "AMBUJACEM",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "UNITDSPR",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "MOTHERSON",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "JSWENERGY",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "HAL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "JIOFIN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "CHOLAFIN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "DMART",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BAJAJHLDNG",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BOSCHLTD",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "TATAPOWER",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "IRFC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ADANIPOWER",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "CANBK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "PNB",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ADANIGREEN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ULTRACEMCO",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "DLF",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BEL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "NTPC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "ADANIENT",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "PFC",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "UNIONBANK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "INDUSINDBK",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "SHRIRAMFIN",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "BHEL",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    },
+    {
+        "symbol": "RECLTD",
+        "listing_date": "2015-01-01",
+        "start_date": "2015-01-01",
+        "end_date": "2025-01-10"
+    }
+]

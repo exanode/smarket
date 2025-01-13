@@ -2559,3 +2559,1640 @@
 2025-01-12 19:16:57 | INFO | __main__ | Fetching prices for RECLTD from 08-01-2025 to 12-01-2025
 2025-01-12 19:16:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
 2025-01-12 19:16:59 | INFO | __main__ | Workflow completed successfully.
+2025-01-13 10:31:26 | INFO | __main__ | Starting stock data fetch workflow...
+2025-01-13 10:31:27 | INFO | __main__ | Loading configuration from config.json
+2025-01-13 10:31:27 | INFO | __main__ | Fetching stock list for index: NIFTY 100
+2025-01-13 10:31:27 | INFO | __main__ | Saving stock list to: data/indices/NIFTY_100_stock_list.json
+2025-01-13 10:31:29 | INFO | __main__ | Extracting stock symbols from data/indices/NIFTY_100_stock_list.json...
+2025-01-13 10:31:29 | INFO | __main__ | Saved 100 stock names to data/stock_names.json
+2025-01-13 10:31:29 | INFO | __main__ | Beginning stock price fetch for 100 symbols...
+2025-01-13 10:31:29 | INFO | __main__ | Fetching historical prices for INDUSINDBK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:29 | INFO | __main__ | Fetching prices for INDUSINDBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indusindbk_historical_prices.json
+2025-01-13 10:31:32 | INFO | __main__ | Updating metadata for INDUSINDBK with end_date=2025-01-13
+2025-01-13 10:31:32 | INFO | __main__ | Fetching historical prices for AXISBANK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:32 | INFO | __main__ | Fetching prices for AXISBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/axisbank_historical_prices.json
+2025-01-13 10:31:34 | INFO | __main__ | Updating metadata for AXISBANK with end_date=2025-01-13
+2025-01-13 10:31:34 | INFO | __main__ | Fetching historical prices for DIVISLAB from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:34 | INFO | __main__ | Fetching prices for DIVISLAB from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/divislab_historical_prices.json
+2025-01-13 10:31:36 | INFO | __main__ | Updating metadata for DIVISLAB with end_date=2025-01-13
+2025-01-13 10:31:36 | INFO | __main__ | Fetching historical prices for ICICIPRULI from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:36 | INFO | __main__ | Fetching prices for ICICIPRULI from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicipruli_historical_prices.json
+2025-01-13 10:31:38 | INFO | __main__ | Updating metadata for ICICIPRULI with end_date=2025-01-13
+2025-01-13 10:31:38 | INFO | __main__ | Fetching historical prices for TCS from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:38 | INFO | __main__ | Fetching prices for TCS from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tcs_historical_prices.json
+2025-01-13 10:31:40 | INFO | __main__ | Updating metadata for TCS with end_date=2025-01-13
+2025-01-13 10:31:40 | INFO | __main__ | Fetching historical prices for UNIONBANK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:40 | INFO | __main__ | Fetching prices for UNIONBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unionbank_historical_prices.json
+2025-01-13 10:31:42 | INFO | __main__ | Updating metadata for UNIONBANK with end_date=2025-01-13
+2025-01-13 10:31:42 | INFO | __main__ | Fetching historical prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:42 | INFO | __main__ | Fetching prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shriramfin_historical_prices.json
+2025-01-13 10:31:44 | INFO | __main__ | Updating metadata for SHRIRAMFIN with end_date=2025-01-13
+2025-01-13 10:31:44 | INFO | __main__ | Fetching historical prices for PFC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:44 | INFO | __main__ | Fetching prices for PFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pfc_historical_prices.json
+2025-01-13 10:31:46 | INFO | __main__ | Updating metadata for PFC with end_date=2025-01-13
+2025-01-13 10:31:46 | INFO | __main__ | Fetching historical prices for BRITANNIA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:46 | INFO | __main__ | Fetching prices for BRITANNIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/britannia_historical_prices.json
+2025-01-13 10:31:48 | INFO | __main__ | Updating metadata for BRITANNIA with end_date=2025-01-13
+2025-01-13 10:31:48 | INFO | __main__ | Fetching historical prices for RECLTD from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:48 | INFO | __main__ | Fetching prices for RECLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
+2025-01-13 10:31:50 | INFO | __main__ | Updating metadata for RECLTD with end_date=2025-01-13
+2025-01-13 10:31:50 | INFO | __main__ | Fetching historical prices for GODREJCP from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:50 | INFO | __main__ | Fetching prices for GODREJCP from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/godrejcp_historical_prices.json
+2025-01-13 10:31:52 | INFO | __main__ | Updating metadata for GODREJCP with end_date=2025-01-13
+2025-01-13 10:31:52 | INFO | __main__ | Fetching historical prices for TITAN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:52 | INFO | __main__ | Fetching prices for TITAN from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/titan_historical_prices.json
+2025-01-13 10:31:54 | INFO | __main__ | Updating metadata for TITAN with end_date=2025-01-13
+2025-01-13 10:31:54 | INFO | __main__ | Fetching historical prices for INFY from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:54 | INFO | __main__ | Fetching prices for INFY from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/infy_historical_prices.json
+2025-01-13 10:31:56 | INFO | __main__ | Updating metadata for INFY with end_date=2025-01-13
+2025-01-13 10:31:56 | INFO | __main__ | Fetching historical prices for COALINDIA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:56 | INFO | __main__ | Fetching prices for COALINDIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:31:58 | INFO | __main__ | Updated stock prices saved to data/stock_prices/coalindia_historical_prices.json
+2025-01-13 10:31:58 | INFO | __main__ | Updating metadata for COALINDIA with end_date=2025-01-13
+2025-01-13 10:31:58 | INFO | __main__ | Fetching historical prices for HINDUNILVR from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:31:58 | INFO | __main__ | Fetching prices for HINDUNILVR from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:00 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindunilvr_historical_prices.json
+2025-01-13 10:32:00 | INFO | __main__ | Updating metadata for HINDUNILVR with end_date=2025-01-13
+2025-01-13 10:32:00 | INFO | __main__ | Fetching historical prices for NTPC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:00 | INFO | __main__ | Fetching prices for NTPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ntpc_historical_prices.json
+2025-01-13 10:32:02 | INFO | __main__ | Updating metadata for NTPC with end_date=2025-01-13
+2025-01-13 10:32:02 | INFO | __main__ | Fetching historical prices for LTIM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:02 | INFO | __main__ | Fetching prices for LTIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ltim_historical_prices.json
+2025-01-13 10:32:04 | INFO | __main__ | Updating metadata for LTIM with end_date=2025-01-13
+2025-01-13 10:32:04 | INFO | __main__ | Fetching historical prices for HCLTECH from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:04 | INFO | __main__ | Fetching prices for HCLTECH from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hcltech_historical_prices.json
+2025-01-13 10:32:06 | INFO | __main__ | Updating metadata for HCLTECH with end_date=2025-01-13
+2025-01-13 10:32:06 | INFO | __main__ | Fetching historical prices for CHOLAFIN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:06 | INFO | __main__ | Fetching prices for CHOLAFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cholafin_historical_prices.json
+2025-01-13 10:32:08 | INFO | __main__ | Updating metadata for CHOLAFIN with end_date=2025-01-13
+2025-01-13 10:32:08 | INFO | __main__ | Fetching historical prices for AMBUJACEM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:08 | INFO | __main__ | Fetching prices for AMBUJACEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ambujacem_historical_prices.json
+2025-01-13 10:32:10 | INFO | __main__ | Updating metadata for AMBUJACEM with end_date=2025-01-13
+2025-01-13 10:32:10 | INFO | __main__ | Fetching historical prices for RELIANCE from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:10 | INFO | __main__ | Fetching prices for RELIANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/reliance_historical_prices.json
+2025-01-13 10:32:12 | INFO | __main__ | Updating metadata for RELIANCE with end_date=2025-01-13
+2025-01-13 10:32:12 | INFO | __main__ | Fetching historical prices for SBIN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:12 | INFO | __main__ | Fetching prices for SBIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbin_historical_prices.json
+2025-01-13 10:32:14 | INFO | __main__ | Updating metadata for SBIN with end_date=2025-01-13
+2025-01-13 10:32:14 | INFO | __main__ | Fetching historical prices for SBILIFE from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:14 | INFO | __main__ | Fetching prices for SBILIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbilife_historical_prices.json
+2025-01-13 10:32:16 | INFO | __main__ | Updating metadata for SBILIFE with end_date=2025-01-13
+2025-01-13 10:32:16 | INFO | __main__ | Fetching historical prices for HINDALCO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:16 | INFO | __main__ | Fetching prices for HINDALCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindalco_historical_prices.json
+2025-01-13 10:32:18 | INFO | __main__ | Updating metadata for HINDALCO with end_date=2025-01-13
+2025-01-13 10:32:18 | INFO | __main__ | Fetching historical prices for BOSCHLTD from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:18 | INFO | __main__ | Fetching prices for BOSCHLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/boschltd_historical_prices.json
+2025-01-13 10:32:21 | INFO | __main__ | Updating metadata for BOSCHLTD with end_date=2025-01-13
+2025-01-13 10:32:21 | INFO | __main__ | Fetching historical prices for BHARTIARTL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:21 | INFO | __main__ | Fetching prices for BHARTIARTL from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhartiartl_historical_prices.json
+2025-01-13 10:32:24 | INFO | __main__ | Updating metadata for BHARTIARTL with end_date=2025-01-13
+2025-01-13 10:32:24 | INFO | __main__ | Fetching historical prices for MARUTI from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:24 | INFO | __main__ | Fetching prices for MARUTI from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/maruti_historical_prices.json
+2025-01-13 10:32:27 | INFO | __main__ | Updating metadata for MARUTI with end_date=2025-01-13
+2025-01-13 10:32:27 | INFO | __main__ | Fetching historical prices for TORNTPHARM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:27 | INFO | __main__ | Fetching prices for TORNTPHARM from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/torntpharm_historical_prices.json
+2025-01-13 10:32:29 | INFO | __main__ | Updating metadata for TORNTPHARM with end_date=2025-01-13
+2025-01-13 10:32:29 | INFO | __main__ | Fetching historical prices for LT from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:29 | INFO | __main__ | Fetching prices for LT from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lt_historical_prices.json
+2025-01-13 10:32:31 | INFO | __main__ | Updating metadata for LT with end_date=2025-01-13
+2025-01-13 10:32:31 | INFO | __main__ | Fetching historical prices for JINDALSTEL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:31 | INFO | __main__ | Fetching prices for JINDALSTEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jindalstel_historical_prices.json
+2025-01-13 10:32:33 | INFO | __main__ | Updating metadata for JINDALSTEL with end_date=2025-01-13
+2025-01-13 10:32:33 | INFO | __main__ | Fetching historical prices for TATAMOTORS from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:33 | INFO | __main__ | Fetching prices for TATAMOTORS from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatamotors_historical_prices.json
+2025-01-13 10:32:34 | INFO | __main__ | Updating metadata for TATAMOTORS with end_date=2025-01-13
+2025-01-13 10:32:34 | INFO | __main__ | Fetching historical prices for NESTLEIND from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:34 | INFO | __main__ | Fetching prices for NESTLEIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nestleind_historical_prices.json
+2025-01-13 10:32:37 | INFO | __main__ | Updating metadata for NESTLEIND with end_date=2025-01-13
+2025-01-13 10:32:37 | INFO | __main__ | Fetching historical prices for HDFCLIFE from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:37 | INFO | __main__ | Fetching prices for HDFCLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfclife_historical_prices.json
+2025-01-13 10:32:39 | INFO | __main__ | Updating metadata for HDFCLIFE with end_date=2025-01-13
+2025-01-13 10:32:39 | INFO | __main__ | Fetching historical prices for ICICIGI from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:39 | INFO | __main__ | Fetching prices for ICICIGI from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicigi_historical_prices.json
+2025-01-13 10:32:41 | INFO | __main__ | Updating metadata for ICICIGI with end_date=2025-01-13
+2025-01-13 10:32:41 | INFO | __main__ | Fetching historical prices for PNB from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:41 | INFO | __main__ | Fetching prices for PNB from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pnb_historical_prices.json
+2025-01-13 10:32:43 | INFO | __main__ | Updating metadata for PNB with end_date=2025-01-13
+2025-01-13 10:32:43 | INFO | __main__ | Fetching historical prices for BAJAJFINSV from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:43 | INFO | __main__ | Fetching prices for BAJAJFINSV from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajfinsv_historical_prices.json
+2025-01-13 10:32:45 | INFO | __main__ | Updating metadata for BAJAJFINSV with end_date=2025-01-13
+2025-01-13 10:32:45 | INFO | __main__ | Fetching historical prices for JSWSTEEL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:45 | INFO | __main__ | Fetching prices for JSWSTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswsteel_historical_prices.json
+2025-01-13 10:32:48 | INFO | __main__ | Updating metadata for JSWSTEEL with end_date=2025-01-13
+2025-01-13 10:32:48 | INFO | __main__ | Fetching historical prices for JSWENERGY from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:48 | INFO | __main__ | Fetching prices for JSWENERGY from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswenergy_historical_prices.json
+2025-01-13 10:32:49 | INFO | __main__ | Updating metadata for JSWENERGY with end_date=2025-01-13
+2025-01-13 10:32:49 | INFO | __main__ | Fetching historical prices for BANKBARODA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:49 | INFO | __main__ | Fetching prices for BANKBARODA from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:51 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bankbaroda_historical_prices.json
+2025-01-13 10:32:51 | INFO | __main__ | Updating metadata for BANKBARODA with end_date=2025-01-13
+2025-01-13 10:32:51 | INFO | __main__ | Fetching historical prices for ONGC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:51 | INFO | __main__ | Fetching prices for ONGC from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ongc_historical_prices.json
+2025-01-13 10:32:53 | INFO | __main__ | Updating metadata for ONGC with end_date=2025-01-13
+2025-01-13 10:32:53 | INFO | __main__ | Fetching historical prices for ULTRACEMCO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:53 | INFO | __main__ | Fetching prices for ULTRACEMCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ultracemco_historical_prices.json
+2025-01-13 10:32:55 | INFO | __main__ | Updating metadata for ULTRACEMCO with end_date=2025-01-13
+2025-01-13 10:32:55 | INFO | __main__ | Fetching historical prices for ITC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:55 | INFO | __main__ | Fetching prices for ITC from 11-01-2025 to 13-01-2025
+2025-01-13 10:32:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/itc_historical_prices.json
+2025-01-13 10:32:57 | INFO | __main__ | Updating metadata for ITC with end_date=2025-01-13
+2025-01-13 10:32:57 | INFO | __main__ | Fetching historical prices for DABUR from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:32:57 | INFO | __main__ | Fetching prices for DABUR from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:00 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dabur_historical_prices.json
+2025-01-13 10:33:00 | INFO | __main__ | Updating metadata for DABUR with end_date=2025-01-13
+2025-01-13 10:33:00 | INFO | __main__ | Fetching historical prices for ICICIBANK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:00 | INFO | __main__ | Fetching prices for ICICIBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicibank_historical_prices.json
+2025-01-13 10:33:02 | INFO | __main__ | Updating metadata for ICICIBANK with end_date=2025-01-13
+2025-01-13 10:33:02 | INFO | __main__ | Fetching historical prices for GAIL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:02 | INFO | __main__ | Fetching prices for GAIL from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/gail_historical_prices.json
+2025-01-13 10:33:06 | INFO | __main__ | Updating metadata for GAIL with end_date=2025-01-13
+2025-01-13 10:33:06 | INFO | __main__ | Fetching historical prices for BAJFINANCE from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:06 | INFO | __main__ | Fetching prices for BAJFINANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajfinance_historical_prices.json
+2025-01-13 10:33:08 | INFO | __main__ | Updating metadata for BAJFINANCE with end_date=2025-01-13
+2025-01-13 10:33:08 | INFO | __main__ | Fetching historical prices for TATACONSUM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:08 | INFO | __main__ | Fetching prices for TATACONSUM from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tataconsum_historical_prices.json
+2025-01-13 10:33:10 | INFO | __main__ | Updating metadata for TATACONSUM with end_date=2025-01-13
+2025-01-13 10:33:10 | INFO | __main__ | Fetching historical prices for MOTHERSON from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:10 | INFO | __main__ | Fetching prices for MOTHERSON from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/motherson_historical_prices.json
+2025-01-13 10:33:13 | INFO | __main__ | Updating metadata for MOTHERSON with end_date=2025-01-13
+2025-01-13 10:33:13 | INFO | __main__ | Fetching historical prices for HEROMOTOCO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:13 | INFO | __main__ | Fetching prices for HEROMOTOCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/heromotoco_historical_prices.json
+2025-01-13 10:33:15 | INFO | __main__ | Updating metadata for HEROMOTOCO with end_date=2025-01-13
+2025-01-13 10:33:15 | INFO | __main__ | Fetching historical prices for HAL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:15 | INFO | __main__ | Fetching prices for HAL from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hal_historical_prices.json
+2025-01-13 10:33:18 | INFO | __main__ | Updating metadata for HAL with end_date=2025-01-13
+2025-01-13 10:33:18 | INFO | __main__ | Fetching historical prices for HDFCBANK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:18 | INFO | __main__ | Fetching prices for HDFCBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfcbank_historical_prices.json
+2025-01-13 10:33:20 | INFO | __main__ | Updating metadata for HDFCBANK with end_date=2025-01-13
+2025-01-13 10:33:20 | INFO | __main__ | Fetching historical prices for TATAPOWER from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:20 | INFO | __main__ | Fetching prices for TATAPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatapower_historical_prices.json
+2025-01-13 10:33:22 | INFO | __main__ | Updating metadata for TATAPOWER with end_date=2025-01-13
+2025-01-13 10:33:22 | INFO | __main__ | Fetching historical prices for SUNPHARMA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:22 | INFO | __main__ | Fetching prices for SUNPHARMA from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sunpharma_historical_prices.json
+2025-01-13 10:33:24 | INFO | __main__ | Updating metadata for SUNPHARMA with end_date=2025-01-13
+2025-01-13 10:33:24 | INFO | __main__ | Fetching historical prices for TECHM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:24 | INFO | __main__ | Fetching prices for TECHM from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/techm_historical_prices.json
+2025-01-13 10:33:26 | INFO | __main__ | Updating metadata for TECHM with end_date=2025-01-13
+2025-01-13 10:33:26 | INFO | __main__ | Fetching historical prices for DRREDDY from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:26 | INFO | __main__ | Fetching prices for DRREDDY from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/drreddy_historical_prices.json
+2025-01-13 10:33:28 | INFO | __main__ | Updating metadata for DRREDDY with end_date=2025-01-13
+2025-01-13 10:33:28 | INFO | __main__ | Fetching historical prices for BEL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:28 | INFO | __main__ | Fetching prices for BEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bel_historical_prices.json
+2025-01-13 10:33:33 | INFO | __main__ | Updating metadata for BEL with end_date=2025-01-13
+2025-01-13 10:33:33 | INFO | __main__ | Fetching historical prices for LICI from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:33 | INFO | __main__ | Fetching prices for LICI from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lici_historical_prices.json
+2025-01-13 10:33:35 | INFO | __main__ | Updating metadata for LICI with end_date=2025-01-13
+2025-01-13 10:33:35 | INFO | __main__ | Fetching historical prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:35 | INFO | __main__ | Fetching prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajaj-auto_historical_prices.json
+2025-01-13 10:33:37 | INFO | __main__ | Updating metadata for BAJAJ-AUTO with end_date=2025-01-13
+2025-01-13 10:33:37 | INFO | __main__ | Fetching historical prices for IRFC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:37 | INFO | __main__ | Fetching prices for IRFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irfc_historical_prices.json
+2025-01-13 10:33:39 | INFO | __main__ | Updating metadata for IRFC with end_date=2025-01-13
+2025-01-13 10:33:39 | INFO | __main__ | Fetching historical prices for KOTAKBANK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:39 | INFO | __main__ | Fetching prices for KOTAKBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/kotakbank_historical_prices.json
+2025-01-13 10:33:41 | INFO | __main__ | Updating metadata for KOTAKBANK with end_date=2025-01-13
+2025-01-13 10:33:41 | INFO | __main__ | Fetching historical prices for UNITDSPR from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:41 | INFO | __main__ | Fetching prices for UNITDSPR from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unitdspr_historical_prices.json
+2025-01-13 10:33:42 | INFO | __main__ | Updating metadata for UNITDSPR with end_date=2025-01-13
+2025-01-13 10:33:42 | INFO | __main__ | Fetching historical prices for EICHERMOT from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:42 | INFO | __main__ | Fetching prices for EICHERMOT from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/eichermot_historical_prices.json
+2025-01-13 10:33:44 | INFO | __main__ | Updating metadata for EICHERMOT with end_date=2025-01-13
+2025-01-13 10:33:44 | INFO | __main__ | Fetching historical prices for IRCTC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:44 | INFO | __main__ | Fetching prices for IRCTC from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irctc_historical_prices.json
+2025-01-13 10:33:46 | INFO | __main__ | Updating metadata for IRCTC with end_date=2025-01-13
+2025-01-13 10:33:46 | INFO | __main__ | Fetching historical prices for CIPLA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:46 | INFO | __main__ | Fetching prices for CIPLA from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cipla_historical_prices.json
+2025-01-13 10:33:48 | INFO | __main__ | Updating metadata for CIPLA with end_date=2025-01-13
+2025-01-13 10:33:48 | INFO | __main__ | Fetching historical prices for ASIANPAINT from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:48 | INFO | __main__ | Fetching prices for ASIANPAINT from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:51 | INFO | __main__ | Updated stock prices saved to data/stock_prices/asianpaint_historical_prices.json
+2025-01-13 10:33:51 | INFO | __main__ | Updating metadata for ASIANPAINT with end_date=2025-01-13
+2025-01-13 10:33:51 | INFO | __main__ | Fetching historical prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:51 | INFO | __main__ | Fetching prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajhldng_historical_prices.json
+2025-01-13 10:33:53 | INFO | __main__ | Updating metadata for BAJAJHLDNG with end_date=2025-01-13
+2025-01-13 10:33:53 | INFO | __main__ | Fetching historical prices for VBL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:53 | INFO | __main__ | Fetching prices for VBL from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vbl_historical_prices.json
+2025-01-13 10:33:55 | INFO | __main__ | Updating metadata for VBL with end_date=2025-01-13
+2025-01-13 10:33:55 | INFO | __main__ | Fetching historical prices for VEDL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:55 | INFO | __main__ | Fetching prices for VEDL from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vedl_historical_prices.json
+2025-01-13 10:33:57 | INFO | __main__ | Updating metadata for VEDL with end_date=2025-01-13
+2025-01-13 10:33:57 | INFO | __main__ | Fetching historical prices for ADANIPORTS from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:57 | INFO | __main__ | Fetching prices for ADANIPORTS from 11-01-2025 to 13-01-2025
+2025-01-13 10:33:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniports_historical_prices.json
+2025-01-13 10:33:59 | INFO | __main__ | Updating metadata for ADANIPORTS with end_date=2025-01-13
+2025-01-13 10:33:59 | INFO | __main__ | Fetching historical prices for TATASTEEL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:33:59 | INFO | __main__ | Fetching prices for TATASTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatasteel_historical_prices.json
+2025-01-13 10:34:01 | INFO | __main__ | Updating metadata for TATASTEEL with end_date=2025-01-13
+2025-01-13 10:34:01 | INFO | __main__ | Fetching historical prices for GRASIM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:01 | INFO | __main__ | Fetching prices for GRASIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/grasim_historical_prices.json
+2025-01-13 10:34:06 | INFO | __main__ | Updating metadata for GRASIM with end_date=2025-01-13
+2025-01-13 10:34:06 | INFO | __main__ | Fetching historical prices for ADANIENSOL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:06 | INFO | __main__ | Fetching prices for ADANIENSOL from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniensol_historical_prices.json
+2025-01-13 10:34:08 | INFO | __main__ | Updating metadata for ADANIENSOL with end_date=2025-01-13
+2025-01-13 10:34:08 | INFO | __main__ | Fetching historical prices for HAVELLS from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:08 | INFO | __main__ | Fetching prices for HAVELLS from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/havells_historical_prices.json
+2025-01-13 10:34:11 | INFO | __main__ | Updating metadata for HAVELLS with end_date=2025-01-13
+2025-01-13 10:34:11 | INFO | __main__ | Fetching historical prices for CANBK from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:11 | INFO | __main__ | Fetching prices for CANBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/canbk_historical_prices.json
+2025-01-13 10:34:14 | INFO | __main__ | Updating metadata for CANBK with end_date=2025-01-13
+2025-01-13 10:34:14 | INFO | __main__ | Fetching historical prices for ADANIENT from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:14 | INFO | __main__ | Fetching prices for ADANIENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:17 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanient_historical_prices.json
+2025-01-13 10:34:17 | INFO | __main__ | Updating metadata for ADANIENT with end_date=2025-01-13
+2025-01-13 10:34:17 | INFO | __main__ | Fetching historical prices for PIDILITIND from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:17 | INFO | __main__ | Fetching prices for PIDILITIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pidilitind_historical_prices.json
+2025-01-13 10:34:20 | INFO | __main__ | Updating metadata for PIDILITIND with end_date=2025-01-13
+2025-01-13 10:34:20 | INFO | __main__ | Fetching historical prices for DLF from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:20 | INFO | __main__ | Fetching prices for DLF from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dlf_historical_prices.json
+2025-01-13 10:34:22 | INFO | __main__ | Updating metadata for DLF with end_date=2025-01-13
+2025-01-13 10:34:22 | INFO | __main__ | Fetching historical prices for BPCL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:22 | INFO | __main__ | Fetching prices for BPCL from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bpcl_historical_prices.json
+2025-01-13 10:34:26 | INFO | __main__ | Updating metadata for BPCL with end_date=2025-01-13
+2025-01-13 10:34:26 | INFO | __main__ | Fetching historical prices for ADANIPOWER from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:26 | INFO | __main__ | Fetching prices for ADANIPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanipower_historical_prices.json
+2025-01-13 10:34:27 | INFO | __main__ | Updating metadata for ADANIPOWER with end_date=2025-01-13
+2025-01-13 10:34:27 | INFO | __main__ | Fetching historical prices for SIEMENS from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:27 | INFO | __main__ | Fetching prices for SIEMENS from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/siemens_historical_prices.json
+2025-01-13 10:34:30 | INFO | __main__ | Updating metadata for SIEMENS with end_date=2025-01-13
+2025-01-13 10:34:30 | INFO | __main__ | Fetching historical prices for POWERGRID from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:30 | INFO | __main__ | Fetching prices for POWERGRID from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/powergrid_historical_prices.json
+2025-01-13 10:34:32 | INFO | __main__ | Updating metadata for POWERGRID with end_date=2025-01-13
+2025-01-13 10:34:32 | INFO | __main__ | Fetching historical prices for ADANIGREEN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:32 | INFO | __main__ | Fetching prices for ADANIGREEN from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanigreen_historical_prices.json
+2025-01-13 10:34:34 | INFO | __main__ | Updating metadata for ADANIGREEN with end_date=2025-01-13
+2025-01-13 10:34:34 | INFO | __main__ | Fetching historical prices for SHREECEM from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:34 | INFO | __main__ | Fetching prices for SHREECEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shreecem_historical_prices.json
+2025-01-13 10:34:36 | INFO | __main__ | Updating metadata for SHREECEM with end_date=2025-01-13
+2025-01-13 10:34:36 | INFO | __main__ | Fetching historical prices for WIPRO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:36 | INFO | __main__ | Fetching prices for WIPRO from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/wipro_historical_prices.json
+2025-01-13 10:34:38 | INFO | __main__ | Updating metadata for WIPRO with end_date=2025-01-13
+2025-01-13 10:34:38 | INFO | __main__ | Fetching historical prices for ABB from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:38 | INFO | __main__ | Fetching prices for ABB from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/abb_historical_prices.json
+2025-01-13 10:34:42 | INFO | __main__ | Updating metadata for ABB with end_date=2025-01-13
+2025-01-13 10:34:42 | INFO | __main__ | Fetching historical prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:42 | INFO | __main__ | Fetching prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zyduslife_historical_prices.json
+2025-01-13 10:34:44 | INFO | __main__ | Updating metadata for ZYDUSLIFE with end_date=2025-01-13
+2025-01-13 10:34:44 | INFO | __main__ | No new data to fetch for M&M; start_date=2025-01-14, end_date=2025-01-13
+2025-01-13 10:34:44 | INFO | __main__ | Fetching historical prices for APOLLOHOSP from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:44 | INFO | __main__ | Fetching prices for APOLLOHOSP from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/apollohosp_historical_prices.json
+2025-01-13 10:34:46 | INFO | __main__ | Updating metadata for APOLLOHOSP with end_date=2025-01-13
+2025-01-13 10:34:46 | INFO | __main__ | Fetching historical prices for BHEL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:46 | INFO | __main__ | Fetching prices for BHEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhel_historical_prices.json
+2025-01-13 10:34:48 | INFO | __main__ | Updating metadata for BHEL with end_date=2025-01-13
+2025-01-13 10:34:48 | INFO | __main__ | Fetching historical prices for TVSMOTOR from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:48 | INFO | __main__ | Fetching prices for TVSMOTOR from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tvsmotor_historical_prices.json
+2025-01-13 10:34:50 | INFO | __main__ | Updating metadata for TVSMOTOR with end_date=2025-01-13
+2025-01-13 10:34:50 | INFO | __main__ | Fetching historical prices for JIOFIN from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:50 | INFO | __main__ | Fetching prices for JIOFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jiofin_historical_prices.json
+2025-01-13 10:34:52 | INFO | __main__ | Updating metadata for JIOFIN with end_date=2025-01-13
+2025-01-13 10:34:52 | INFO | __main__ | Fetching historical prices for ZOMATO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:52 | INFO | __main__ | Fetching prices for ZOMATO from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zomato_historical_prices.json
+2025-01-13 10:34:55 | INFO | __main__ | Updating metadata for ZOMATO with end_date=2025-01-13
+2025-01-13 10:34:55 | INFO | __main__ | Fetching historical prices for NHPC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:55 | INFO | __main__ | Fetching prices for NHPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nhpc_historical_prices.json
+2025-01-13 10:34:57 | INFO | __main__ | Updating metadata for NHPC with end_date=2025-01-13
+2025-01-13 10:34:57 | INFO | __main__ | Fetching historical prices for IOC from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:57 | INFO | __main__ | Fetching prices for IOC from 11-01-2025 to 13-01-2025
+2025-01-13 10:34:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ioc_historical_prices.json
+2025-01-13 10:34:59 | INFO | __main__ | Updating metadata for IOC with end_date=2025-01-13
+2025-01-13 10:34:59 | INFO | __main__ | Fetching historical prices for ATGL from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:34:59 | INFO | __main__ | Fetching prices for ATGL from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/atgl_historical_prices.json
+2025-01-13 10:35:01 | INFO | __main__ | Updating metadata for ATGL with end_date=2025-01-13
+2025-01-13 10:35:01 | INFO | __main__ | Fetching historical prices for TRENT from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:35:01 | INFO | __main__ | Fetching prices for TRENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/trent_historical_prices.json
+2025-01-13 10:35:03 | INFO | __main__ | Updating metadata for TRENT with end_date=2025-01-13
+2025-01-13 10:35:03 | INFO | __main__ | Fetching historical prices for DMART from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:35:03 | INFO | __main__ | Fetching prices for DMART from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dmart_historical_prices.json
+2025-01-13 10:35:05 | INFO | __main__ | Updating metadata for DMART with end_date=2025-01-13
+2025-01-13 10:35:05 | INFO | __main__ | Fetching historical prices for NAUKRI from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:35:05 | INFO | __main__ | Fetching prices for NAUKRI from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/naukri_historical_prices.json
+2025-01-13 10:35:08 | INFO | __main__ | Updating metadata for NAUKRI with end_date=2025-01-13
+2025-01-13 10:35:08 | INFO | __main__ | Fetching historical prices for INDIGO from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:35:08 | INFO | __main__ | Fetching prices for INDIGO from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indigo_historical_prices.json
+2025-01-13 10:35:10 | INFO | __main__ | Updating metadata for INDIGO with end_date=2025-01-13
+2025-01-13 10:35:10 | INFO | __main__ | Fetching historical prices for LODHA from 11-01-2025 to 13-01-2025 in chunks.
+2025-01-13 10:35:10 | INFO | __main__ | Fetching prices for LODHA from 11-01-2025 to 13-01-2025
+2025-01-13 10:35:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lodha_historical_prices.json
+2025-01-13 10:35:14 | INFO | __main__ | Updating metadata for LODHA with end_date=2025-01-13
+2025-01-13 10:35:14 | INFO | __main__ | Workflow completed successfully.
+2025-01-13 10:44:09 | INFO | __main__ | Starting stock data fetch workflow.
+2025-01-13 10:44:09 | INFO | __main__ | Loading configuration from config.json
+2025-01-13 10:44:09 | INFO | __main__ | Fetching stock list for index: NIFTY 100
+2025-01-13 10:44:09 | INFO | __main__ | Saving stock list to: data/indices/NIFTY_100_stock_list.json
+2025-01-13 10:44:10 | INFO | __main__ | Extracting symbols from data/indices/NIFTY_100_stock_list.json
+2025-01-13 10:44:10 | INFO | __main__ | Saved 100 stock names to data/stock_names.json
+2025-01-13 10:44:10 | INFO | __main__ | Beginning stock price fetch for 100 symbols...
+2025-01-13 10:44:10 | INFO | __main__ | Fetching historical prices for INDUSINDBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:10 | INFO | __main__ | Fetching prices for INDUSINDBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indusindbk_historical_prices.json
+2025-01-13 10:44:13 | INFO | __main__ | Fetching historical prices for AXISBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:13 | INFO | __main__ | Fetching prices for AXISBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/axisbank_historical_prices.json
+2025-01-13 10:44:15 | INFO | __main__ | Fetching historical prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:15 | INFO | __main__ | Fetching prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:17 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shriramfin_historical_prices.json
+2025-01-13 10:44:17 | INFO | __main__ | Fetching historical prices for DIVISLAB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:17 | INFO | __main__ | Fetching prices for DIVISLAB from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:19 | INFO | __main__ | Updated stock prices saved to data/stock_prices/divislab_historical_prices.json
+2025-01-13 10:44:19 | INFO | __main__ | Fetching historical prices for RECLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:19 | INFO | __main__ | Fetching prices for RECLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
+2025-01-13 10:44:21 | INFO | __main__ | Fetching historical prices for ICICIPRULI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:21 | INFO | __main__ | Fetching prices for ICICIPRULI from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicipruli_historical_prices.json
+2025-01-13 10:44:23 | INFO | __main__ | Fetching historical prices for BRITANNIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:23 | INFO | __main__ | Fetching prices for BRITANNIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/britannia_historical_prices.json
+2025-01-13 10:44:24 | INFO | __main__ | Fetching historical prices for PFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:24 | INFO | __main__ | Fetching prices for PFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pfc_historical_prices.json
+2025-01-13 10:44:26 | INFO | __main__ | Fetching historical prices for TCS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:26 | INFO | __main__ | Fetching prices for TCS from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tcs_historical_prices.json
+2025-01-13 10:44:28 | INFO | __main__ | Fetching historical prices for UNIONBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:28 | INFO | __main__ | Fetching prices for UNIONBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unionbank_historical_prices.json
+2025-01-13 10:44:30 | INFO | __main__ | Fetching historical prices for TITAN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:30 | INFO | __main__ | Fetching prices for TITAN from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/titan_historical_prices.json
+2025-01-13 10:44:32 | INFO | __main__ | Fetching historical prices for GODREJCP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:32 | INFO | __main__ | Fetching prices for GODREJCP from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/godrejcp_historical_prices.json
+2025-01-13 10:44:34 | INFO | __main__ | Fetching historical prices for NTPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:34 | INFO | __main__ | Fetching prices for NTPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ntpc_historical_prices.json
+2025-01-13 10:44:35 | INFO | __main__ | Fetching historical prices for AMBUJACEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:35 | INFO | __main__ | Fetching prices for AMBUJACEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ambujacem_historical_prices.json
+2025-01-13 10:44:37 | INFO | __main__ | Fetching historical prices for COALINDIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:37 | INFO | __main__ | Fetching prices for COALINDIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/coalindia_historical_prices.json
+2025-01-13 10:44:39 | INFO | __main__ | Fetching historical prices for HINDUNILVR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:39 | INFO | __main__ | Fetching prices for HINDUNILVR from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindunilvr_historical_prices.json
+2025-01-13 10:44:41 | INFO | __main__ | Fetching historical prices for LTIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:41 | INFO | __main__ | Fetching prices for LTIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ltim_historical_prices.json
+2025-01-13 10:44:42 | INFO | __main__ | Fetching historical prices for MARUTI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:42 | INFO | __main__ | Fetching prices for MARUTI from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/maruti_historical_prices.json
+2025-01-13 10:44:44 | INFO | __main__ | Fetching historical prices for INFY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:44 | INFO | __main__ | Fetching prices for INFY from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/infy_historical_prices.json
+2025-01-13 10:44:47 | INFO | __main__ | Fetching historical prices for ICICIGI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:47 | INFO | __main__ | Fetching prices for ICICIGI from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicigi_historical_prices.json
+2025-01-13 10:44:49 | INFO | __main__ | Fetching historical prices for NESTLEIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:49 | INFO | __main__ | Fetching prices for NESTLEIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:51 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nestleind_historical_prices.json
+2025-01-13 10:44:51 | INFO | __main__ | Fetching historical prices for HINDALCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:51 | INFO | __main__ | Fetching prices for HINDALCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindalco_historical_prices.json
+2025-01-13 10:44:53 | INFO | __main__ | Fetching historical prices for HCLTECH from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:53 | INFO | __main__ | Fetching prices for HCLTECH from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hcltech_historical_prices.json
+2025-01-13 10:44:55 | INFO | __main__ | Fetching historical prices for LT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:55 | INFO | __main__ | Fetching prices for LT from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lt_historical_prices.json
+2025-01-13 10:44:57 | INFO | __main__ | Fetching historical prices for BHARTIARTL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:57 | INFO | __main__ | Fetching prices for BHARTIARTL from 11-01-2025 to 13-01-2025
+2025-01-13 10:44:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhartiartl_historical_prices.json
+2025-01-13 10:44:59 | INFO | __main__ | Fetching historical prices for JSWSTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:44:59 | INFO | __main__ | Fetching prices for JSWSTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswsteel_historical_prices.json
+2025-01-13 10:45:01 | INFO | __main__ | Fetching historical prices for SBILIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:01 | INFO | __main__ | Fetching prices for SBILIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbilife_historical_prices.json
+2025-01-13 10:45:02 | INFO | __main__ | Fetching historical prices for CHOLAFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:02 | INFO | __main__ | Fetching prices for CHOLAFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cholafin_historical_prices.json
+2025-01-13 10:45:04 | INFO | __main__ | Fetching historical prices for RELIANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:04 | INFO | __main__ | Fetching prices for RELIANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/reliance_historical_prices.json
+2025-01-13 10:45:10 | INFO | __main__ | Fetching historical prices for BOSCHLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:10 | INFO | __main__ | Fetching prices for BOSCHLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/boschltd_historical_prices.json
+2025-01-13 10:45:11 | INFO | __main__ | Fetching historical prices for SBIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:11 | INFO | __main__ | Fetching prices for SBIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbin_historical_prices.json
+2025-01-13 10:45:13 | INFO | __main__ | Fetching historical prices for BAJAJFINSV from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:13 | INFO | __main__ | Fetching prices for BAJAJFINSV from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:17 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajfinsv_historical_prices.json
+2025-01-13 10:45:17 | INFO | __main__ | Fetching historical prices for JINDALSTEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:17 | INFO | __main__ | Fetching prices for JINDALSTEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:19 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jindalstel_historical_prices.json
+2025-01-13 10:45:19 | INFO | __main__ | Fetching historical prices for TORNTPHARM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:19 | INFO | __main__ | Fetching prices for TORNTPHARM from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/torntpharm_historical_prices.json
+2025-01-13 10:45:21 | INFO | __main__ | Fetching historical prices for HDFCLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:21 | INFO | __main__ | Fetching prices for HDFCLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfclife_historical_prices.json
+2025-01-13 10:45:23 | INFO | __main__ | Fetching historical prices for GAIL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:23 | INFO | __main__ | Fetching prices for GAIL from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/gail_historical_prices.json
+2025-01-13 10:45:25 | INFO | __main__ | Fetching historical prices for JSWENERGY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:25 | INFO | __main__ | Fetching prices for JSWENERGY from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswenergy_historical_prices.json
+2025-01-13 10:45:27 | INFO | __main__ | Fetching historical prices for TATAMOTORS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:27 | INFO | __main__ | Fetching prices for TATAMOTORS from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatamotors_historical_prices.json
+2025-01-13 10:45:29 | INFO | __main__ | Fetching historical prices for ITC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:29 | INFO | __main__ | Fetching prices for ITC from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/itc_historical_prices.json
+2025-01-13 10:45:31 | INFO | __main__ | Fetching historical prices for TATACONSUM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:31 | INFO | __main__ | Fetching prices for TATACONSUM from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tataconsum_historical_prices.json
+2025-01-13 10:45:34 | INFO | __main__ | Fetching historical prices for DABUR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:34 | INFO | __main__ | Fetching prices for DABUR from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dabur_historical_prices.json
+2025-01-13 10:45:36 | INFO | __main__ | Fetching historical prices for PNB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:36 | INFO | __main__ | Fetching prices for PNB from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pnb_historical_prices.json
+2025-01-13 10:45:38 | INFO | __main__ | Fetching historical prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:38 | INFO | __main__ | Fetching prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajaj-auto_historical_prices.json
+2025-01-13 10:45:40 | INFO | __main__ | Fetching historical prices for BANKBARODA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:40 | INFO | __main__ | Fetching prices for BANKBARODA from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bankbaroda_historical_prices.json
+2025-01-13 10:45:42 | INFO | __main__ | Fetching historical prices for MOTHERSON from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:42 | INFO | __main__ | Fetching prices for MOTHERSON from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/motherson_historical_prices.json
+2025-01-13 10:45:44 | INFO | __main__ | Fetching historical prices for BAJFINANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:44 | INFO | __main__ | Fetching prices for BAJFINANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajfinance_historical_prices.json
+2025-01-13 10:45:46 | INFO | __main__ | Fetching historical prices for HEROMOTOCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:46 | INFO | __main__ | Fetching prices for HEROMOTOCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/heromotoco_historical_prices.json
+2025-01-13 10:45:48 | INFO | __main__ | Fetching historical prices for HAL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:48 | INFO | __main__ | Fetching prices for HAL from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hal_historical_prices.json
+2025-01-13 10:45:49 | INFO | __main__ | Fetching historical prices for ULTRACEMCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:49 | INFO | __main__ | Fetching prices for ULTRACEMCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ultracemco_historical_prices.json
+2025-01-13 10:45:52 | INFO | __main__ | Fetching historical prices for LICI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:52 | INFO | __main__ | Fetching prices for LICI from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lici_historical_prices.json
+2025-01-13 10:45:54 | INFO | __main__ | Fetching historical prices for SUNPHARMA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:54 | INFO | __main__ | Fetching prices for SUNPHARMA from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sunpharma_historical_prices.json
+2025-01-13 10:45:56 | INFO | __main__ | Fetching historical prices for ICICIBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:56 | INFO | __main__ | Fetching prices for ICICIBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:45:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicibank_historical_prices.json
+2025-01-13 10:45:59 | INFO | __main__ | Fetching historical prices for DRREDDY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:45:59 | INFO | __main__ | Fetching prices for DRREDDY from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/drreddy_historical_prices.json
+2025-01-13 10:46:02 | INFO | __main__ | Fetching historical prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:02 | INFO | __main__ | Fetching prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajhldng_historical_prices.json
+2025-01-13 10:46:04 | INFO | __main__ | Fetching historical prices for ONGC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:04 | INFO | __main__ | Fetching prices for ONGC from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ongc_historical_prices.json
+2025-01-13 10:46:06 | INFO | __main__ | Fetching historical prices for TATAPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:06 | INFO | __main__ | Fetching prices for TATAPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatapower_historical_prices.json
+2025-01-13 10:46:08 | INFO | __main__ | Fetching historical prices for ADANIPORTS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:08 | INFO | __main__ | Fetching prices for ADANIPORTS from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniports_historical_prices.json
+2025-01-13 10:46:11 | INFO | __main__ | Fetching historical prices for CIPLA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:11 | INFO | __main__ | Fetching prices for CIPLA from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cipla_historical_prices.json
+2025-01-13 10:46:13 | INFO | __main__ | Fetching historical prices for HDFCBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:13 | INFO | __main__ | Fetching prices for HDFCBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfcbank_historical_prices.json
+2025-01-13 10:46:15 | INFO | __main__ | Fetching historical prices for VEDL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:15 | INFO | __main__ | Fetching prices for VEDL from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:17 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vedl_historical_prices.json
+2025-01-13 10:46:17 | INFO | __main__ | Fetching historical prices for IRFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:17 | INFO | __main__ | Fetching prices for IRFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irfc_historical_prices.json
+2025-01-13 10:46:21 | INFO | __main__ | Fetching historical prices for KOTAKBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:21 | INFO | __main__ | Fetching prices for KOTAKBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/kotakbank_historical_prices.json
+2025-01-13 10:46:23 | INFO | __main__ | Fetching historical prices for EICHERMOT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:23 | INFO | __main__ | Fetching prices for EICHERMOT from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/eichermot_historical_prices.json
+2025-01-13 10:46:25 | INFO | __main__ | Fetching historical prices for ASIANPAINT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:25 | INFO | __main__ | Fetching prices for ASIANPAINT from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/asianpaint_historical_prices.json
+2025-01-13 10:46:27 | INFO | __main__ | Fetching historical prices for BEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:27 | INFO | __main__ | Fetching prices for BEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bel_historical_prices.json
+2025-01-13 10:46:29 | INFO | __main__ | Fetching historical prices for TECHM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:29 | INFO | __main__ | Fetching prices for TECHM from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/techm_historical_prices.json
+2025-01-13 10:46:31 | INFO | __main__ | Fetching historical prices for TATASTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:31 | INFO | __main__ | Fetching prices for TATASTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatasteel_historical_prices.json
+2025-01-13 10:46:32 | INFO | __main__ | Fetching historical prices for UNITDSPR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:32 | INFO | __main__ | Fetching prices for UNITDSPR from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unitdspr_historical_prices.json
+2025-01-13 10:46:34 | INFO | __main__ | Fetching historical prices for ADANIENSOL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:34 | INFO | __main__ | Fetching prices for ADANIENSOL from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniensol_historical_prices.json
+2025-01-13 10:46:38 | INFO | __main__ | Fetching historical prices for ADANIGREEN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:38 | INFO | __main__ | Fetching prices for ADANIGREEN from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanigreen_historical_prices.json
+2025-01-13 10:46:39 | INFO | __main__ | Fetching historical prices for IRCTC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:39 | INFO | __main__ | Fetching prices for IRCTC from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irctc_historical_prices.json
+2025-01-13 10:46:42 | INFO | __main__ | Fetching historical prices for POWERGRID from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:42 | INFO | __main__ | Fetching prices for POWERGRID from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/powergrid_historical_prices.json
+2025-01-13 10:46:44 | INFO | __main__ | Fetching historical prices for HAVELLS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:44 | INFO | __main__ | Fetching prices for HAVELLS from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/havells_historical_prices.json
+2025-01-13 10:46:46 | INFO | __main__ | Fetching historical prices for SIEMENS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:46 | INFO | __main__ | Fetching prices for SIEMENS from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/siemens_historical_prices.json
+2025-01-13 10:46:48 | INFO | __main__ | Fetching historical prices for CANBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:48 | INFO | __main__ | Fetching prices for CANBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/canbk_historical_prices.json
+2025-01-13 10:46:49 | INFO | __main__ | Fetching historical prices for ADANIENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:49 | INFO | __main__ | Fetching prices for ADANIENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanient_historical_prices.json
+2025-01-13 10:46:52 | INFO | __main__ | Fetching historical prices for SHREECEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:52 | INFO | __main__ | Fetching prices for SHREECEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shreecem_historical_prices.json
+2025-01-13 10:46:53 | INFO | __main__ | Fetching historical prices for ADANIPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:53 | INFO | __main__ | Fetching prices for ADANIPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanipower_historical_prices.json
+2025-01-13 10:46:55 | INFO | __main__ | Fetching historical prices for GRASIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:55 | INFO | __main__ | Fetching prices for GRASIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:46:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/grasim_historical_prices.json
+2025-01-13 10:46:59 | INFO | __main__ | No new data to fetch for M&M; start_date=2025-01-14, end_date=2025-01-13
+2025-01-13 10:46:59 | INFO | __main__ | Fetching historical prices for WIPRO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:46:59 | INFO | __main__ | Fetching prices for WIPRO from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/wipro_historical_prices.json
+2025-01-13 10:47:01 | INFO | __main__ | Fetching historical prices for PIDILITIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:01 | INFO | __main__ | Fetching prices for PIDILITIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pidilitind_historical_prices.json
+2025-01-13 10:47:03 | INFO | __main__ | Fetching historical prices for VBL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:03 | INFO | __main__ | Fetching prices for VBL from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vbl_historical_prices.json
+2025-01-13 10:47:05 | INFO | __main__ | Fetching historical prices for DLF from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:05 | INFO | __main__ | Fetching prices for DLF from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dlf_historical_prices.json
+2025-01-13 10:47:06 | INFO | __main__ | Fetching historical prices for BPCL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:06 | INFO | __main__ | Fetching prices for BPCL from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:09 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bpcl_historical_prices.json
+2025-01-13 10:47:09 | INFO | __main__ | Fetching historical prices for ABB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:09 | INFO | __main__ | Fetching prices for ABB from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/abb_historical_prices.json
+2025-01-13 10:47:11 | INFO | __main__ | Fetching historical prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:11 | INFO | __main__ | Fetching prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zyduslife_historical_prices.json
+2025-01-13 10:47:13 | INFO | __main__ | Fetching historical prices for APOLLOHOSP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:13 | INFO | __main__ | Fetching prices for APOLLOHOSP from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/apollohosp_historical_prices.json
+2025-01-13 10:47:14 | INFO | __main__ | Fetching historical prices for BHEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:14 | INFO | __main__ | Fetching prices for BHEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhel_historical_prices.json
+2025-01-13 10:47:16 | INFO | __main__ | Fetching historical prices for TVSMOTOR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:16 | INFO | __main__ | Fetching prices for TVSMOTOR from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tvsmotor_historical_prices.json
+2025-01-13 10:47:18 | INFO | __main__ | Fetching historical prices for JIOFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:18 | INFO | __main__ | Fetching prices for JIOFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jiofin_historical_prices.json
+2025-01-13 10:47:20 | INFO | __main__ | Fetching historical prices for ZOMATO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:20 | INFO | __main__ | Fetching prices for ZOMATO from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zomato_historical_prices.json
+2025-01-13 10:47:21 | INFO | __main__ | Fetching historical prices for DMART from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:21 | INFO | __main__ | Fetching prices for DMART from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dmart_historical_prices.json
+2025-01-13 10:47:23 | INFO | __main__ | Fetching historical prices for NHPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:23 | INFO | __main__ | Fetching prices for NHPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nhpc_historical_prices.json
+2025-01-13 10:47:25 | INFO | __main__ | Fetching historical prices for IOC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:25 | INFO | __main__ | Fetching prices for IOC from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ioc_historical_prices.json
+2025-01-13 10:47:27 | INFO | __main__ | Fetching historical prices for ATGL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:27 | INFO | __main__ | Fetching prices for ATGL from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/atgl_historical_prices.json
+2025-01-13 10:47:29 | INFO | __main__ | Fetching historical prices for TRENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:29 | INFO | __main__ | Fetching prices for TRENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/trent_historical_prices.json
+2025-01-13 10:47:31 | INFO | __main__ | Fetching historical prices for NAUKRI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:31 | INFO | __main__ | Fetching prices for NAUKRI from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/naukri_historical_prices.json
+2025-01-13 10:47:33 | INFO | __main__ | Fetching historical prices for INDIGO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:33 | INFO | __main__ | Fetching prices for INDIGO from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indigo_historical_prices.json
+2025-01-13 10:47:35 | INFO | __main__ | Fetching historical prices for LODHA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:47:35 | INFO | __main__ | Fetching prices for LODHA from 11-01-2025 to 13-01-2025
+2025-01-13 10:47:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lodha_historical_prices.json
+2025-01-13 10:47:37 | INFO | __main__ | Done fetching prices for all symbols.
+2025-01-13 10:47:37 | INFO | __main__ | Running transform_stock_list.py on data/indices/NIFTY_100_stock_list.json => data/indices/transformed_stock_list.json
+2025-01-13 10:54:39 | INFO | __main__ | Starting stock data fetch workflow.
+2025-01-13 10:54:39 | INFO | __main__ | Loading configuration from config.json
+2025-01-13 10:54:39 | INFO | __main__ | Fetching stock list for index: NIFTY 100
+2025-01-13 10:54:39 | INFO | __main__ | Saving stock list to: data/indices/NIFTY_100_stock_list.json
+2025-01-13 10:54:41 | INFO | __main__ | Extracting symbols from data/indices/NIFTY_100_stock_list.json
+2025-01-13 10:54:41 | INFO | __main__ | Saved 100 stock names to data/stock_names.json
+2025-01-13 10:54:41 | INFO | __main__ | Beginning stock price fetch for 100 symbols...
+2025-01-13 10:54:41 | INFO | __main__ | Fetching historical prices for INDUSINDBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:41 | INFO | __main__ | Fetching prices for INDUSINDBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indusindbk_historical_prices.json
+2025-01-13 10:54:43 | INFO | __main__ | Fetching historical prices for AXISBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:43 | INFO | __main__ | Fetching prices for AXISBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/axisbank_historical_prices.json
+2025-01-13 10:54:45 | INFO | __main__ | Fetching historical prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:45 | INFO | __main__ | Fetching prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shriramfin_historical_prices.json
+2025-01-13 10:54:47 | INFO | __main__ | Fetching historical prices for RECLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:47 | INFO | __main__ | Fetching prices for RECLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
+2025-01-13 10:54:49 | INFO | __main__ | Fetching historical prices for TCS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:49 | INFO | __main__ | Fetching prices for TCS from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tcs_historical_prices.json
+2025-01-13 10:54:52 | INFO | __main__ | Fetching historical prices for DIVISLAB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:52 | INFO | __main__ | Fetching prices for DIVISLAB from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/divislab_historical_prices.json
+2025-01-13 10:54:54 | INFO | __main__ | Fetching historical prices for BRITANNIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:54 | INFO | __main__ | Fetching prices for BRITANNIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/britannia_historical_prices.json
+2025-01-13 10:54:56 | INFO | __main__ | Fetching historical prices for ICICIPRULI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:56 | INFO | __main__ | Fetching prices for ICICIPRULI from 11-01-2025 to 13-01-2025
+2025-01-13 10:54:58 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicipruli_historical_prices.json
+2025-01-13 10:54:58 | INFO | __main__ | Fetching historical prices for INFY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:54:58 | INFO | __main__ | Fetching prices for INFY from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/infy_historical_prices.json
+2025-01-13 10:55:02 | INFO | __main__ | Fetching historical prices for PFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:02 | INFO | __main__ | Fetching prices for PFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pfc_historical_prices.json
+2025-01-13 10:55:04 | INFO | __main__ | Fetching historical prices for UNIONBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:04 | INFO | __main__ | Fetching prices for UNIONBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unionbank_historical_prices.json
+2025-01-13 10:55:06 | INFO | __main__ | Fetching historical prices for LTIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:06 | INFO | __main__ | Fetching prices for LTIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ltim_historical_prices.json
+2025-01-13 10:55:08 | INFO | __main__ | Fetching historical prices for HINDUNILVR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:08 | INFO | __main__ | Fetching prices for HINDUNILVR from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindunilvr_historical_prices.json
+2025-01-13 10:55:10 | INFO | __main__ | Fetching historical prices for NESTLEIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:10 | INFO | __main__ | Fetching prices for NESTLEIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nestleind_historical_prices.json
+2025-01-13 10:55:12 | INFO | __main__ | Fetching historical prices for AMBUJACEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:12 | INFO | __main__ | Fetching prices for AMBUJACEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ambujacem_historical_prices.json
+2025-01-13 10:55:15 | INFO | __main__ | Fetching historical prices for TITAN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:15 | INFO | __main__ | Fetching prices for TITAN from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/titan_historical_prices.json
+2025-01-13 10:55:18 | INFO | __main__ | Fetching historical prices for GODREJCP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:18 | INFO | __main__ | Fetching prices for GODREJCP from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/godrejcp_historical_prices.json
+2025-01-13 10:55:20 | INFO | __main__ | Fetching historical prices for HCLTECH from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:20 | INFO | __main__ | Fetching prices for HCLTECH from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hcltech_historical_prices.json
+2025-01-13 10:55:22 | INFO | __main__ | Fetching historical prices for MARUTI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:22 | INFO | __main__ | Fetching prices for MARUTI from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/maruti_historical_prices.json
+2025-01-13 10:55:24 | INFO | __main__ | Fetching historical prices for COALINDIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:24 | INFO | __main__ | Fetching prices for COALINDIA from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/coalindia_historical_prices.json
+2025-01-13 10:55:26 | INFO | __main__ | Fetching historical prices for NTPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:26 | INFO | __main__ | Fetching prices for NTPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ntpc_historical_prices.json
+2025-01-13 10:55:28 | INFO | __main__ | Fetching historical prices for ICICIGI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:28 | INFO | __main__ | Fetching prices for ICICIGI from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicigi_historical_prices.json
+2025-01-13 10:55:30 | INFO | __main__ | Fetching historical prices for JINDALSTEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:30 | INFO | __main__ | Fetching prices for JINDALSTEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jindalstel_historical_prices.json
+2025-01-13 10:55:32 | INFO | __main__ | Fetching historical prices for BHARTIARTL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:32 | INFO | __main__ | Fetching prices for BHARTIARTL from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhartiartl_historical_prices.json
+2025-01-13 10:55:34 | INFO | __main__ | Fetching historical prices for LT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:34 | INFO | __main__ | Fetching prices for LT from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lt_historical_prices.json
+2025-01-13 10:55:36 | INFO | __main__ | Fetching historical prices for SBIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:36 | INFO | __main__ | Fetching prices for SBIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbin_historical_prices.json
+2025-01-13 10:55:37 | INFO | __main__ | Fetching historical prices for RELIANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:37 | INFO | __main__ | Fetching prices for RELIANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/reliance_historical_prices.json
+2025-01-13 10:55:40 | INFO | __main__ | Fetching historical prices for DABUR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:40 | INFO | __main__ | Fetching prices for DABUR from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dabur_historical_prices.json
+2025-01-13 10:55:42 | INFO | __main__ | Fetching historical prices for SBILIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:42 | INFO | __main__ | Fetching prices for SBILIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbilife_historical_prices.json
+2025-01-13 10:55:44 | INFO | __main__ | Fetching historical prices for BAJAJFINSV from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:44 | INFO | __main__ | Fetching prices for BAJAJFINSV from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajfinsv_historical_prices.json
+2025-01-13 10:55:46 | INFO | __main__ | Fetching historical prices for CHOLAFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:46 | INFO | __main__ | Fetching prices for CHOLAFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cholafin_historical_prices.json
+2025-01-13 10:55:48 | INFO | __main__ | Fetching historical prices for BOSCHLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:48 | INFO | __main__ | Fetching prices for BOSCHLTD from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/boschltd_historical_prices.json
+2025-01-13 10:55:50 | INFO | __main__ | Fetching historical prices for TORNTPHARM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:50 | INFO | __main__ | Fetching prices for TORNTPHARM from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/torntpharm_historical_prices.json
+2025-01-13 10:55:52 | INFO | __main__ | Fetching historical prices for TATAMOTORS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:52 | INFO | __main__ | Fetching prices for TATAMOTORS from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatamotors_historical_prices.json
+2025-01-13 10:55:55 | INFO | __main__ | Fetching historical prices for JSWSTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:55 | INFO | __main__ | Fetching prices for JSWSTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswsteel_historical_prices.json
+2025-01-13 10:55:57 | INFO | __main__ | Fetching historical prices for HINDALCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:57 | INFO | __main__ | Fetching prices for HINDALCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:55:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindalco_historical_prices.json
+2025-01-13 10:55:59 | INFO | __main__ | Fetching historical prices for TATACONSUM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:55:59 | INFO | __main__ | Fetching prices for TATACONSUM from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tataconsum_historical_prices.json
+2025-01-13 10:56:01 | INFO | __main__ | Fetching historical prices for HDFCLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:01 | INFO | __main__ | Fetching prices for HDFCLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfclife_historical_prices.json
+2025-01-13 10:56:03 | INFO | __main__ | Fetching historical prices for BAJFINANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:03 | INFO | __main__ | Fetching prices for BAJFINANCE from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajfinance_historical_prices.json
+2025-01-13 10:56:06 | INFO | __main__ | Fetching historical prices for ITC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:06 | INFO | __main__ | Fetching prices for ITC from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/itc_historical_prices.json
+2025-01-13 10:56:08 | INFO | __main__ | Fetching historical prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:08 | INFO | __main__ | Fetching prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajaj-auto_historical_prices.json
+2025-01-13 10:56:10 | INFO | __main__ | Fetching historical prices for ULTRACEMCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:10 | INFO | __main__ | Fetching prices for ULTRACEMCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ultracemco_historical_prices.json
+2025-01-13 10:56:12 | INFO | __main__ | Fetching historical prices for ICICIBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:12 | INFO | __main__ | Fetching prices for ICICIBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicibank_historical_prices.json
+2025-01-13 10:56:16 | INFO | __main__ | Fetching historical prices for HAL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:16 | INFO | __main__ | Fetching prices for HAL from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hal_historical_prices.json
+2025-01-13 10:56:18 | INFO | __main__ | Fetching historical prices for PNB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:18 | INFO | __main__ | Fetching prices for PNB from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pnb_historical_prices.json
+2025-01-13 10:56:20 | INFO | __main__ | Fetching historical prices for CIPLA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:20 | INFO | __main__ | Fetching prices for CIPLA from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cipla_historical_prices.json
+2025-01-13 10:56:23 | INFO | __main__ | Fetching historical prices for LICI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:23 | INFO | __main__ | Fetching prices for LICI from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lici_historical_prices.json
+2025-01-13 10:56:25 | INFO | __main__ | Fetching historical prices for BANKBARODA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:25 | INFO | __main__ | Fetching prices for BANKBARODA from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bankbaroda_historical_prices.json
+2025-01-13 10:56:27 | INFO | __main__ | Fetching historical prices for SUNPHARMA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:27 | INFO | __main__ | Fetching prices for SUNPHARMA from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sunpharma_historical_prices.json
+2025-01-13 10:56:32 | INFO | __main__ | Fetching historical prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:32 | INFO | __main__ | Fetching prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajhldng_historical_prices.json
+2025-01-13 10:56:34 | INFO | __main__ | Fetching historical prices for HEROMOTOCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:34 | INFO | __main__ | Fetching prices for HEROMOTOCO from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/heromotoco_historical_prices.json
+2025-01-13 10:56:36 | INFO | __main__ | Fetching historical prices for DRREDDY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:36 | INFO | __main__ | Fetching prices for DRREDDY from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/drreddy_historical_prices.json
+2025-01-13 10:56:38 | INFO | __main__ | Fetching historical prices for TECHM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:38 | INFO | __main__ | Fetching prices for TECHM from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/techm_historical_prices.json
+2025-01-13 10:56:41 | INFO | __main__ | Fetching historical prices for ASIANPAINT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:41 | INFO | __main__ | Fetching prices for ASIANPAINT from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/asianpaint_historical_prices.json
+2025-01-13 10:56:43 | INFO | __main__ | Fetching historical prices for JSWENERGY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:43 | INFO | __main__ | Fetching prices for JSWENERGY from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswenergy_historical_prices.json
+2025-01-13 10:56:45 | INFO | __main__ | Fetching historical prices for MOTHERSON from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:45 | INFO | __main__ | Fetching prices for MOTHERSON from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/motherson_historical_prices.json
+2025-01-13 10:56:47 | INFO | __main__ | Fetching historical prices for IRFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:47 | INFO | __main__ | Fetching prices for IRFC from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irfc_historical_prices.json
+2025-01-13 10:56:49 | INFO | __main__ | Fetching historical prices for GAIL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:49 | INFO | __main__ | Fetching prices for GAIL from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/gail_historical_prices.json
+2025-01-13 10:56:54 | INFO | __main__ | Fetching historical prices for HDFCBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:54 | INFO | __main__ | Fetching prices for HDFCBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfcbank_historical_prices.json
+2025-01-13 10:56:55 | INFO | __main__ | Fetching historical prices for UNITDSPR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:55 | INFO | __main__ | Fetching prices for UNITDSPR from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unitdspr_historical_prices.json
+2025-01-13 10:56:57 | INFO | __main__ | Fetching historical prices for ADANIPORTS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:57 | INFO | __main__ | Fetching prices for ADANIPORTS from 11-01-2025 to 13-01-2025
+2025-01-13 10:56:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniports_historical_prices.json
+2025-01-13 10:56:59 | INFO | __main__ | Fetching historical prices for TATAPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:56:59 | INFO | __main__ | Fetching prices for TATAPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatapower_historical_prices.json
+2025-01-13 10:57:02 | INFO | __main__ | Fetching historical prices for KOTAKBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:02 | INFO | __main__ | Fetching prices for KOTAKBANK from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/kotakbank_historical_prices.json
+2025-01-13 10:57:04 | INFO | __main__ | Fetching historical prices for IRCTC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:04 | INFO | __main__ | Fetching prices for IRCTC from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irctc_historical_prices.json
+2025-01-13 10:57:05 | INFO | __main__ | Fetching historical prices for EICHERMOT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:05 | INFO | __main__ | Fetching prices for EICHERMOT from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/eichermot_historical_prices.json
+2025-01-13 10:57:08 | INFO | __main__ | Fetching historical prices for POWERGRID from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:08 | INFO | __main__ | Fetching prices for POWERGRID from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/powergrid_historical_prices.json
+2025-01-13 10:57:10 | INFO | __main__ | Fetching historical prices for BEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:10 | INFO | __main__ | Fetching prices for BEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bel_historical_prices.json
+2025-01-13 10:57:12 | INFO | __main__ | Fetching historical prices for SIEMENS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:12 | INFO | __main__ | Fetching prices for SIEMENS from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/siemens_historical_prices.json
+2025-01-13 10:57:14 | INFO | __main__ | Fetching historical prices for WIPRO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:14 | INFO | __main__ | Fetching prices for WIPRO from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/wipro_historical_prices.json
+2025-01-13 10:57:16 | INFO | __main__ | Fetching historical prices for GRASIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:16 | INFO | __main__ | Fetching prices for GRASIM from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/grasim_historical_prices.json
+2025-01-13 10:57:18 | INFO | __main__ | Fetching historical prices for TATASTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:18 | INFO | __main__ | Fetching prices for TATASTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatasteel_historical_prices.json
+2025-01-13 10:57:20 | INFO | __main__ | Fetching historical prices for VEDL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:20 | INFO | __main__ | Fetching prices for VEDL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vedl_historical_prices.json
+2025-01-13 10:57:22 | INFO | __main__ | Fetching historical prices for SHREECEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:22 | INFO | __main__ | Fetching prices for SHREECEM from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shreecem_historical_prices.json
+2025-01-13 10:57:24 | INFO | __main__ | Fetching historical prices for ADANIENSOL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:24 | INFO | __main__ | Fetching prices for ADANIENSOL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniensol_historical_prices.json
+2025-01-13 10:57:26 | INFO | __main__ | Fetching historical prices for ADANIGREEN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:26 | INFO | __main__ | Fetching prices for ADANIGREEN from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanigreen_historical_prices.json
+2025-01-13 10:57:28 | INFO | __main__ | Fetching historical prices for ADANIENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:28 | INFO | __main__ | Fetching prices for ADANIENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanient_historical_prices.json
+2025-01-13 10:57:30 | INFO | __main__ | No new data to fetch for M&M; start_date=2025-01-14, end_date=2025-01-13
+2025-01-13 10:57:30 | INFO | __main__ | Fetching historical prices for HAVELLS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:30 | INFO | __main__ | Fetching prices for HAVELLS from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/havells_historical_prices.json
+2025-01-13 10:57:32 | INFO | __main__ | Fetching historical prices for ONGC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:32 | INFO | __main__ | Fetching prices for ONGC from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ongc_historical_prices.json
+2025-01-13 10:57:34 | INFO | __main__ | Fetching historical prices for PIDILITIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:34 | INFO | __main__ | Fetching prices for PIDILITIND from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pidilitind_historical_prices.json
+2025-01-13 10:57:36 | INFO | __main__ | Fetching historical prices for ABB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:36 | INFO | __main__ | Fetching prices for ABB from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/abb_historical_prices.json
+2025-01-13 10:57:38 | INFO | __main__ | Fetching historical prices for CANBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:38 | INFO | __main__ | Fetching prices for CANBK from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/canbk_historical_prices.json
+2025-01-13 10:57:41 | INFO | __main__ | Fetching historical prices for ADANIPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:41 | INFO | __main__ | Fetching prices for ADANIPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanipower_historical_prices.json
+2025-01-13 10:57:43 | INFO | __main__ | Fetching historical prices for DLF from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:43 | INFO | __main__ | Fetching prices for DLF from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dlf_historical_prices.json
+2025-01-13 10:57:45 | INFO | __main__ | Fetching historical prices for VBL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:45 | INFO | __main__ | Fetching prices for VBL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vbl_historical_prices.json
+2025-01-13 10:57:47 | INFO | __main__ | Fetching historical prices for APOLLOHOSP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:47 | INFO | __main__ | Fetching prices for APOLLOHOSP from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/apollohosp_historical_prices.json
+2025-01-13 10:57:49 | INFO | __main__ | Fetching historical prices for BPCL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:49 | INFO | __main__ | Fetching prices for BPCL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:51 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bpcl_historical_prices.json
+2025-01-13 10:57:51 | INFO | __main__ | Fetching historical prices for BHEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:51 | INFO | __main__ | Fetching prices for BHEL from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhel_historical_prices.json
+2025-01-13 10:57:53 | INFO | __main__ | Fetching historical prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:53 | INFO | __main__ | Fetching prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zyduslife_historical_prices.json
+2025-01-13 10:57:55 | INFO | __main__ | Fetching historical prices for JIOFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:55 | INFO | __main__ | Fetching prices for JIOFIN from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jiofin_historical_prices.json
+2025-01-13 10:57:57 | INFO | __main__ | Fetching historical prices for TVSMOTOR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:57:57 | INFO | __main__ | Fetching prices for TVSMOTOR from 11-01-2025 to 13-01-2025
+2025-01-13 10:57:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tvsmotor_historical_prices.json
+2025-01-13 10:57:59 | INFO | __main__ | Fetching historical prices for ZOMATO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:00 | INFO | __main__ | Fetching prices for ZOMATO from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zomato_historical_prices.json
+2025-01-13 10:58:02 | INFO | __main__ | Fetching historical prices for NHPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:02 | INFO | __main__ | Fetching prices for NHPC from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nhpc_historical_prices.json
+2025-01-13 10:58:04 | INFO | __main__ | Fetching historical prices for DMART from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:04 | INFO | __main__ | Fetching prices for DMART from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:07 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dmart_historical_prices.json
+2025-01-13 10:58:07 | INFO | __main__ | Fetching historical prices for ATGL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:07 | INFO | __main__ | Fetching prices for ATGL from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:09 | INFO | __main__ | Updated stock prices saved to data/stock_prices/atgl_historical_prices.json
+2025-01-13 10:58:09 | INFO | __main__ | Fetching historical prices for TRENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:09 | INFO | __main__ | Fetching prices for TRENT from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/trent_historical_prices.json
+2025-01-13 10:58:11 | INFO | __main__ | Fetching historical prices for NAUKRI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:11 | INFO | __main__ | Fetching prices for NAUKRI from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/naukri_historical_prices.json
+2025-01-13 10:58:15 | INFO | __main__ | Fetching historical prices for INDIGO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:15 | INFO | __main__ | Fetching prices for INDIGO from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indigo_historical_prices.json
+2025-01-13 10:58:16 | INFO | __main__ | Fetching historical prices for IOC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:16 | INFO | __main__ | Fetching prices for IOC from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ioc_historical_prices.json
+2025-01-13 10:58:18 | INFO | __main__ | Fetching historical prices for LODHA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 10:58:18 | INFO | __main__ | Fetching prices for LODHA from 11-01-2025 to 13-01-2025
+2025-01-13 10:58:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lodha_historical_prices.json
+2025-01-13 10:58:22 | INFO | __main__ | Done fetching prices for all symbols.
+2025-01-13 10:58:22 | INFO | __main__ | Running transform_stock_list.py on data/indices/NIFTY_100_stock_list.json => data/indices/transformed_stock_list.json
+2025-01-13 11:01:53 | INFO | __main__ | Starting stock data fetch workflow.
+2025-01-13 11:01:53 | INFO | __main__ | Loading configuration from config.json
+2025-01-13 11:01:53 | INFO | __main__ | Fetching stock list for index: NIFTY 100
+2025-01-13 11:01:53 | INFO | __main__ | Saving stock list to: data/indices/NIFTY_100_stock_list.json
+2025-01-13 11:01:55 | INFO | __main__ | Extracting symbols from data/indices/NIFTY_100_stock_list.json
+2025-01-13 11:01:55 | INFO | __main__ | Saved 100 stock names to data/stock_names.json
+2025-01-13 11:01:55 | INFO | __main__ | Beginning stock price fetch for 100 symbols...
+2025-01-13 11:01:55 | INFO | __main__ | Fetching historical prices for INDUSINDBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:01:55 | INFO | __main__ | Fetching prices for INDUSINDBK from 11-01-2025 to 13-01-2025
+2025-01-13 11:01:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indusindbk_historical_prices.json
+2025-01-13 11:01:57 | INFO | __main__ | Fetching historical prices for AXISBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:01:57 | INFO | __main__ | Fetching prices for AXISBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:01:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/axisbank_historical_prices.json
+2025-01-13 11:01:59 | INFO | __main__ | Fetching historical prices for RECLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:01:59 | INFO | __main__ | Fetching prices for RECLTD from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
+2025-01-13 11:02:01 | INFO | __main__ | Fetching historical prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:01 | INFO | __main__ | Fetching prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shriramfin_historical_prices.json
+2025-01-13 11:02:03 | INFO | __main__ | Fetching historical prices for DIVISLAB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:03 | INFO | __main__ | Fetching prices for DIVISLAB from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/divislab_historical_prices.json
+2025-01-13 11:02:05 | INFO | __main__ | Fetching historical prices for TCS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:05 | INFO | __main__ | Fetching prices for TCS from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tcs_historical_prices.json
+2025-01-13 11:02:08 | INFO | __main__ | Fetching historical prices for ICICIPRULI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:08 | INFO | __main__ | Fetching prices for ICICIPRULI from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicipruli_historical_prices.json
+2025-01-13 11:02:10 | INFO | __main__ | Fetching historical prices for BRITANNIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:10 | INFO | __main__ | Fetching prices for BRITANNIA from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/britannia_historical_prices.json
+2025-01-13 11:02:12 | INFO | __main__ | Fetching historical prices for UNIONBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:12 | INFO | __main__ | Fetching prices for UNIONBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unionbank_historical_prices.json
+2025-01-13 11:02:14 | INFO | __main__ | Fetching historical prices for INFY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:14 | INFO | __main__ | Fetching prices for INFY from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/infy_historical_prices.json
+2025-01-13 11:02:16 | INFO | __main__ | Fetching historical prices for PFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:16 | INFO | __main__ | Fetching prices for PFC from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pfc_historical_prices.json
+2025-01-13 11:02:18 | INFO | __main__ | Fetching historical prices for COALINDIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:18 | INFO | __main__ | Fetching prices for COALINDIA from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/coalindia_historical_prices.json
+2025-01-13 11:02:21 | INFO | __main__ | Fetching historical prices for NESTLEIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:21 | INFO | __main__ | Fetching prices for NESTLEIND from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nestleind_historical_prices.json
+2025-01-13 11:02:22 | INFO | __main__ | Fetching historical prices for LTIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:22 | INFO | __main__ | Fetching prices for LTIM from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ltim_historical_prices.json
+2025-01-13 11:02:24 | INFO | __main__ | Fetching historical prices for NTPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:24 | INFO | __main__ | Fetching prices for NTPC from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ntpc_historical_prices.json
+2025-01-13 11:02:26 | INFO | __main__ | Fetching historical prices for TITAN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:26 | INFO | __main__ | Fetching prices for TITAN from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/titan_historical_prices.json
+2025-01-13 11:02:27 | INFO | __main__ | Fetching historical prices for MARUTI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:27 | INFO | __main__ | Fetching prices for MARUTI from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/maruti_historical_prices.json
+2025-01-13 11:02:29 | INFO | __main__ | Fetching historical prices for HINDUNILVR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:29 | INFO | __main__ | Fetching prices for HINDUNILVR from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindunilvr_historical_prices.json
+2025-01-13 11:02:31 | INFO | __main__ | Fetching historical prices for GODREJCP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:31 | INFO | __main__ | Fetching prices for GODREJCP from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/godrejcp_historical_prices.json
+2025-01-13 11:02:33 | INFO | __main__ | Fetching historical prices for AMBUJACEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:33 | INFO | __main__ | Fetching prices for AMBUJACEM from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ambujacem_historical_prices.json
+2025-01-13 11:02:35 | INFO | __main__ | Fetching historical prices for HCLTECH from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:35 | INFO | __main__ | Fetching prices for HCLTECH from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hcltech_historical_prices.json
+2025-01-13 11:02:37 | INFO | __main__ | Fetching historical prices for RELIANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:37 | INFO | __main__ | Fetching prices for RELIANCE from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/reliance_historical_prices.json
+2025-01-13 11:02:39 | INFO | __main__ | Fetching historical prices for ICICIGI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:39 | INFO | __main__ | Fetching prices for ICICIGI from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicigi_historical_prices.json
+2025-01-13 11:02:41 | INFO | __main__ | Fetching historical prices for BHARTIARTL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:41 | INFO | __main__ | Fetching prices for BHARTIARTL from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhartiartl_historical_prices.json
+2025-01-13 11:02:43 | INFO | __main__ | Fetching historical prices for JINDALSTEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:43 | INFO | __main__ | Fetching prices for JINDALSTEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jindalstel_historical_prices.json
+2025-01-13 11:02:45 | INFO | __main__ | Fetching historical prices for LT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:45 | INFO | __main__ | Fetching prices for LT from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lt_historical_prices.json
+2025-01-13 11:02:47 | INFO | __main__ | Fetching historical prices for SBIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:47 | INFO | __main__ | Fetching prices for SBIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbin_historical_prices.json
+2025-01-13 11:02:49 | INFO | __main__ | Fetching historical prices for SBILIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:49 | INFO | __main__ | Fetching prices for SBILIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:51 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbilife_historical_prices.json
+2025-01-13 11:02:51 | INFO | __main__ | Fetching historical prices for HINDALCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:51 | INFO | __main__ | Fetching prices for HINDALCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindalco_historical_prices.json
+2025-01-13 11:02:54 | INFO | __main__ | Fetching historical prices for BOSCHLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:54 | INFO | __main__ | Fetching prices for BOSCHLTD from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/boschltd_historical_prices.json
+2025-01-13 11:02:55 | INFO | __main__ | Fetching historical prices for TATACONSUM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:55 | INFO | __main__ | Fetching prices for TATACONSUM from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tataconsum_historical_prices.json
+2025-01-13 11:02:57 | INFO | __main__ | Fetching historical prices for DABUR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:57 | INFO | __main__ | Fetching prices for DABUR from 11-01-2025 to 13-01-2025
+2025-01-13 11:02:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dabur_historical_prices.json
+2025-01-13 11:02:59 | INFO | __main__ | Fetching historical prices for HDFCLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:02:59 | INFO | __main__ | Fetching prices for HDFCLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfclife_historical_prices.json
+2025-01-13 11:03:01 | INFO | __main__ | Fetching historical prices for JSWSTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:01 | INFO | __main__ | Fetching prices for JSWSTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswsteel_historical_prices.json
+2025-01-13 11:03:03 | INFO | __main__ | Fetching historical prices for ITC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:03 | INFO | __main__ | Fetching prices for ITC from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/itc_historical_prices.json
+2025-01-13 11:03:06 | INFO | __main__ | Fetching historical prices for TORNTPHARM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:06 | INFO | __main__ | Fetching prices for TORNTPHARM from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/torntpharm_historical_prices.json
+2025-01-13 11:03:08 | INFO | __main__ | Fetching historical prices for TATAMOTORS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:08 | INFO | __main__ | Fetching prices for TATAMOTORS from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatamotors_historical_prices.json
+2025-01-13 11:03:10 | INFO | __main__ | Fetching historical prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:10 | INFO | __main__ | Fetching prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajaj-auto_historical_prices.json
+2025-01-13 11:03:11 | INFO | __main__ | Fetching historical prices for BAJAJFINSV from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:11 | INFO | __main__ | Fetching prices for BAJAJFINSV from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajfinsv_historical_prices.json
+2025-01-13 11:03:13 | INFO | __main__ | Fetching historical prices for BAJFINANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:13 | INFO | __main__ | Fetching prices for BAJFINANCE from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajfinance_historical_prices.json
+2025-01-13 11:03:15 | INFO | __main__ | Fetching historical prices for CHOLAFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:15 | INFO | __main__ | Fetching prices for CHOLAFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:19 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cholafin_historical_prices.json
+2025-01-13 11:03:19 | INFO | __main__ | Fetching historical prices for GAIL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:19 | INFO | __main__ | Fetching prices for GAIL from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/gail_historical_prices.json
+2025-01-13 11:03:21 | INFO | __main__ | Fetching historical prices for ULTRACEMCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:21 | INFO | __main__ | Fetching prices for ULTRACEMCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ultracemco_historical_prices.json
+2025-01-13 11:03:23 | INFO | __main__ | Fetching historical prices for LICI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:23 | INFO | __main__ | Fetching prices for LICI from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lici_historical_prices.json
+2025-01-13 11:03:25 | INFO | __main__ | Fetching historical prices for ICICIBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:25 | INFO | __main__ | Fetching prices for ICICIBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicibank_historical_prices.json
+2025-01-13 11:03:27 | INFO | __main__ | Fetching historical prices for SUNPHARMA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:27 | INFO | __main__ | Fetching prices for SUNPHARMA from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sunpharma_historical_prices.json
+2025-01-13 11:03:29 | INFO | __main__ | Fetching historical prices for PNB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:29 | INFO | __main__ | Fetching prices for PNB from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pnb_historical_prices.json
+2025-01-13 11:03:31 | INFO | __main__ | Fetching historical prices for HAL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:31 | INFO | __main__ | Fetching prices for HAL from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hal_historical_prices.json
+2025-01-13 11:03:32 | INFO | __main__ | Fetching historical prices for BANKBARODA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:32 | INFO | __main__ | Fetching prices for BANKBARODA from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bankbaroda_historical_prices.json
+2025-01-13 11:03:34 | INFO | __main__ | Fetching historical prices for HEROMOTOCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:34 | INFO | __main__ | Fetching prices for HEROMOTOCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:36 | INFO | __main__ | Updated stock prices saved to data/stock_prices/heromotoco_historical_prices.json
+2025-01-13 11:03:36 | INFO | __main__ | Fetching historical prices for CIPLA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:36 | INFO | __main__ | Fetching prices for CIPLA from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cipla_historical_prices.json
+2025-01-13 11:03:38 | INFO | __main__ | Fetching historical prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:38 | INFO | __main__ | Fetching prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajhldng_historical_prices.json
+2025-01-13 11:03:40 | INFO | __main__ | Fetching historical prices for POWERGRID from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:40 | INFO | __main__ | Fetching prices for POWERGRID from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/powergrid_historical_prices.json
+2025-01-13 11:03:41 | INFO | __main__ | Fetching historical prices for ASIANPAINT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:41 | INFO | __main__ | Fetching prices for ASIANPAINT from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/asianpaint_historical_prices.json
+2025-01-13 11:03:44 | INFO | __main__ | Fetching historical prices for TECHM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:44 | INFO | __main__ | Fetching prices for TECHM from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/techm_historical_prices.json
+2025-01-13 11:03:46 | INFO | __main__ | Fetching historical prices for HDFCBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:46 | INFO | __main__ | Fetching prices for HDFCBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfcbank_historical_prices.json
+2025-01-13 11:03:48 | INFO | __main__ | Fetching historical prices for DRREDDY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:48 | INFO | __main__ | Fetching prices for DRREDDY from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/drreddy_historical_prices.json
+2025-01-13 11:03:49 | INFO | __main__ | Fetching historical prices for KOTAKBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:49 | INFO | __main__ | Fetching prices for KOTAKBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/kotakbank_historical_prices.json
+2025-01-13 11:03:52 | INFO | __main__ | Fetching historical prices for MOTHERSON from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:52 | INFO | __main__ | Fetching prices for MOTHERSON from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/motherson_historical_prices.json
+2025-01-13 11:03:54 | INFO | __main__ | Fetching historical prices for TATAPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:54 | INFO | __main__ | Fetching prices for TATAPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatapower_historical_prices.json
+2025-01-13 11:03:55 | INFO | __main__ | Fetching historical prices for BEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:55 | INFO | __main__ | Fetching prices for BEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bel_historical_prices.json
+2025-01-13 11:03:57 | INFO | __main__ | Fetching historical prices for IRCTC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:57 | INFO | __main__ | Fetching prices for IRCTC from 11-01-2025 to 13-01-2025
+2025-01-13 11:03:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irctc_historical_prices.json
+2025-01-13 11:03:59 | INFO | __main__ | Fetching historical prices for UNITDSPR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:03:59 | INFO | __main__ | Fetching prices for UNITDSPR from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unitdspr_historical_prices.json
+2025-01-13 11:04:01 | INFO | __main__ | Fetching historical prices for IRFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:01 | INFO | __main__ | Fetching prices for IRFC from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irfc_historical_prices.json
+2025-01-13 11:04:04 | INFO | __main__ | Fetching historical prices for JSWENERGY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:04 | INFO | __main__ | Fetching prices for JSWENERGY from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswenergy_historical_prices.json
+2025-01-13 11:04:05 | INFO | __main__ | Fetching historical prices for SIEMENS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:05 | INFO | __main__ | Fetching prices for SIEMENS from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:07 | INFO | __main__ | Updated stock prices saved to data/stock_prices/siemens_historical_prices.json
+2025-01-13 11:04:07 | INFO | __main__ | Fetching historical prices for TATASTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:07 | INFO | __main__ | Fetching prices for TATASTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:09 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatasteel_historical_prices.json
+2025-01-13 11:04:09 | INFO | __main__ | Fetching historical prices for WIPRO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:09 | INFO | __main__ | Fetching prices for WIPRO from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/wipro_historical_prices.json
+2025-01-13 11:04:11 | INFO | __main__ | Fetching historical prices for ADANIPORTS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:11 | INFO | __main__ | Fetching prices for ADANIPORTS from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniports_historical_prices.json
+2025-01-13 11:04:13 | INFO | __main__ | Fetching historical prices for EICHERMOT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:13 | INFO | __main__ | Fetching prices for EICHERMOT from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/eichermot_historical_prices.json
+2025-01-13 11:04:15 | INFO | __main__ | Fetching historical prices for VEDL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:15 | INFO | __main__ | Fetching prices for VEDL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vedl_historical_prices.json
+2025-01-13 11:04:18 | INFO | __main__ | Fetching historical prices for SHREECEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:18 | INFO | __main__ | Fetching prices for SHREECEM from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shreecem_historical_prices.json
+2025-01-13 11:04:20 | INFO | __main__ | Fetching historical prices for ONGC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:20 | INFO | __main__ | Fetching prices for ONGC from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ongc_historical_prices.json
+2025-01-13 11:04:24 | INFO | __main__ | Fetching historical prices for HAVELLS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:24 | INFO | __main__ | Fetching prices for HAVELLS from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/havells_historical_prices.json
+2025-01-13 11:04:26 | INFO | __main__ | Fetching historical prices for ADANIGREEN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:26 | INFO | __main__ | Fetching prices for ADANIGREEN from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:29 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanigreen_historical_prices.json
+2025-01-13 11:04:29 | INFO | __main__ | Fetching historical prices for GRASIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:29 | INFO | __main__ | Fetching prices for GRASIM from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/grasim_historical_prices.json
+2025-01-13 11:04:31 | INFO | __main__ | No new data to fetch for M&M; start_date=2025-01-14, end_date=2025-01-13
+2025-01-13 11:04:31 | INFO | __main__ | Fetching historical prices for ADANIENSOL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:31 | INFO | __main__ | Fetching prices for ADANIENSOL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniensol_historical_prices.json
+2025-01-13 11:04:33 | INFO | __main__ | Fetching historical prices for CANBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:33 | INFO | __main__ | Fetching prices for CANBK from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/canbk_historical_prices.json
+2025-01-13 11:04:34 | INFO | __main__ | Fetching historical prices for ADANIPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:34 | INFO | __main__ | Fetching prices for ADANIPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanipower_historical_prices.json
+2025-01-13 11:04:37 | INFO | __main__ | Fetching historical prices for ADANIENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:37 | INFO | __main__ | Fetching prices for ADANIENT from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:38 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanient_historical_prices.json
+2025-01-13 11:04:38 | INFO | __main__ | Fetching historical prices for PIDILITIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:38 | INFO | __main__ | Fetching prices for PIDILITIND from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pidilitind_historical_prices.json
+2025-01-13 11:04:40 | INFO | __main__ | Fetching historical prices for DLF from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:40 | INFO | __main__ | Fetching prices for DLF from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dlf_historical_prices.json
+2025-01-13 11:04:42 | INFO | __main__ | Fetching historical prices for APOLLOHOSP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:42 | INFO | __main__ | Fetching prices for APOLLOHOSP from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:44 | INFO | __main__ | Updated stock prices saved to data/stock_prices/apollohosp_historical_prices.json
+2025-01-13 11:04:44 | INFO | __main__ | Fetching historical prices for BPCL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:44 | INFO | __main__ | Fetching prices for BPCL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bpcl_historical_prices.json
+2025-01-13 11:04:46 | INFO | __main__ | Fetching historical prices for BHEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:46 | INFO | __main__ | Fetching prices for BHEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhel_historical_prices.json
+2025-01-13 11:04:48 | INFO | __main__ | Fetching historical prices for ABB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:48 | INFO | __main__ | Fetching prices for ABB from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/abb_historical_prices.json
+2025-01-13 11:04:50 | INFO | __main__ | Fetching historical prices for VBL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:50 | INFO | __main__ | Fetching prices for VBL from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vbl_historical_prices.json
+2025-01-13 11:04:52 | INFO | __main__ | Fetching historical prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:52 | INFO | __main__ | Fetching prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zyduslife_historical_prices.json
+2025-01-13 11:04:54 | INFO | __main__ | Fetching historical prices for NHPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:54 | INFO | __main__ | Fetching prices for NHPC from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nhpc_historical_prices.json
+2025-01-13 11:04:56 | INFO | __main__ | Fetching historical prices for TVSMOTOR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:56 | INFO | __main__ | Fetching prices for TVSMOTOR from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:58 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tvsmotor_historical_prices.json
+2025-01-13 11:04:58 | INFO | __main__ | Fetching historical prices for JIOFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:58 | INFO | __main__ | Fetching prices for JIOFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:04:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jiofin_historical_prices.json
+2025-01-13 11:04:59 | INFO | __main__ | Fetching historical prices for DMART from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:04:59 | INFO | __main__ | Fetching prices for DMART from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dmart_historical_prices.json
+2025-01-13 11:05:01 | INFO | __main__ | Fetching historical prices for ZOMATO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:01 | INFO | __main__ | Fetching prices for ZOMATO from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zomato_historical_prices.json
+2025-01-13 11:05:03 | INFO | __main__ | Fetching historical prices for ATGL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:03 | INFO | __main__ | Fetching prices for ATGL from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/atgl_historical_prices.json
+2025-01-13 11:05:05 | INFO | __main__ | Fetching historical prices for TRENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:05 | INFO | __main__ | Fetching prices for TRENT from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:07 | INFO | __main__ | Updated stock prices saved to data/stock_prices/trent_historical_prices.json
+2025-01-13 11:05:07 | INFO | __main__ | Fetching historical prices for INDIGO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:07 | INFO | __main__ | Fetching prices for INDIGO from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:09 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indigo_historical_prices.json
+2025-01-13 11:05:09 | INFO | __main__ | Fetching historical prices for IOC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:09 | INFO | __main__ | Fetching prices for IOC from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ioc_historical_prices.json
+2025-01-13 11:05:10 | INFO | __main__ | Fetching historical prices for NAUKRI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:10 | INFO | __main__ | Fetching prices for NAUKRI from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/naukri_historical_prices.json
+2025-01-13 11:05:12 | INFO | __main__ | Fetching historical prices for LODHA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:05:12 | INFO | __main__ | Fetching prices for LODHA from 11-01-2025 to 13-01-2025
+2025-01-13 11:05:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lodha_historical_prices.json
+2025-01-13 11:05:14 | INFO | __main__ | Done fetching prices for all symbols.
+2025-01-13 11:05:14 | INFO | __main__ | Running transform_stock_list.py on data/indices/NIFTY_100_stock_list.json => data/indices/transformed_stock_list.json
+2025-01-13 11:05:14 | INFO | __main__ | Populating/updating symbol metadata using populate_stock_metadata.py
+2025-01-13 11:05:20 | INFO | __main__ | Data ingestion pipeline completed successfully.
+2025-01-13 11:08:17 | INFO | __main__ | Starting stock data fetch workflow.
+2025-01-13 11:08:17 | INFO | __main__ | Loading configuration from config.json
+2025-01-13 11:08:17 | INFO | __main__ | Fetching stock list for index: NIFTY 100
+2025-01-13 11:08:17 | INFO | __main__ | Saving stock list to: data/indices/NIFTY_100_stock_list.json
+2025-01-13 11:08:19 | INFO | __main__ | Extracting symbols from data/indices/NIFTY_100_stock_list.json
+2025-01-13 11:08:19 | INFO | __main__ | Saved 100 stock names to data/stock_names.json
+2025-01-13 11:08:19 | INFO | __main__ | Beginning stock price fetch for 100 symbols...
+2025-01-13 11:08:19 | INFO | __main__ | Fetching historical prices for INDUSINDBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:19 | INFO | __main__ | Fetching prices for INDUSINDBK from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indusindbk_historical_prices.json
+2025-01-13 11:08:21 | INFO | __main__ | Fetching historical prices for AXISBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:21 | INFO | __main__ | Fetching prices for AXISBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/axisbank_historical_prices.json
+2025-01-13 11:08:23 | INFO | __main__ | Fetching historical prices for RECLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:23 | INFO | __main__ | Fetching prices for RECLTD from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/recltd_historical_prices.json
+2025-01-13 11:08:25 | INFO | __main__ | Fetching historical prices for TCS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:25 | INFO | __main__ | Fetching prices for TCS from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:26 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tcs_historical_prices.json
+2025-01-13 11:08:26 | INFO | __main__ | Fetching historical prices for DIVISLAB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:26 | INFO | __main__ | Fetching prices for DIVISLAB from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/divislab_historical_prices.json
+2025-01-13 11:08:28 | INFO | __main__ | Fetching historical prices for ICICIPRULI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:28 | INFO | __main__ | Fetching prices for ICICIPRULI from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicipruli_historical_prices.json
+2025-01-13 11:08:30 | INFO | __main__ | Fetching historical prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:30 | INFO | __main__ | Fetching prices for SHRIRAMFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shriramfin_historical_prices.json
+2025-01-13 11:08:32 | INFO | __main__ | Fetching historical prices for BRITANNIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:32 | INFO | __main__ | Fetching prices for BRITANNIA from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/britannia_historical_prices.json
+2025-01-13 11:08:33 | INFO | __main__ | Fetching historical prices for INFY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:33 | INFO | __main__ | Fetching prices for INFY from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/infy_historical_prices.json
+2025-01-13 11:08:35 | INFO | __main__ | Fetching historical prices for UNIONBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:35 | INFO | __main__ | Fetching prices for UNIONBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unionbank_historical_prices.json
+2025-01-13 11:08:37 | INFO | __main__ | Fetching historical prices for NESTLEIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:37 | INFO | __main__ | Fetching prices for NESTLEIND from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nestleind_historical_prices.json
+2025-01-13 11:08:39 | INFO | __main__ | Fetching historical prices for COALINDIA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:39 | INFO | __main__ | Fetching prices for COALINDIA from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:42 | INFO | __main__ | Updated stock prices saved to data/stock_prices/coalindia_historical_prices.json
+2025-01-13 11:08:42 | INFO | __main__ | Fetching historical prices for LTIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:42 | INFO | __main__ | Fetching prices for LTIM from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ltim_historical_prices.json
+2025-01-13 11:08:47 | INFO | __main__ | Fetching historical prices for HINDUNILVR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:48 | INFO | __main__ | Fetching prices for HINDUNILVR from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindunilvr_historical_prices.json
+2025-01-13 11:08:50 | INFO | __main__ | Fetching historical prices for MARUTI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:50 | INFO | __main__ | Fetching prices for MARUTI from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:53 | INFO | __main__ | Updated stock prices saved to data/stock_prices/maruti_historical_prices.json
+2025-01-13 11:08:53 | INFO | __main__ | Fetching historical prices for AMBUJACEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:53 | INFO | __main__ | Fetching prices for AMBUJACEM from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ambujacem_historical_prices.json
+2025-01-13 11:08:55 | INFO | __main__ | Fetching historical prices for ICICIGI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:55 | INFO | __main__ | Fetching prices for ICICIGI from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicigi_historical_prices.json
+2025-01-13 11:08:56 | INFO | __main__ | Fetching historical prices for HCLTECH from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:56 | INFO | __main__ | Fetching prices for HCLTECH from 11-01-2025 to 13-01-2025
+2025-01-13 11:08:58 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hcltech_historical_prices.json
+2025-01-13 11:08:58 | INFO | __main__ | Fetching historical prices for PFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:08:58 | INFO | __main__ | Fetching prices for PFC from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:00 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pfc_historical_prices.json
+2025-01-13 11:09:00 | INFO | __main__ | Fetching historical prices for GODREJCP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:00 | INFO | __main__ | Fetching prices for GODREJCP from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:02 | INFO | __main__ | Updated stock prices saved to data/stock_prices/godrejcp_historical_prices.json
+2025-01-13 11:09:02 | INFO | __main__ | Fetching historical prices for NTPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:02 | INFO | __main__ | Fetching prices for NTPC from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:04 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ntpc_historical_prices.json
+2025-01-13 11:09:04 | INFO | __main__ | Fetching historical prices for TITAN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:04 | INFO | __main__ | Fetching prices for TITAN from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/titan_historical_prices.json
+2025-01-13 11:09:06 | INFO | __main__ | Fetching historical prices for RELIANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:06 | INFO | __main__ | Fetching prices for RELIANCE from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/reliance_historical_prices.json
+2025-01-13 11:09:08 | INFO | __main__ | Fetching historical prices for BHARTIARTL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:08 | INFO | __main__ | Fetching prices for BHARTIARTL from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhartiartl_historical_prices.json
+2025-01-13 11:09:10 | INFO | __main__ | Fetching historical prices for SBILIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:10 | INFO | __main__ | Fetching prices for SBILIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbilife_historical_prices.json
+2025-01-13 11:09:12 | INFO | __main__ | Fetching historical prices for SBIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:12 | INFO | __main__ | Fetching prices for SBIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:14 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sbin_historical_prices.json
+2025-01-13 11:09:14 | INFO | __main__ | Fetching historical prices for DABUR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:14 | INFO | __main__ | Fetching prices for DABUR from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:16 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dabur_historical_prices.json
+2025-01-13 11:09:16 | INFO | __main__ | Fetching historical prices for LT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:16 | INFO | __main__ | Fetching prices for LT from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lt_historical_prices.json
+2025-01-13 11:09:18 | INFO | __main__ | Fetching historical prices for JINDALSTEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:18 | INFO | __main__ | Fetching prices for JINDALSTEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jindalstel_historical_prices.json
+2025-01-13 11:09:20 | INFO | __main__ | Fetching historical prices for BOSCHLTD from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:20 | INFO | __main__ | Fetching prices for BOSCHLTD from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:22 | INFO | __main__ | Updated stock prices saved to data/stock_prices/boschltd_historical_prices.json
+2025-01-13 11:09:22 | INFO | __main__ | Fetching historical prices for ITC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:22 | INFO | __main__ | Fetching prices for ITC from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:24 | INFO | __main__ | Updated stock prices saved to data/stock_prices/itc_historical_prices.json
+2025-01-13 11:09:24 | INFO | __main__ | Fetching historical prices for TATACONSUM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:24 | INFO | __main__ | Fetching prices for TATACONSUM from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tataconsum_historical_prices.json
+2025-01-13 11:09:25 | INFO | __main__ | Fetching historical prices for HINDALCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:25 | INFO | __main__ | Fetching prices for HINDALCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hindalco_historical_prices.json
+2025-01-13 11:09:27 | INFO | __main__ | Fetching historical prices for TORNTPHARM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:27 | INFO | __main__ | Fetching prices for TORNTPHARM from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/torntpharm_historical_prices.json
+2025-01-13 11:09:30 | INFO | __main__ | Fetching historical prices for JSWSTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:30 | INFO | __main__ | Fetching prices for JSWSTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswsteel_historical_prices.json
+2025-01-13 11:09:32 | INFO | __main__ | Fetching historical prices for HDFCLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:32 | INFO | __main__ | Fetching prices for HDFCLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfclife_historical_prices.json
+2025-01-13 11:09:34 | INFO | __main__ | Fetching historical prices for ICICIBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:34 | INFO | __main__ | Fetching prices for ICICIBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:35 | INFO | __main__ | Updated stock prices saved to data/stock_prices/icicibank_historical_prices.json
+2025-01-13 11:09:35 | INFO | __main__ | Fetching historical prices for ULTRACEMCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:35 | INFO | __main__ | Fetching prices for ULTRACEMCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ultracemco_historical_prices.json
+2025-01-13 11:09:37 | INFO | __main__ | Fetching historical prices for SUNPHARMA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:37 | INFO | __main__ | Fetching prices for SUNPHARMA from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/sunpharma_historical_prices.json
+2025-01-13 11:09:39 | INFO | __main__ | Fetching historical prices for BAJFINANCE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:39 | INFO | __main__ | Fetching prices for BAJFINANCE from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajfinance_historical_prices.json
+2025-01-13 11:09:41 | INFO | __main__ | Fetching historical prices for TATAMOTORS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:41 | INFO | __main__ | Fetching prices for TATAMOTORS from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatamotors_historical_prices.json
+2025-01-13 11:09:43 | INFO | __main__ | Fetching historical prices for CHOLAFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:43 | INFO | __main__ | Fetching prices for CHOLAFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cholafin_historical_prices.json
+2025-01-13 11:09:45 | INFO | __main__ | Fetching historical prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:45 | INFO | __main__ | Fetching prices for BAJAJ-AUTO from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:46 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajaj-auto_historical_prices.json
+2025-01-13 11:09:46 | INFO | __main__ | Fetching historical prices for HDFCBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:46 | INFO | __main__ | Fetching prices for HDFCBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:48 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hdfcbank_historical_prices.json
+2025-01-13 11:09:48 | INFO | __main__ | Fetching historical prices for BANKBARODA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:48 | INFO | __main__ | Fetching prices for BANKBARODA from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bankbaroda_historical_prices.json
+2025-01-13 11:09:50 | INFO | __main__ | Fetching historical prices for LICI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:50 | INFO | __main__ | Fetching prices for LICI from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lici_historical_prices.json
+2025-01-13 11:09:52 | INFO | __main__ | Fetching historical prices for BAJAJFINSV from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:52 | INFO | __main__ | Fetching prices for BAJAJFINSV from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajfinsv_historical_prices.json
+2025-01-13 11:09:54 | INFO | __main__ | Fetching historical prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:54 | INFO | __main__ | Fetching prices for BAJAJHLDNG from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:55 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bajajhldng_historical_prices.json
+2025-01-13 11:09:55 | INFO | __main__ | Fetching historical prices for CIPLA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:55 | INFO | __main__ | Fetching prices for CIPLA from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:57 | INFO | __main__ | Updated stock prices saved to data/stock_prices/cipla_historical_prices.json
+2025-01-13 11:09:57 | INFO | __main__ | Fetching historical prices for PNB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:57 | INFO | __main__ | Fetching prices for PNB from 11-01-2025 to 13-01-2025
+2025-01-13 11:09:59 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pnb_historical_prices.json
+2025-01-13 11:09:59 | INFO | __main__ | Fetching historical prices for DRREDDY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:09:59 | INFO | __main__ | Fetching prices for DRREDDY from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/drreddy_historical_prices.json
+2025-01-13 11:10:01 | INFO | __main__ | Fetching historical prices for GAIL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:01 | INFO | __main__ | Fetching prices for GAIL from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/gail_historical_prices.json
+2025-01-13 11:10:03 | INFO | __main__ | Fetching historical prices for TECHM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:03 | INFO | __main__ | Fetching prices for TECHM from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:05 | INFO | __main__ | Updated stock prices saved to data/stock_prices/techm_historical_prices.json
+2025-01-13 11:10:05 | INFO | __main__ | Fetching historical prices for POWERGRID from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:05 | INFO | __main__ | Fetching prices for POWERGRID from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/powergrid_historical_prices.json
+2025-01-13 11:10:08 | INFO | __main__ | Fetching historical prices for ASIANPAINT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:08 | INFO | __main__ | Fetching prices for ASIANPAINT from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:11 | INFO | __main__ | Updated stock prices saved to data/stock_prices/asianpaint_historical_prices.json
+2025-01-13 11:10:11 | INFO | __main__ | Fetching historical prices for KOTAKBANK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:11 | INFO | __main__ | Fetching prices for KOTAKBANK from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:13 | INFO | __main__ | Updated stock prices saved to data/stock_prices/kotakbank_historical_prices.json
+2025-01-13 11:10:13 | INFO | __main__ | Fetching historical prices for TATAPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:13 | INFO | __main__ | Fetching prices for TATAPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatapower_historical_prices.json
+2025-01-13 11:10:18 | INFO | __main__ | Fetching historical prices for HAL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:18 | INFO | __main__ | Fetching prices for HAL from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/hal_historical_prices.json
+2025-01-13 11:10:21 | INFO | __main__ | Fetching historical prices for SHREECEM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:21 | INFO | __main__ | Fetching prices for SHREECEM from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:28 | INFO | __main__ | Updated stock prices saved to data/stock_prices/shreecem_historical_prices.json
+2025-01-13 11:10:28 | INFO | __main__ | Fetching historical prices for IRCTC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:28 | INFO | __main__ | Fetching prices for IRCTC from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irctc_historical_prices.json
+2025-01-13 11:10:30 | INFO | __main__ | Fetching historical prices for HEROMOTOCO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:30 | INFO | __main__ | Fetching prices for HEROMOTOCO from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:32 | INFO | __main__ | Updated stock prices saved to data/stock_prices/heromotoco_historical_prices.json
+2025-01-13 11:10:32 | INFO | __main__ | Fetching historical prices for BEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:32 | INFO | __main__ | Fetching prices for BEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bel_historical_prices.json
+2025-01-13 11:10:34 | INFO | __main__ | Fetching historical prices for MOTHERSON from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:34 | INFO | __main__ | Fetching prices for MOTHERSON from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/motherson_historical_prices.json
+2025-01-13 11:10:37 | INFO | __main__ | Fetching historical prices for HAVELLS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:37 | INFO | __main__ | Fetching prices for HAVELLS from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/havells_historical_prices.json
+2025-01-13 11:10:39 | INFO | __main__ | Fetching historical prices for UNITDSPR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:39 | INFO | __main__ | Fetching prices for UNITDSPR from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:40 | INFO | __main__ | Updated stock prices saved to data/stock_prices/unitdspr_historical_prices.json
+2025-01-13 11:10:40 | INFO | __main__ | Fetching historical prices for IRFC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:40 | INFO | __main__ | Fetching prices for IRFC from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/irfc_historical_prices.json
+2025-01-13 11:10:43 | INFO | __main__ | No new data to fetch for M&M; start_date=2025-01-14, end_date=2025-01-13
+2025-01-13 11:10:43 | INFO | __main__ | Fetching historical prices for JSWENERGY from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:43 | INFO | __main__ | Fetching prices for JSWENERGY from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jswenergy_historical_prices.json
+2025-01-13 11:10:45 | INFO | __main__ | Fetching historical prices for GRASIM from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:45 | INFO | __main__ | Fetching prices for GRASIM from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/grasim_historical_prices.json
+2025-01-13 11:10:47 | INFO | __main__ | Fetching historical prices for CANBK from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:47 | INFO | __main__ | Fetching prices for CANBK from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:50 | INFO | __main__ | Updated stock prices saved to data/stock_prices/canbk_historical_prices.json
+2025-01-13 11:10:50 | INFO | __main__ | Fetching historical prices for SIEMENS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:50 | INFO | __main__ | Fetching prices for SIEMENS from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:52 | INFO | __main__ | Updated stock prices saved to data/stock_prices/siemens_historical_prices.json
+2025-01-13 11:10:52 | INFO | __main__ | Fetching historical prices for TATASTEEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:52 | INFO | __main__ | Fetching prices for TATASTEEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:54 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tatasteel_historical_prices.json
+2025-01-13 11:10:54 | INFO | __main__ | Fetching historical prices for ADANIPORTS from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:54 | INFO | __main__ | Fetching prices for ADANIPORTS from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:56 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniports_historical_prices.json
+2025-01-13 11:10:56 | INFO | __main__ | Fetching historical prices for ONGC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:56 | INFO | __main__ | Fetching prices for ONGC from 11-01-2025 to 13-01-2025
+2025-01-13 11:10:58 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ongc_historical_prices.json
+2025-01-13 11:10:58 | INFO | __main__ | Fetching historical prices for EICHERMOT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:10:58 | INFO | __main__ | Fetching prices for EICHERMOT from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:00 | INFO | __main__ | Updated stock prices saved to data/stock_prices/eichermot_historical_prices.json
+2025-01-13 11:11:00 | INFO | __main__ | Fetching historical prices for WIPRO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:00 | INFO | __main__ | Fetching prices for WIPRO from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:01 | INFO | __main__ | Updated stock prices saved to data/stock_prices/wipro_historical_prices.json
+2025-01-13 11:11:01 | INFO | __main__ | Fetching historical prices for VEDL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:01 | INFO | __main__ | Fetching prices for VEDL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:03 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vedl_historical_prices.json
+2025-01-13 11:11:03 | INFO | __main__ | Fetching historical prices for PIDILITIND from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:03 | INFO | __main__ | Fetching prices for PIDILITIND from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:06 | INFO | __main__ | Updated stock prices saved to data/stock_prices/pidilitind_historical_prices.json
+2025-01-13 11:11:06 | INFO | __main__ | Fetching historical prices for BPCL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:06 | INFO | __main__ | Fetching prices for BPCL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:08 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bpcl_historical_prices.json
+2025-01-13 11:11:08 | INFO | __main__ | Fetching historical prices for ADANIENSOL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:08 | INFO | __main__ | Fetching prices for ADANIENSOL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:10 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adaniensol_historical_prices.json
+2025-01-13 11:11:10 | INFO | __main__ | Fetching historical prices for VBL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:10 | INFO | __main__ | Fetching prices for VBL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:12 | INFO | __main__ | Updated stock prices saved to data/stock_prices/vbl_historical_prices.json
+2025-01-13 11:11:12 | INFO | __main__ | Fetching historical prices for APOLLOHOSP from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:12 | INFO | __main__ | Fetching prices for APOLLOHOSP from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:15 | INFO | __main__ | Updated stock prices saved to data/stock_prices/apollohosp_historical_prices.json
+2025-01-13 11:11:15 | INFO | __main__ | Fetching historical prices for ADANIPOWER from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:15 | INFO | __main__ | Fetching prices for ADANIPOWER from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:17 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanipower_historical_prices.json
+2025-01-13 11:11:17 | INFO | __main__ | Fetching historical prices for ADANIGREEN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:17 | INFO | __main__ | Fetching prices for ADANIGREEN from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:18 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanigreen_historical_prices.json
+2025-01-13 11:11:18 | INFO | __main__ | Fetching historical prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:18 | INFO | __main__ | Fetching prices for ZYDUSLIFE from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:20 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zyduslife_historical_prices.json
+2025-01-13 11:11:20 | INFO | __main__ | Fetching historical prices for DLF from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:20 | INFO | __main__ | Fetching prices for DLF from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:21 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dlf_historical_prices.json
+2025-01-13 11:11:21 | INFO | __main__ | Fetching historical prices for ADANIENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:21 | INFO | __main__ | Fetching prices for ADANIENT from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:23 | INFO | __main__ | Updated stock prices saved to data/stock_prices/adanient_historical_prices.json
+2025-01-13 11:11:23 | INFO | __main__ | Fetching historical prices for NHPC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:23 | INFO | __main__ | Fetching prices for NHPC from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:25 | INFO | __main__ | Updated stock prices saved to data/stock_prices/nhpc_historical_prices.json
+2025-01-13 11:11:25 | INFO | __main__ | Fetching historical prices for ABB from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:25 | INFO | __main__ | Fetching prices for ABB from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:27 | INFO | __main__ | Updated stock prices saved to data/stock_prices/abb_historical_prices.json
+2025-01-13 11:11:27 | INFO | __main__ | Fetching historical prices for DMART from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:27 | INFO | __main__ | Fetching prices for DMART from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:30 | INFO | __main__ | Updated stock prices saved to data/stock_prices/dmart_historical_prices.json
+2025-01-13 11:11:30 | INFO | __main__ | Fetching historical prices for BHEL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:30 | INFO | __main__ | Fetching prices for BHEL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:31 | INFO | __main__ | Updated stock prices saved to data/stock_prices/bhel_historical_prices.json
+2025-01-13 11:11:31 | INFO | __main__ | Fetching historical prices for TVSMOTOR from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:31 | INFO | __main__ | Fetching prices for TVSMOTOR from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:33 | INFO | __main__ | Updated stock prices saved to data/stock_prices/tvsmotor_historical_prices.json
+2025-01-13 11:11:33 | INFO | __main__ | Fetching historical prices for JIOFIN from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:33 | INFO | __main__ | Fetching prices for JIOFIN from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:34 | INFO | __main__ | Updated stock prices saved to data/stock_prices/jiofin_historical_prices.json
+2025-01-13 11:11:34 | INFO | __main__ | Fetching historical prices for ZOMATO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:34 | INFO | __main__ | Fetching prices for ZOMATO from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:37 | INFO | __main__ | Updated stock prices saved to data/stock_prices/zomato_historical_prices.json
+2025-01-13 11:11:37 | INFO | __main__ | Fetching historical prices for ATGL from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:37 | INFO | __main__ | Fetching prices for ATGL from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:39 | INFO | __main__ | Updated stock prices saved to data/stock_prices/atgl_historical_prices.json
+2025-01-13 11:11:39 | INFO | __main__ | Fetching historical prices for TRENT from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:39 | INFO | __main__ | Fetching prices for TRENT from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:41 | INFO | __main__ | Updated stock prices saved to data/stock_prices/trent_historical_prices.json
+2025-01-13 11:11:41 | INFO | __main__ | Fetching historical prices for INDIGO from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:41 | INFO | __main__ | Fetching prices for INDIGO from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:43 | INFO | __main__ | Updated stock prices saved to data/stock_prices/indigo_historical_prices.json
+2025-01-13 11:11:43 | INFO | __main__ | Fetching historical prices for NAUKRI from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:43 | INFO | __main__ | Fetching prices for NAUKRI from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:45 | INFO | __main__ | Updated stock prices saved to data/stock_prices/naukri_historical_prices.json
+2025-01-13 11:11:45 | INFO | __main__ | Fetching historical prices for IOC from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:45 | INFO | __main__ | Fetching prices for IOC from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:47 | INFO | __main__ | Updated stock prices saved to data/stock_prices/ioc_historical_prices.json
+2025-01-13 11:11:47 | INFO | __main__ | Fetching historical prices for LODHA from 11-01-2025 to 13-01-2025 in 1-year chunks.
+2025-01-13 11:11:47 | INFO | __main__ | Fetching prices for LODHA from 11-01-2025 to 13-01-2025
+2025-01-13 11:11:49 | INFO | __main__ | Updated stock prices saved to data/stock_prices/lodha_historical_prices.json
+2025-01-13 11:11:49 | INFO | __main__ | Done fetching prices for all symbols.
+2025-01-13 11:11:49 | INFO | __main__ | Running transform_stock_list.py on data/indices/NIFTY_100_stock_list.json => data/indices/transformed_stock_list.json
+2025-01-13 11:11:49 | INFO | __main__ | Populating/updating symbol metadata using populate_stock_metadata.py
+2025-01-13 11:11:56 | INFO | __main__ | Data ingestion pipeline completed successfully.
