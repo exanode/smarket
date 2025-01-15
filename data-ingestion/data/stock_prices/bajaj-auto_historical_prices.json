@@ -19141,5 +19141,32 @@
         "COP_DELIV_PERC": 53.66,
         "VWAP": 8590.23,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f2cd8",
+        "CH_SYMBOL": "BAJAJ-AUTO",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 8799,
+        "CH_TRADE_LOW_PRICE": 8561.3,
+        "CH_OPENING_PRICE": 8623.9,
+        "CH_CLOSING_PRICE": 8578,
+        "CH_LAST_TRADED_PRICE": 8565,
+        "CH_PREVIOUS_CLS_PRICE": 8611.2,
+        "CH_TOT_TRADED_QTY": 347402,
+        "CH_TOT_TRADED_VAL": 2997831133.1,
+        "CH_52WEEK_HIGH_PRICE": 12774,
+        "CH_52WEEK_LOW_PRICE": 6936.55,
+        "CH_TOTAL_TRADES": 46414,
+        "CH_ISIN": "INE917I01010",
+        "createdAt": "2025-01-15T12:01:02.947Z",
+        "updatedAt": "2025-01-15T12:01:02.947Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 170417,
+        "COP_DELIV_PERC": 49.05,
+        "VWAP": 8629.29,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

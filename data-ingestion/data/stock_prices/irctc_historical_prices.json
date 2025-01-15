@@ -11176,5 +11176,32 @@
         "COP_DELIV_PERC": 42.66,
         "VWAP": 757.21,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a381a08366c8d01f433b",
+        "CH_SYMBOL": "IRCTC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 770.4,
+        "CH_TRADE_LOW_PRICE": 755.05,
+        "CH_OPENING_PRICE": 760,
+        "CH_CLOSING_PRICE": 759.55,
+        "CH_LAST_TRADED_PRICE": 761,
+        "CH_PREVIOUS_CLS_PRICE": 757.75,
+        "CH_TOT_TRADED_QTY": 865946,
+        "CH_TOT_TRADED_VAL": 659682223.45,
+        "CH_52WEEK_HIGH_PRICE": 1138.9,
+        "CH_52WEEK_LOW_PRICE": 743.75,
+        "CH_TOTAL_TRADES": 38049,
+        "CH_ISIN": "INE335Y01020",
+        "createdAt": "2025-01-15T12:01:05.149Z",
+        "updatedAt": "2025-01-15T12:01:05.149Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 256408,
+        "COP_DELIV_PERC": 29.61,
+        "VWAP": 761.81,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

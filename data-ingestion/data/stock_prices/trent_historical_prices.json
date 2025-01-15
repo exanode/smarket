@@ -19069,5 +19069,32 @@
         "COP_DELIV_PERC": 61.29,
         "VWAP": 6193.98,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f3833",
+        "CH_SYMBOL": "TRENT",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 6519,
+        "CH_TRADE_LOW_PRICE": 6164.7,
+        "CH_OPENING_PRICE": 6200,
+        "CH_CLOSING_PRICE": 6390.25,
+        "CH_LAST_TRADED_PRICE": 6399,
+        "CH_PREVIOUS_CLS_PRICE": 6161.15,
+        "CH_TOT_TRADED_QTY": 1463322,
+        "CH_TOT_TRADED_VAL": 9321929836.1,
+        "CH_52WEEK_HIGH_PRICE": 8345,
+        "CH_52WEEK_LOW_PRICE": 2955,
+        "CH_TOTAL_TRADES": 133496,
+        "CH_ISIN": "INE849A01020",
+        "createdAt": "2025-01-15T12:01:04.009Z",
+        "updatedAt": "2025-01-15T12:01:04.009Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 504886,
+        "COP_DELIV_PERC": 34.5,
+        "VWAP": 6370.39,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

@@ -19087,5 +19087,32 @@
         "COP_DELIV_PERC": 61.47,
         "VWAP": 5006.42,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f2ffa",
+        "CH_SYMBOL": "EICHERMOT",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 5093.4,
+        "CH_TRADE_LOW_PRICE": 5004.2,
+        "CH_OPENING_PRICE": 5037.9,
+        "CH_CLOSING_PRICE": 5081.9,
+        "CH_LAST_TRADED_PRICE": 5089.7,
+        "CH_PREVIOUS_CLS_PRICE": 5029.55,
+        "CH_TOT_TRADED_QTY": 497259,
+        "CH_TOT_TRADED_VAL": 2516485152.45,
+        "CH_52WEEK_HIGH_PRICE": 5385.7,
+        "CH_52WEEK_LOW_PRICE": 3562.45,
+        "CH_TOTAL_TRADES": 45744,
+        "CH_ISIN": "INE066A01021",
+        "createdAt": "2025-01-15T12:01:03.242Z",
+        "updatedAt": "2025-01-15T12:01:03.242Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 312720,
+        "COP_DELIV_PERC": 62.89,
+        "VWAP": 5060.71,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

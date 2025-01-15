@@ -19033,5 +19033,32 @@
         "COP_DELIV_PERC": 60.27,
         "VWAP": 4887.31,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f24df",
+        "CH_SYMBOL": "BRITANNIA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 4937.2,
+        "CH_TRADE_LOW_PRICE": 4804.1,
+        "CH_OPENING_PRICE": 4871,
+        "CH_CLOSING_PRICE": 4877,
+        "CH_LAST_TRADED_PRICE": 4873,
+        "CH_PREVIOUS_CLS_PRICE": 4862.4,
+        "CH_TOT_TRADED_QTY": 242422,
+        "CH_TOT_TRADED_VAL": 1178968402.4,
+        "CH_52WEEK_HIGH_PRICE": 6469.9,
+        "CH_52WEEK_LOW_PRICE": 4641,
+        "CH_TOTAL_TRADES": 38746,
+        "CH_ISIN": "INE216A01030",
+        "createdAt": "2025-01-15T12:01:02.251Z",
+        "updatedAt": "2025-01-15T12:01:02.251Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 135017,
+        "COP_DELIV_PERC": 55.7,
+        "VWAP": 4863.29,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

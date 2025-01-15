@@ -15217,5 +15217,32 @@
         "COP_DELIV_PERC": 65.96,
         "VWAP": 1492.8,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f2fb9",
+        "CH_SYMBOL": "SBILIFE",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1504.85,
+        "CH_TRADE_LOW_PRICE": 1469.35,
+        "CH_OPENING_PRICE": 1504.5,
+        "CH_CLOSING_PRICE": 1472.75,
+        "CH_LAST_TRADED_PRICE": 1475,
+        "CH_PREVIOUS_CLS_PRICE": 1499.25,
+        "CH_TOT_TRADED_QTY": 1433596,
+        "CH_TOT_TRADED_VAL": 2117598316.3,
+        "CH_52WEEK_HIGH_PRICE": 1936,
+        "CH_52WEEK_LOW_PRICE": 1307.7,
+        "CH_TOTAL_TRADES": 43111,
+        "CH_ISIN": "INE123W01016",
+        "createdAt": "2025-01-15T12:01:03.214Z",
+        "updatedAt": "2025-01-15T12:01:03.214Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1022222,
+        "COP_DELIV_PERC": 71.3,
+        "VWAP": 1477.12,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

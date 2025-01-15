@@ -19373,5 +19373,32 @@
         "COP_DELIV_PERC": 39.24,
         "VWAP": 265.92,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f300e",
+        "CH_SYMBOL": "BEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 272.2,
+        "CH_TRADE_LOW_PRICE": 266.3,
+        "CH_OPENING_PRICE": 272,
+        "CH_CLOSING_PRICE": 267.85,
+        "CH_LAST_TRADED_PRICE": 268,
+        "CH_PREVIOUS_CLS_PRICE": 269.9,
+        "CH_TOT_TRADED_QTY": 11376064,
+        "CH_TOT_TRADED_VAL": 3061403206.55,
+        "CH_52WEEK_HIGH_PRICE": 340.5,
+        "CH_52WEEK_LOW_PRICE": 171.75,
+        "CH_TOTAL_TRADES": 110855,
+        "CH_ISIN": "INE263A01024",
+        "createdAt": "2025-01-15T12:01:03.249Z",
+        "updatedAt": "2025-01-15T12:01:03.249Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 4124580,
+        "COP_DELIV_PERC": 36.26,
+        "VWAP": 269.11,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

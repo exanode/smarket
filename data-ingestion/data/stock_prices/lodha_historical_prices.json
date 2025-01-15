@@ -7693,5 +7693,32 @@
         "COP_DELIV_PERC": 48.79,
         "VWAP": 1155.83,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37f94a5d092266d48ee",
+        "CH_SYMBOL": "LODHA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1162,
+        "CH_TRADE_LOW_PRICE": 1110,
+        "CH_OPENING_PRICE": 1162,
+        "CH_CLOSING_PRICE": 1124.95,
+        "CH_LAST_TRADED_PRICE": 1127.3,
+        "CH_PREVIOUS_CLS_PRICE": 1144.15,
+        "CH_TOT_TRADED_QTY": 3165699,
+        "CH_TOT_TRADED_VAL": 3573182848.5,
+        "CH_52WEEK_HIGH_PRICE": 1649.95,
+        "CH_52WEEK_LOW_PRICE": 977.35,
+        "CH_TOTAL_TRADES": 113634,
+        "CH_ISIN": "INE670K01029",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "createdAt": "2025-01-15T12:01:03.878Z",
+        "updatedAt": "2025-01-15T12:01:03.878Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1915541,
+        "COP_DELIV_PERC": 60.51,
+        "VWAP": 1128.72,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

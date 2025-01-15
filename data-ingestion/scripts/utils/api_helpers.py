@@ -1,15 +1,55 @@
-import requests
-import json
 import os
+import json
+import logging
 from datetime import datetime, timedelta
+import requests
+from logging.handlers import RotatingFileHandler
+
+
+# Configure logging
+def configure_logging(log_file='logs/api.log'):
+    """
+    Configure logging for the module.
+
+    Args:
+        log_file (str): The log file path.
+    """
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(levelname)s | %(message)s",
+        handlers=[
+            RotatingFileHandler(log_file, maxBytes=5 * 1024 * 1024, backupCount=3),
+            logging.StreamHandler()
+        ]
+    )
+
+
+# Initialize logging
+configure_logging()
+logger = logging.getLogger(__name__)
+
 
 def load_api_config(config_path):
     """
     Load the API configuration from a JSON file.
     """
-    with open(config_path, 'r') as file:
-        api_config = json.load(file)
-    return api_config
+    try:
+        # Normalize the path and replace backslashes with forward slashes
+        normalized_path = os.path.normpath(config_path).replace("\\", "/")
+        
+        with open(config_path, 'r') as file:
+            api_config = json.load(file)
+        logger.info("Successfully loaded API configuration from %s", normalized_path)
+        return api_config
+    except FileNotFoundError:
+        logger.error("Configuration file not found: %s", config_path)
+        raise
+    except json.JSONDecodeError:
+        logger.error("Invalid JSON in configuration file: %s", config_path)
+        raise
+
+
 
 def fetch_data_from_api(base_url, endpoint, params=None, headers=None):
     """
@@ -37,16 +77,17 @@ def fetch_data_from_api(base_url, endpoint, params=None, headers=None):
     try:
         # Step 1: Load initial cookies
         session.get("https://www.nseindia.com", headers=headers)
+        logger.info("Loaded initial cookies from NSE India.")
 
         # Step 2: Fetch the API data
+        logger.info("Fetching data from API: %s", url)
         response = session.get(url, params=params, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response.raise_for_status()
+        logger.info("Successfully fetched data from API: %s", url)
 
         return response.json()
     except requests.exceptions.RequestException as e:
-        error_message = f"Error fetching data from API: {e}"
-        print(error_message)
-        log_api_error(error_message)  # Log the error for debugging
+        logger.error("Error fetching data from API: %s. Error: %s", url, e)
         return None
 
 
@@ -63,11 +104,12 @@ def fetch_equity_stock_indices(api_config, index_name=None):
     """
     index_name = index_name or api_config['default_index_name']
     endpoint = api_config['endpoints']['equity_stock_indices'].format(index_name=index_name)
+
+    logger.info("Fetching equity stock indices for index: %s", index_name)
     response = fetch_data_from_api(api_config['nse_base_url'], endpoint)
     if response is None:
-        log_api_error(f"Failed to fetch equity stock indices for index: {index_name}")
+        logger.warning("Failed to fetch equity stock indices for index: %s", index_name)
     return response
-    
 
 
 def fetch_historical_security_archives(api_config, symbol, from_date=None, to_date=None):
@@ -91,9 +133,11 @@ def fetch_historical_security_archives(api_config, symbol, from_date=None, to_da
         to_date=to_date,
         symbol=symbol
     )
+
+    logger.info("Fetching historical archives for symbol: %s, from: %s, to: %s", symbol, from_date, to_date)
     response = fetch_data_from_api(api_config['nse_base_url'], endpoint)
     if response is None:
-        log_api_error(f"Failed to fetch historical archives for symbol: {symbol}, from: {from_date}, to: {to_date}")
+        logger.warning("Failed to fetch historical archives for symbol: %s, from: %s, to: %s", symbol, from_date, to_date)
     return response
 
 
@@ -109,22 +153,7 @@ def save_json_to_file(data, file_path):
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, 'w') as file:
             json.dump(data, file, indent=4)
+        logger.info("Successfully saved JSON data to file: %s", file_path)
     except (OSError, IOError) as e:
-        print(f"Error saving JSON to file: {e}")
-
-
-def log_api_error(error_message, log_file='logs/api_errors.log'):
-    """
-    Log API errors to a log file.
-
-    Args:
-        error_message (str): The error message to log.
-        log_file (str): The log file path.
-    """
-    try:
-        os.makedirs(os.path.dirname(log_file), exist_ok=True)
-        with open(log_file, 'a') as file:
-            timestamp = datetime.now().strftime('%d-%m-%Y %H:%M:%S') 
-            file.write(f"[{timestamp}] {error_message}\n")
-    except (OSError, IOError) as e:
-        print(f"Error logging API error: {e}")
+        logger.error("Error saving JSON to file: %s. Error: %s", file_path, e)
+        raise

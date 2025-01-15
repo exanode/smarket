@@ -19123,5 +19123,32 @@
         "COP_DELIV_PERC": 61.03,
         "VWAP": 1527.27,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f378c",
+        "CH_SYMBOL": "HAVELLS",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1539.2,
+        "CH_TRADE_LOW_PRICE": 1506.7,
+        "CH_OPENING_PRICE": 1529,
+        "CH_CLOSING_PRICE": 1526.95,
+        "CH_LAST_TRADED_PRICE": 1534,
+        "CH_PREVIOUS_CLS_PRICE": 1525,
+        "CH_TOT_TRADED_QTY": 1668330,
+        "CH_TOT_TRADED_VAL": 2540835925.45,
+        "CH_52WEEK_HIGH_PRICE": 2106,
+        "CH_52WEEK_LOW_PRICE": 1280,
+        "CH_TOTAL_TRADES": 90770,
+        "CH_ISIN": "INE176B01034",
+        "createdAt": "2025-01-15T12:01:03.946Z",
+        "updatedAt": "2025-01-15T12:01:03.946Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 966434,
+        "COP_DELIV_PERC": 57.93,
+        "VWAP": 1522.98,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

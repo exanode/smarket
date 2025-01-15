@@ -19106,5 +19106,32 @@
         "COP_DELIV_PERC": 56.47,
         "VWAP": 991.56,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f242c",
+        "CH_SYMBOL": "ZYDUSLIFE",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1007.3,
+        "CH_TRADE_LOW_PRICE": 982,
+        "CH_OPENING_PRICE": 1005,
+        "CH_CLOSING_PRICE": 984.9,
+        "CH_LAST_TRADED_PRICE": 985,
+        "CH_PREVIOUS_CLS_PRICE": 1000.15,
+        "CH_TOT_TRADED_QTY": 673355,
+        "CH_TOT_TRADED_VAL": 665094806.5,
+        "CH_52WEEK_HIGH_PRICE": 1324.3,
+        "CH_52WEEK_LOW_PRICE": 686,
+        "CH_TOTAL_TRADES": 37003,
+        "CH_ISIN": "INE010B01027",
+        "createdAt": "2025-01-15T12:01:02.193Z",
+        "updatedAt": "2025-01-15T12:01:02.193Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 321455,
+        "COP_DELIV_PERC": 47.74,
+        "VWAP": 987.73,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

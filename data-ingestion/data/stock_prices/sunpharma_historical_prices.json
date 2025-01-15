@@ -19124,5 +19124,32 @@
         "COP_DELIV_PERC": 60.05,
         "VWAP": 1765.21,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f3051",
+        "CH_SYMBOL": "SUNPHARMA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1775,
+        "CH_TRADE_LOW_PRICE": 1747.7,
+        "CH_OPENING_PRICE": 1772.8,
+        "CH_CLOSING_PRICE": 1756.85,
+        "CH_LAST_TRADED_PRICE": 1759,
+        "CH_PREVIOUS_CLS_PRICE": 1770.85,
+        "CH_TOT_TRADED_QTY": 857867,
+        "CH_TOT_TRADED_VAL": 1505593983.65,
+        "CH_52WEEK_HIGH_PRICE": 1960.35,
+        "CH_52WEEK_LOW_PRICE": 1290,
+        "CH_TOTAL_TRADES": 115106,
+        "CH_ISIN": "INE044A01036",
+        "createdAt": "2025-01-15T12:01:03.272Z",
+        "updatedAt": "2025-01-15T12:01:03.272Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 536896,
+        "COP_DELIV_PERC": 62.58,
+        "VWAP": 1755.04,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

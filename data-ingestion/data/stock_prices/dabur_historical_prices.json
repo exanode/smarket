@@ -19033,5 +19033,32 @@
         "COP_DELIV_PERC": 52.33,
         "VWAP": 515.46,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f2505",
+        "CH_SYMBOL": "DABUR",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 516.45,
+        "CH_TRADE_LOW_PRICE": 510.2,
+        "CH_OPENING_PRICE": 513,
+        "CH_CLOSING_PRICE": 515.5,
+        "CH_LAST_TRADED_PRICE": 515,
+        "CH_PREVIOUS_CLS_PRICE": 512.5,
+        "CH_TOT_TRADED_QTY": 1959656,
+        "CH_TOT_TRADED_VAL": 1007312409,
+        "CH_52WEEK_HIGH_PRICE": 672,
+        "CH_52WEEK_LOW_PRICE": 489.2,
+        "CH_TOTAL_TRADES": 48236,
+        "CH_ISIN": "INE016A01026",
+        "createdAt": "2025-01-15T12:01:02.265Z",
+        "updatedAt": "2025-01-15T12:01:02.265Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1254634,
+        "COP_DELIV_PERC": 64.02,
+        "VWAP": 514.03,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

@@ -15208,5 +15208,32 @@
         "COP_DELIV_PERC": 51.37,
         "VWAP": 1834.66,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a38094a5d092266d4d51",
+        "CH_SYMBOL": "ICICIGI",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1908,
+        "CH_TRADE_LOW_PRICE": 1800,
+        "CH_OPENING_PRICE": 1840.4,
+        "CH_CLOSING_PRICE": 1894.55,
+        "CH_LAST_TRADED_PRICE": 1889.3,
+        "CH_PREVIOUS_CLS_PRICE": 1831.2,
+        "CH_TOT_TRADED_QTY": 528556,
+        "CH_TOT_TRADED_VAL": 980520179.55,
+        "CH_52WEEK_HIGH_PRICE": 2301.9,
+        "CH_52WEEK_LOW_PRICE": 1353.5,
+        "CH_TOTAL_TRADES": 49454,
+        "CH_ISIN": "INE765G01017",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "createdAt": "2025-01-15T12:01:05.009Z",
+        "updatedAt": "2025-01-15T12:01:05.009Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 177729,
+        "COP_DELIV_PERC": 33.63,
+        "VWAP": 1855.09,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

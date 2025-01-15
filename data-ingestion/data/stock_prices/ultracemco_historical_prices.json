@@ -19033,5 +19033,32 @@
         "COP_DELIV_PERC": 68.93,
         "VWAP": 10539.41,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a380a08366c8d01f3876",
+        "CH_SYMBOL": "ULTRACEMCO",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 10643.4,
+        "CH_TRADE_LOW_PRICE": 10466.75,
+        "CH_OPENING_PRICE": 10540,
+        "CH_CLOSING_PRICE": 10521.65,
+        "CH_LAST_TRADED_PRICE": 10544.4,
+        "CH_PREVIOUS_CLS_PRICE": 10483.75,
+        "CH_TOT_TRADED_QTY": 371459,
+        "CH_TOT_TRADED_VAL": 3928084548.55,
+        "CH_52WEEK_HIGH_PRICE": 12145.35,
+        "CH_52WEEK_LOW_PRICE": 9250,
+        "CH_TOTAL_TRADES": 73153,
+        "CH_ISIN": "INE481G01011",
+        "createdAt": "2025-01-15T12:01:04.035Z",
+        "updatedAt": "2025-01-15T12:01:04.035Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 251913,
+        "COP_DELIV_PERC": 67.82,
+        "VWAP": 10574.75,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

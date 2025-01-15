@@ -19213,5 +19213,32 @@
         "COP_DELIV_PERC": 34.07,
         "VWAP": 75.46,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a380a08366c8d01f3f5f",
+        "CH_SYMBOL": "NHPC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 78.7,
+        "CH_TRADE_LOW_PRICE": 76.36,
+        "CH_OPENING_PRICE": 77.33,
+        "CH_CLOSING_PRICE": 77.18,
+        "CH_LAST_TRADED_PRICE": 77.24,
+        "CH_PREVIOUS_CLS_PRICE": 76.39,
+        "CH_TOT_TRADED_QTY": 13272868,
+        "CH_TOT_TRADED_VAL": 1029528468.93,
+        "CH_52WEEK_HIGH_PRICE": 118.4,
+        "CH_52WEEK_LOW_PRICE": 68.55,
+        "CH_TOTAL_TRADES": 59404,
+        "CH_ISIN": "INE848E01016",
+        "createdAt": "2025-01-15T12:01:04.730Z",
+        "updatedAt": "2025-01-15T12:01:04.730Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3768228,
+        "COP_DELIV_PERC": 28.39,
+        "VWAP": 77.57,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

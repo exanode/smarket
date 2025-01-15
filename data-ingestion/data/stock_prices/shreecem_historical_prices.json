@@ -19214,5 +19214,32 @@
         "COP_DELIV_PERC": 59.65,
         "VWAP": 25079.71,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f3206",
+        "CH_SYMBOL": "SHREECEM",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 25383.7,
+        "CH_TRADE_LOW_PRICE": 25068.3,
+        "CH_OPENING_PRICE": 25280.2,
+        "CH_CLOSING_PRICE": 25294.6,
+        "CH_LAST_TRADED_PRICE": 25330,
+        "CH_PREVIOUS_CLS_PRICE": 25130.2,
+        "CH_TOT_TRADED_QTY": 35010,
+        "CH_TOT_TRADED_VAL": 885218838.75,
+        "CH_52WEEK_HIGH_PRICE": 30737.75,
+        "CH_52WEEK_LOW_PRICE": 23500,
+        "CH_TOTAL_TRADES": 6886,
+        "CH_ISIN": "INE070A01015",
+        "createdAt": "2025-01-15T12:01:03.425Z",
+        "updatedAt": "2025-01-15T12:01:03.425Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 26480,
+        "COP_DELIV_PERC": 75.64,
+        "VWAP": 25284.74,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

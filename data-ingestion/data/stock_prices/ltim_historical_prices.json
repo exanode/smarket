@@ -17161,5 +17161,32 @@
         "COP_DELIV_PERC": 42.27,
         "VWAP": 5814.07,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a38194a5d092266d4dab",
+        "CH_SYMBOL": "LTIM",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 5905.45,
+        "CH_TRADE_LOW_PRICE": 5691,
+        "CH_OPENING_PRICE": 5766,
+        "CH_CLOSING_PRICE": 5837.55,
+        "CH_LAST_TRADED_PRICE": 5830,
+        "CH_PREVIOUS_CLS_PRICE": 5751.9,
+        "CH_TOT_TRADED_QTY": 315806,
+        "CH_TOT_TRADED_VAL": 1833755565.1,
+        "CH_52WEEK_HIGH_PRICE": 6767.95,
+        "CH_52WEEK_LOW_PRICE": 4513.55,
+        "CH_TOTAL_TRADES": 42740,
+        "CH_ISIN": "INE214T01019",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "createdAt": "2025-01-15T12:01:05.102Z",
+        "updatedAt": "2025-01-15T12:01:05.102Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 130769,
+        "COP_DELIV_PERC": 41.41,
+        "VWAP": 5806.59,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

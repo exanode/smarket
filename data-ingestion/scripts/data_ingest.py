@@ -347,7 +347,6 @@ def main() -> None:
         ingest_all_prices(conn, config)
 
     conn.close()
-    logger.info("DB ingestion complete.")
 
 
 if __name__ == "__main__":

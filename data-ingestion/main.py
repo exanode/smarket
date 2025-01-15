@@ -21,62 +21,113 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 ###############################################################################
+# Constants
+###############################################################################
+DEFAULT_EARLIEST_DATE = "2015-01-01"
+DATE_FMT = "%Y-%m-%d"  # Standard format: 'YYYY-MM-DD'
+DMY_FMT = "%d-%m-%Y"   # Alternate format: 'DD-MM-YYYY'
+
+###############################################################################
+# Subprocess / Command Helpers
+###############################################################################
+def run_command(command: List[str], description: str) -> None:
+    """
+    Runs a command in a subprocess and logs its execution.
+
+    Args:
+        command (List[str]): Command to execute as a list of arguments.
+        description (str): Description of the task for logging.
+
+    Raises:
+        subprocess.CalledProcessError: If the command fails.
+    """
+    logger.info("Executing: %s", " ".join(command))
+    try:
+        result = subprocess.run(
+            command, check=True, text=True, capture_output=True
+        )
+        # Log stdout and stderr explicitly
+        if result.stdout:
+            logger.info("Output from %s:\n%s", description, result.stdout)
+        if result.stderr:
+            logger.warning("Errors from %s:\n%s", description, result.stderr)
+    except subprocess.CalledProcessError as e:
+        logger.error(
+            "%s failed. Error:\n%s\nCommand: %s\nOutput: %s",
+            description, e.stderr, e.cmd, e.output
+        )
+        raise
+
+
+
+###############################################################################
 # Date Parsing & Formatting
 ###############################################################################
-
-def parse_date(date_str: str) -> Optional[datetime]:
+def parse_date_dmy(date_str: str) -> Optional[datetime]:
     """
-    Convert a string in 'd-m-y' format into a datetime object.
-    
-    Example:
-        parse_date("01-01-2023") -> datetime(2023, 1, 1)
-    
+    Convert a string in 'DD-MM-YYYY' format into a datetime object.
+
     Args:
-        date_str: A date string in 'd-m-y' format (e.g. '01-01-2023').
-    
+        date_str (str): A date string in 'DD-MM-YYYY' format.
+
     Returns:
-        A datetime object if successfully parsed, otherwise None if empty.
-    
-    Raises:
-        ValueError: If 'date_str' does not match '%d-%m-%Y' format.
+        Optional[datetime]: The parsed datetime object, or None if empty/invalid.
     """
     if not date_str:
         return None
-    return datetime.strptime(date_str, "%d-%m-%Y")
+    try:
+        return datetime.strptime(date_str, DMY_FMT)
+    except ValueError:
+        logger.warning("parse_date_dmy: Invalid date string '%s'", date_str)
+        return None
 
 
-def format_date(date_obj: datetime) -> str:
+def format_date_dmy(date_obj: datetime) -> str:
     """
-    Format a datetime object as a string in 'd-m-y' format.
-    
-    Example:
-        datetime(2023, 1, 1) -> '01-01-2023'
-    
+    Format a datetime object as a 'DD-MM-YYYY' string.
+
     Args:
-        date_obj: A datetime object to format.
-    
+        date_obj (datetime): A datetime object to format.
+
     Returns:
-        A string representing the date in 'd-m-y' format.
+        str: Date string in 'DD-MM-YYYY' format.
     """
-    return date_obj.strftime("%d-%m-%Y")
+    return date_obj.strftime(DMY_FMT)
+
+
+def get_date_or_default(date_str: str, fallback: str) -> datetime:
+    """
+    Parses a date string in 'YYYY-MM-DD' or returns a default.
+
+    Args:
+        date_str (str): The date string to parse (expects 'YYYY-MM-DD').
+        fallback (str): A fallback date in 'YYYY-MM-DD' format.
+
+    Returns:
+        datetime: Parsed date or fallback date if parsing fails.
+    """
+    try:
+        return datetime.strptime(date_str, DATE_FMT)
+    except (ValueError, TypeError):
+        logger.warning("Invalid or missing date '%s'. Using fallback: %s", date_str, fallback)
+        return datetime.strptime(fallback, DATE_FMT)
 
 ###############################################################################
-# Configuration
+# Config & Validation
 ###############################################################################
-
 def load_config(file_path: str) -> Dict[str, Any]:
     """
     Load configuration from a JSON file.
-    
+
     Args:
-        file_path: The path to the configuration JSON file.
-    
+        file_path (str): Path to the configuration file.
+
     Returns:
-        A dictionary containing configuration parameters.
-    
+        Dict[str, Any]: Configuration dictionary.
+
     Raises:
         FileNotFoundError: If the file does not exist.
-        json.JSONDecodeError: If the file contents are invalid JSON.
+        json.JSONDecodeError: If the file contains invalid JSON.
     """
     logger.info("Loading configuration from %s", file_path)
     if not os.path.exists(file_path):
@@ -85,168 +136,108 @@ def load_config(file_path: str) -> Dict[str, Any]:
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-###############################################################################
-# External Script Calls
-###############################################################################
 
-def run_fetch_stock_list(index_name: str, output_path: str) -> None:
+def validate_config(config: Dict[str, Any]) -> None:
     """
-    Execute an external script to fetch the stock list for the given index.
-    
+    Validate required config keys and log warnings for missing optional keys.
+
     Args:
-        index_name: The name of the stock index (e.g., 'NIFTY 100').
-        output_path: Path to the JSON file where the list will be saved.
-    
+        config (Dict[str, Any]): Configuration dictionary.
+
     Raises:
-        subprocess.CalledProcessError: If the script exits with a non-zero status.
+        KeyError: If mandatory keys are missing.
     """
-    logger.info("Fetching stock list for index: %s", index_name)
-    logger.info("Saving stock list to: %s", output_path)
+    logger.info("Validating configuration...")
+    required_keys = ["index_name", "output_paths", "price_fetch_settings"]
+    output_keys = ["stock_list", "transformed_stock_list", "stock_prices", "stock_names"]
+    price_keys = ["from_date", "to_date"]
 
-    command = [
-        "python",
-        "scripts/fetch_stock_list.py",
-        "--index_name", index_name,
-        "--output", output_path
-    ]
-    subprocess.run(command, check=True)
+    for key in required_keys:
+        if key not in config:
+            raise KeyError(f"Missing required config key: {key}")
+
+    for key in output_keys:
+        if key not in config["output_paths"]:
+            raise KeyError(f"Missing output path key: output_paths.{key}")
+
+    for key in price_keys:
+        # Not necessarily fatal; we can use defaults
+        if key not in config["price_fetch_settings"]:
+            logger.warning("Missing price_fetch_settings key: %s. Defaults may apply.", key)
 
 
-def run_fetch_stock_prices(symbol: str, from_date: str, to_date: str, output_path: str) -> None:
+def dynamic_date_defaults(config: Dict[str, Any]) -> None:
     """
-    Execute an external script to fetch stock prices for a given symbol in a specified date range.
-    New data is temporarily stored, then merged with existing data (if any) in 'output_path'.
-    
+    Dynamically calculate default 'from_date' or 'to_date' if they're missing.
+
     Args:
-        symbol: Stock symbol (e.g., 'TCS').
-        from_date: Start date in 'd-m-y' format (e.g., '01-01-2023').
-        to_date: End date in 'd-m-y' format (e.g., '31-01-2023').
-        output_path: JSON file path for merging old and new data.
-    
-    Raises:
-        subprocess.CalledProcessError: If the script exits with a non-zero status.
+        config (Dict[str, Any]): The configuration dictionary.
     """
-    logger.info("Fetching prices for %s from %s to %s", symbol, from_date, to_date)
-    temp_output_path = f"{output_path}.tmp"
+    logger.info("Applying dynamic date defaults (if needed)...")
 
-    command = [
-        "python",
-        "scripts/fetch_stock_prices.py",
-        "--symbol", symbol,
-        "--output", temp_output_path
-    ]
-    if from_date:
-        command += ["--from_date", from_date]
-    if to_date:
-        command += ["--to_date", to_date]
+    if not config["price_fetch_settings"].get("from_date"):
+        one_year_ago = (datetime.now() - timedelta(days=365)).strftime(DATE_FMT)
+        config["price_fetch_settings"]["from_date"] = one_year_ago
+        logger.info("Default from_date set to: %s", one_year_ago)
 
-    subprocess.run(command, check=True)
+    if not config["price_fetch_settings"].get("to_date"):
+        today = datetime.now().strftime(DATE_FMT)
+        config["price_fetch_settings"]["to_date"] = today
+        logger.info("Default to_date set to: %s", today)
 
-    # Merge new data with existing, deduplicating entries
+###############################################################################
+# JSON Merging
+###############################################################################
+def merge_json_data(existing_file: str, new_file: str) -> List[Dict[str, Any]]:
+    """
+    Merge data from new_file into existing_file (if it exists), deduplicate,
+    and return the combined list of records.
+
+    Args:
+        existing_file (str): Path to the existing JSON file (may not exist).
+        new_file (str): Path to the newly fetched JSON data.
+
+    Returns:
+        List[Dict[str, Any]]: Combined list of JSON records.
+    """
     existing_data = []
-    if os.path.exists(output_path):
-        with open(output_path, 'r', encoding='utf-8') as existing_file:
+    if os.path.exists(existing_file):
+        with open(existing_file, 'r', encoding='utf-8') as ef:
             try:
-                existing_data = json.load(existing_file)
-                if isinstance(existing_data, dict):
-                    if "data" in existing_data:
-                        existing_data = existing_data["data"]
-                    else:
-                        existing_data = [existing_data]
+                existing_data = json.load(ef)
+                # If the JSON has a "data" key, assume we need that
+                if isinstance(existing_data, dict) and "data" in existing_data:
+                    existing_data = existing_data["data"]
             except json.JSONDecodeError:
-                logger.warning("Existing file has invalid JSON: %s", output_path)
+                logger.warning("Invalid JSON in %s; ignoring existing data.", existing_file)
 
-    with open(temp_output_path, 'r', encoding='utf-8') as temp_file:
-        new_data = json.load(temp_file)
-        if isinstance(new_data, dict):
-            if "data" in new_data:
+    new_data = []
+    with open(new_file, 'r', encoding='utf-8') as nf:
+        try:
+            new_data = json.load(nf)
+            if isinstance(new_data, dict) and "data" in new_data:
                 new_data = new_data["data"]
-            else:
-                new_data = [new_data]
+        except json.JSONDecodeError as e:
+            logger.warning("Invalid JSON in new data file %s: %s", new_file, e)
 
-    combined_data = existing_data + new_data
-    # Remove duplicates by JSON-serializing each item with sort_keys
-    combined_data = list({json.dumps(entry, sort_keys=True): entry for entry in combined_data}.values())
-
-    with open(output_path, 'w', encoding='utf-8') as output_file:
-        json.dump(combined_data, output_file, indent=4)
-
-    os.remove(temp_output_path)
-    logger.info("Updated stock prices saved to %s", output_path)
-
-
-def run_transform_stock_list(input_file: str, output_file: str) -> None:
-    """
-    Execute an external script (transform_stock_list.py) to flatten/transform the stock list data.
-    
-    Args:
-        input_file: The original JSON file path (e.g., 'data/indices/NIFTY_100_stock_list.json').
-        output_file: The transformed JSON file path (e.g., 'data/indices/transformed_stock_list.json').
-    
-    Raises:
-        subprocess.CalledProcessError: If the script exits with a non-zero status.
-    """
-    logger.info("Running transform_stock_list.py on %s => %s", input_file, output_file)
-    command = [
-        "python",
-        "scripts/transform_stock_list.py",
-        "--input", input_file,
-        "--output", output_file
-    ]
-    subprocess.run(command, check=True)
-
-
-def run_populate_stock_metadata(config_file: str, metadata_file: str) -> None:
-    """
-    Execute an external script (populate_stock_metadata.py) to build/update symbol metadata
-    based on the newly transformed data and available stock prices.
-    
-    Args:
-        config_file: The path to the configuration file (e.g., 'config.json').
-        metadata_file: The path to the symbol metadata file (e.g., 'symbol_metadata.json').
-    
-    Raises:
-        subprocess.CalledProcessError: If the script exits with a non-zero status.
-    """
-    logger.info("Populating/updating symbol metadata using populate_stock_metadata.py")
-    command = [
-        "python",
-        "scripts/populate_stock_metadata.py",
-        "--config", config_file,
-        "--metadata_file", metadata_file
-    ]
-    subprocess.run(command, check=True)
+    # Deduplicate by JSON string
+    combined = existing_data + new_data
+    # Sort keys for consistent deduping
+    combined = list({json.dumps(entry, sort_keys=True): entry for entry in combined}.values())
+    return combined
 
 ###############################################################################
 # Metadata (Read-Only)
 ###############################################################################
-
 def load_symbol_metadata(metadata_file_path: str) -> Dict[str, Dict[str, Any]]:
     """
-    Loads symbol metadata from a JSON file, returning a dict keyed by symbol.
-    
-    Example metadata JSON:
-        [
-          {
-            "symbol": "TCS",
-            "listing_date": "2015-01-01",
-            "start_date": "2015-01-01",
-            "end_date": "2025-01-13"
-          },
-          ...
-        ]
-    
-    Returns a structure like:
-        {
-          "TCS": { "symbol": "TCS", "end_date": "2025-01-13", ... },
-          ...
-        }
-    
+    Load symbol metadata from a JSON file, returning a dict keyed by symbol.
+
     Args:
-        metadata_file_path: The path to 'symbol_metadata.json'.
-    
+        metadata_file_path (str): Path to the metadata file (e.g. "symbol_metadata.json").
+
     Returns:
-        A dictionary keyed by symbol, or an empty dict if file is missing or invalid.
+        Dict[str, Dict[str, Any]]: { 'TCS': {...}, 'INFY': {...}, ... }
     """
     if not os.path.exists(metadata_file_path):
         logger.warning("Metadata file %s not found. Returning empty dict.", metadata_file_path)
@@ -267,23 +258,117 @@ def load_symbol_metadata(metadata_file_path: str) -> Dict[str, Dict[str, Any]]:
     return result
 
 ###############################################################################
-# Chunked Fetch
+# External Script Calls (Using run_command)
 ###############################################################################
+def run_fetch_stock_list(index_name: str, output_path: str) -> None:
+    """
+    Fetch the stock list for the given index via an external Python script.
+    """
+    description = f"Fetching stock list for index '{index_name}'"
+    command = [
+        "python", "scripts/fetch_stock_list.py",
+        "--index_name", index_name,
+        "--output", output_path
+    ]
+    run_command(command, description)
 
+
+def run_fetch_stock_prices(symbol: str, from_date: str, to_date: str, output_path: str) -> None:
+    """
+    Fetch stock prices for 'symbol' in 'from_date'..'to_date' range,
+    merging new data with existing data at 'output_path'.
+    """
+    logger.info("Fetching prices for %s from %s to %s", symbol, from_date, to_date)
+
+    # We'll fetch data into a temporary JSON file, then merge it.
+    temp_output_path = f"{output_path}.tmp"
+    description = f"Fetch stock prices for {symbol}"
+
+    command = [
+        "python", "scripts/fetch_stock_prices.py",
+        "--symbol", symbol,
+        "--output", temp_output_path
+    ]
+    if from_date:
+        command += ["--from_date", from_date]
+    if to_date:
+        command += ["--to_date", to_date]
+
+    # Run the external script
+    try:
+        run_command(command, description)
+    except subprocess.CalledProcessError:
+        # Already logged by run_command, just return
+        return
+
+    # Check if the temporary file was created
+    if not os.path.exists(temp_output_path):
+        logger.warning("No data file created for %s. Skipping merge.", symbol)
+        return
+
+    # Merge new data into existing data
+    combined_data = merge_json_data(output_path, temp_output_path)
+
+    # Save merged data
+    with open(output_path, 'w', encoding='utf-8') as of:
+        json.dump(combined_data, of, indent=4)
+    logger.info("Merged & updated stock prices saved to %s", output_path)
+
+    # Clean up temp file
+    if os.path.exists(temp_output_path):
+        os.remove(temp_output_path)
+
+
+def run_transform_stock_list(input_file: str, output_file: str) -> None:
+    """
+    Transform the raw stock list (flatten fields, rename columns, etc.)
+    """
+    description = f"Transforming stock list {input_file} => {output_file}"
+    command = [
+        "python", "scripts/transform_stock_list.py",
+        "--input", input_file,
+        "--output", output_file
+    ]
+    run_command(command, description)
+
+
+def run_populate_stock_metadata(config_file: str, metadata_file: str) -> None:
+    """
+    Build or update symbol metadata based on fetched data & transformations.
+    """
+    description = "Populating/updating symbol metadata"
+    command = [
+        "python", "scripts/populate_stock_metadata.py",
+        "--config", config_file,
+        "--metadata_file", metadata_file
+    ]
+    run_command(command, description)
+
+
+def run_db_ingest() -> None:
+    """
+    Insert the latest data into the database.
+    """
+    description = "DB ingestion"
+    command = ["python", "scripts/data_ingest.py"]
+    run_command(command, description)
+
+###############################################################################
+# Chunked Fetch Logic
+###############################################################################
 def fetch_stock_prices_by_dates(symbol: str, start_date: datetime, end_date: datetime, output_path: str) -> None:
     """
-    Fetch stock prices in yearly chunks (365 days) from start_date to end_date.
-    Each chunk calls run_fetch_stock_prices, which merges newly fetched data 
-    into the existing file (if any).
-    
+    Fetch stock prices in yearly chunks from start_date to end_date, merging
+    into 'output_path' as we go.
+
     Args:
-        symbol: The stock symbol (e.g., 'TCS').
-        start_date: datetime object representing the earliest date to fetch.
-        end_date: datetime object representing the latest date to fetch.
-        output_path: Path where combined price data will be stored.
+        symbol (str): Stock symbol.
+        start_date (datetime): Start date.
+        end_date (datetime): End date.
+        output_path (str): Path to the file where combined data is stored.
     """
-    logger.info("Fetching historical prices for %s from %s to %s in 1-year chunks.",
-                symbol, format_date(start_date), format_date(end_date))
+    logger.info("Fetching historical prices for %s from %s to %s in yearly chunks...",
+                symbol, start_date.strftime(DATE_FMT), end_date.strftime(DATE_FMT))
 
     current_date = start_date
     one_year = timedelta(days=365)
@@ -292,8 +377,9 @@ def fetch_stock_prices_by_dates(symbol: str, start_date: datetime, end_date: dat
         chunk_end_date = min(current_date + one_year, end_date)
         run_fetch_stock_prices(
             symbol,
-            format_date(current_date),
-            format_date(chunk_end_date),
+            # use d-m-y for the external script
+            format_date_dmy(current_date),
+            format_date_dmy(chunk_end_date),
             output_path
         )
         current_date = chunk_end_date + timedelta(days=1)
@@ -301,16 +387,9 @@ def fetch_stock_prices_by_dates(symbol: str, start_date: datetime, end_date: dat
 ###############################################################################
 # Main Steps
 ###############################################################################
-
 def fetch_stock_list_step(config: Dict[str, Any]) -> str:
     """
-    Fetch the stock list for the configured index and return the path to the fetched JSON file.
-    
-    Args:
-        config: The loaded configuration dict containing 'index_name' and 'output_paths'.
-    
-    Returns:
-        The path to the newly fetched stock list JSON file.
+    Fetch the stock list and return the path to the fetched JSON file.
     """
     index_name = config["index_name"]
     stock_list_template = config["output_paths"]["stock_list"]
@@ -322,116 +401,117 @@ def fetch_stock_list_step(config: Dict[str, Any]) -> str:
 
 def fetch_stock_prices_step(stock_names: List[str], config: Dict[str, Any]) -> None:
     """
-    For each symbol in 'stock_names', determines a start_date by reading 'symbol_metadata.json' 
-    (if it exists), then fetches data up to a configured 'to_date' or today's date.
-    
-    Fetch is done in yearly chunks to avoid large date-range calls. Old data is merged with new.
-    
+    Fetch prices for each symbol, merging new data with existing data.
+    Resumes from metadata if available.
+
     Args:
-        stock_names: List of stock symbols to fetch.
-        config: Configuration dict with 'price_fetch_settings' for date bounds, 
-                and 'output_paths' for file templates.
+        stock_names (List[str]): List of stock symbols.
+        config (Dict[str, Any]): Configuration dictionary.
     """
-    logger.info("Beginning stock price fetch for %d symbols...", len(stock_names))
+    logger.info("Fetching stock prices for %d symbols...", len(stock_names))
 
     today = datetime.now()
-    from_date_str = config["price_fetch_settings"].get("from_date", "")
-    to_date_str = config["price_fetch_settings"].get("to_date", "")
+    from_date = get_date_or_default(
+        config["price_fetch_settings"].get("from_date", ""), 
+        DEFAULT_EARLIEST_DATE
+    )
+    to_date = get_date_or_default(
+        config["price_fetch_settings"].get("to_date", ""), 
+        today.strftime(DATE_FMT)
+    )
 
-    config_from_date = parse_date(from_date_str) or datetime(2015, 1, 1)
-    config_to_date = parse_date(to_date_str) or today
-
-    # Load existing symbol metadata (read-only)
     metadata_file_path = "symbol_metadata.json"
     metadata_dict = load_symbol_metadata(metadata_file_path)
 
     for symbol in stock_names:
+        # Build output path for each symbol
         stock_prices_template = config["output_paths"]["stock_prices"]
         output_path = stock_prices_template.format(symbol=symbol.upper()).lower()
 
-        # If symbol is in metadata, resume from end_date+1
+        # Determine start date from metadata
         md_entry = metadata_dict.get(symbol, {})
-        last_known_end_str = md_entry.get("end_date", "")
-        if last_known_end_str:
+        if md_entry and md_entry.get("end_date"):
             try:
-                last_end_dt = datetime.strptime(last_known_end_str, "%Y-%m-%d")
-                start_date = last_end_dt + timedelta(days=1)
+                # metadata end_date is 'YYYY-MM-DD'
+                last_fetched = datetime.strptime(md_entry["end_date"], DATE_FMT)
+                start_date = last_fetched + timedelta(days=1)
             except ValueError:
-                logger.warning("Invalid end_date '%s' in metadata for %s. Using default start date.",
-                               last_known_end_str, symbol)
-                start_date = config_from_date
+                logger.warning(
+                    "Invalid end_date in metadata for %s. Using config from_date.", symbol
+                )
+                start_date = from_date
         else:
-            start_date = config_from_date
+            start_date = from_date
 
-        end_date = min(config_to_date, today)
+        # Ensure we don't fetch beyond 'today'
+        end_date = min(to_date, today)
+
         if start_date > end_date:
-            logger.info("No new data to fetch for %s; start_date=%s, end_date=%s",
-                        symbol, start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d"))
+            logger.info("No new data to fetch for %s (start_date=%s, end_date=%s).",
+                        symbol, start_date.strftime(DATE_FMT), end_date.strftime(DATE_FMT))
             continue
 
-        # Fetch data in 1-year chunks
+        # Fetch in yearly chunks
         fetch_stock_prices_by_dates(symbol, start_date, end_date, output_path)
 
-    logger.info("Done fetching prices for all symbols.")
+    logger.info("Completed fetching stock prices for all symbols.")
 
 ###############################################################################
 # Main Entry Point
 ###############################################################################
-
 def main() -> None:
     """
     Main data ingestion pipeline for stock data:
-    
-      1. Load 'config.json'.
-      2. Fetch the stock list for the configured index (e.g., 'NIFTY 100').
-      3. Extract symbol names with 'priority=0', save them to a file (e.g., 'stock_names.json').
-      4. For each symbol, fetch prices (resuming from metadata end_date if found), 
-         merging new data with existing data files.
-      5. Run 'transform_stock_list.py' to flatten the fetched stock list (if needed).
-      6. Run 'populate_stock_metadata.py' to update/create metadata based on newly fetched data.
+
+       1. Load 'config.json'.
+       2. Validate config, apply dynamic defaults.
+       3. Fetch stock list for the configured index (e.g., 'NIFTY 100').
+       4. Extract & save symbols with 'priority=0'.
+       5. Fetch prices for each symbol (resume from metadata if found).
+       6. Run external transform script to flatten/clean the fetched list.
+       7. Populate/update symbol metadata.
+       8. Run DB ingest to insert data into the database.
     """
-    logger.info("Starting stock data fetch workflow.")
+    logger.info("Starting data ingestion pipeline...")
+
     config_path = "config.json"
     config = load_config(config_path)
+    validate_config(config)
+    dynamic_date_defaults(config)
 
     # Step 1: Fetch stock list
     stock_list_path = fetch_stock_list_step(config)
 
-    # Step 2: Extract & save stock symbols
-    logger.info("Extracting symbols from %s", stock_list_path)
+    # Step 2: Extract symbols with 'priority=0'
     with open(stock_list_path, 'r', encoding='utf-8') as f:
         stock_list_data = json.load(f)
 
     stock_names = [
-        item["symbol"]
-        for item in stock_list_data.get("data", [])
+        item["symbol"] 
+        for item in stock_list_data.get("data", []) 
         if item.get("priority", 0) == 0
     ]
 
+    # Save symbols to a JSON file
     stock_names_path = config["output_paths"]["stock_names"]
     with open(stock_names_path, 'w', encoding='utf-8') as f:
         json.dump(stock_names, f, indent=4)
-    logger.info("Saved %d stock names to %s", len(stock_names), stock_names_path)
+    logger.info("Saved %d symbols to %s", len(stock_names), stock_names_path)
 
-    # Step 3: Fetch stock prices (resume from metadata if found)
+    # Step 3: Fetch prices for each symbol
     fetch_stock_prices_step(stock_names, config)
 
-    # Step 4: Transform the fetched stock list (e.g., flatten meta fields)
-    transformed_stock_list_path = "data/indices/transformed_stock_list.json"
-    run_transform_stock_list(
-        input_file=stock_list_path,
-        output_file=transformed_stock_list_path
-    )
+    # Step 4: Transform the fetched stock list
+    transformed_stock_list_path = config["output_paths"]["transformed_stock_list"]
+    run_transform_stock_list(stock_list_path, transformed_stock_list_path)
 
-    # Step 5: Populate or update symbol metadata
+    # Step 5: Populate/update metadata
     metadata_file_path = "symbol_metadata.json"
-    run_populate_stock_metadata(
-        config_file=config_path,
-        metadata_file=metadata_file_path
-    )
+    run_populate_stock_metadata(config_path, metadata_file_path)
 
+    # Step 6: DB Ingestion
+    run_db_ingest()
     logger.info("Data ingestion pipeline completed successfully.")
-
 
 if __name__ == "__main__":
     main()

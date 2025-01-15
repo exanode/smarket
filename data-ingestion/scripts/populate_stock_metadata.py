@@ -87,17 +87,6 @@ def save_json_file(data: Any, file_path: str) -> None:
 # Metadata Helpers
 # --------------------------------------------------------------------------------
 
-def find_symbol_in_metadata(symbol: str, metadata: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-    """
-    Search for the symbol in the given metadata list.
-    Returns the metadata entry if found, otherwise None.
-    """
-    for entry in metadata:
-        if entry.get("symbol") == symbol:
-            return entry
-    return None
-
-
 def update_or_create_symbol_entry(
     symbol: str,
     listing_date_str: str,
@@ -106,84 +95,92 @@ def update_or_create_symbol_entry(
     metadata: List[Dict[str, Any]]
 ) -> None:
     """
-    Update or create an entry for 'symbol' in 'metadata' with the listing date,
-    as well as the earliest & latest stock date found in the stock prices JSON.
+    Updates or creates an entry for a stock symbol in the metadata.
 
-    - If listing_date_str < DEFAULT_EARLIEST_DATE (2015-01-01), we consider 2015-01-01 as earliest listing date.
-    - The final 'start_date' is the earliest among (listing_date, earliest_stock_date, DEFAULT_EARLIEST_DATE).
-    - The final 'end_date' is the max of (latest_stock_date, today's date).
-    - If listing_date is after latest_stock_date for some reason, we ensure end_date
-      is at least the listing_date.
+    This function ensures the symbol's metadata includes accurate 
+    listing date, start date, and end date. If no stock data is available, 
+    'end_date' remains unset to allow future data fetching.
 
-    This function modifies 'metadata' in place.
+    Args:
+        symbol (str): The stock symbol.
+        listing_date_str (str): The listing date of the stock in 'YYYY-MM-DD' format.
+        earliest_stock_date (str): The earliest date from the fetched stock data.
+        latest_stock_date (str): The latest date from the fetched stock data.
+        metadata (List[Dict[str, Any]]): The metadata list to update or append entries.
+
+    Returns:
+        None: Modifies the 'metadata' list in place.
+
+    Raises:
+        None: Logs warnings for invalid dates but does not raise exceptions.
     """
     logger.info("Updating/Creating metadata entry for symbol: %s", symbol)
 
+    # Helper to find an existing metadata entry
+    def find_symbol_in_metadata(symbol: str, entries: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+        for entry in entries:
+            if entry.get("symbol") == symbol:
+                return entry
+        return None
+
     existing_entry = find_symbol_in_metadata(symbol, metadata)
 
-    # Resolve listing_date
     try:
         listing_date_dt = datetime.strptime(listing_date_str, DATE_FMT)
-        logger.debug("Parsed listing_date for %s: %s", symbol, listing_date_dt)
     except (ValueError, TypeError):
         listing_date_dt = datetime.strptime(DEFAULT_EARLIEST_DATE, DATE_FMT)
-        logger.warning("Invalid or missing listing_date for %s. Defaulting to %s", symbol, DEFAULT_EARLIEST_DATE)
+        logger.warning("Invalid listing date for %s. Defaulting to %s.", symbol, DEFAULT_EARLIEST_DATE)
 
-    # Ensure listing_date isn't before 2015-01-01
-    earliest_listed_dt = max(listing_date_dt, datetime.strptime(DEFAULT_EARLIEST_DATE, DATE_FMT))
+    earliest_listed_dt = max(
+        listing_date_dt, 
+        datetime.strptime(DEFAULT_EARLIEST_DATE, DATE_FMT)
+    )
 
-    # Convert earliest_stock_date, latest_stock_date to datetime
-    earliest_dt = None
-    latest_dt = None
+    try:
+        earliest_dt = datetime.strptime(earliest_stock_date, DATE_FMT) if earliest_stock_date else None
+    except ValueError:
+        logger.warning("Invalid earliest stock date for %s. Ignoring.", symbol)
+        earliest_dt = None
 
-    if earliest_stock_date:
-        try:
-            earliest_dt = datetime.strptime(earliest_stock_date, DATE_FMT)
-        except ValueError:
-            logger.warning("Invalid earliest_stock_date '%s' for %s. Ignoring.", earliest_stock_date, symbol)
+    try:
+        latest_dt = datetime.strptime(latest_stock_date, DATE_FMT) if latest_stock_date else None
+    except ValueError:
+        logger.warning("Invalid latest stock date for %s. Ignoring.", symbol)
+        latest_dt = None
 
-    if latest_stock_date:
-        try:
-            latest_dt = datetime.strptime(latest_stock_date, DATE_FMT)
-        except ValueError:
-            logger.warning("Invalid latest_stock_date '%s' for %s. Ignoring.", latest_stock_date, symbol)
-
-    # Decide on start_date
-    # We'll gather potential start points
     potential_starts = [earliest_listed_dt]
     if earliest_dt:
         potential_starts.append(earliest_dt)
 
-    start_date_dt = min(potential_starts) if potential_starts else datetime.strptime(DEFAULT_EARLIEST_DATE, DATE_FMT)
-    logger.debug("Computed start_date for %s: %s", symbol, start_date_dt)
+    start_date_dt = min(potential_starts)
 
-    # Decide on end_date
-    # Normally use latest_dt if available, otherwise fallback to today.
-    end_date_dt = latest_dt if latest_dt else datetime.now()
+    if latest_dt:
+        end_date_dt = latest_dt
+    else:
+        logger.info("No valid latest stock date for %s. Leaving end_date unset.", symbol)
+        end_date_dt = None
 
-    # If listing_date is after the last known data date, let end_date = listing_date
-    if listing_date_dt > end_date_dt:
+    if end_date_dt and listing_date_dt > end_date_dt:
         end_date_dt = listing_date_dt
-        logger.debug("Listing date is after latest data date for %s. Setting end_date to listing_date.", symbol)
 
-    final_listing_str = listing_date_dt.strftime(DATE_FMT)
-    final_start_str = start_date_dt.strftime(DATE_FMT)
-    final_end_str = end_date_dt.strftime(DATE_FMT)
+    final_listing_date = listing_date_dt.strftime(DATE_FMT)
+    final_start_date = start_date_dt.strftime(DATE_FMT)
+    final_end_date = end_date_dt.strftime(DATE_FMT) if end_date_dt else ""
 
     if not existing_entry:
         metadata.append({
             "symbol": symbol,
-            "listing_date": final_listing_str,
-            "start_date": final_start_str,
-            "end_date": final_end_str
+            "listing_date": final_listing_date,
+            "start_date": final_start_date,
+            "end_date": final_end_date
         })
-        logger.info("Created new metadata entry for %s", symbol)
+        logger.info("Created new metadata entry for %s.", symbol)
     else:
-        # Update
-        existing_entry["listing_date"] = final_listing_str
-        existing_entry["start_date"] = final_start_str
-        existing_entry["end_date"] = final_end_str
-        logger.info("Updated metadata entry for %s", symbol)
+        existing_entry["listing_date"] = final_listing_date
+        existing_entry["start_date"] = final_start_date
+        existing_entry["end_date"] = final_end_date
+        logger.info("Updated metadata entry for %s.", symbol)
+
 
 
 def extract_symbol_dates_from_prices(prices_path: str) -> Tuple[str, str]:
@@ -269,7 +266,7 @@ def main():
     logger.info("Loaded config from %s", args.config)
 
     index_name = config["index_name"]
-    stock_list_path = config["output_paths"]["stock_list"].format(index_name=index_name.replace(" ", "_"))
+    stock_list_path = config["output_paths"]["transformed_stock_list"]
     prices_template = config["output_paths"]["stock_prices"]  # e.g. "data/stock_prices/{symbol}_historical_prices.json"
 
     # 2) Load the index stock list JSON

@@ -19213,5 +19213,32 @@
         "COP_DELIV_PERC": 33.24,
         "VWAP": 259.58,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f30a5",
+        "CH_SYMBOL": "ONGC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 264.47,
+        "CH_TRADE_LOW_PRICE": 257.69,
+        "CH_OPENING_PRICE": 260.9,
+        "CH_CLOSING_PRICE": 258.18,
+        "CH_LAST_TRADED_PRICE": 258.35,
+        "CH_PREVIOUS_CLS_PRICE": 260.37,
+        "CH_TOT_TRADED_QTY": 9344731,
+        "CH_TOT_TRADED_VAL": 2436165684.5,
+        "CH_52WEEK_HIGH_PRICE": 345,
+        "CH_52WEEK_LOW_PRICE": 223,
+        "CH_TOTAL_TRADES": 81488,
+        "CH_ISIN": "INE213A01029",
+        "createdAt": "2025-01-15T12:01:03.302Z",
+        "updatedAt": "2025-01-15T12:01:03.302Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2427653,
+        "COP_DELIV_PERC": 25.98,
+        "VWAP": 260.7,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

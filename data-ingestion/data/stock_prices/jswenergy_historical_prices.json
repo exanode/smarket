@@ -19033,5 +19033,32 @@
         "COP_DELIV_PERC": 29.74,
         "VWAP": 545.63,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a380a08366c8d01f3e9c",
+        "CH_SYMBOL": "JSWENERGY",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 563.5,
+        "CH_TRADE_LOW_PRICE": 548.05,
+        "CH_OPENING_PRICE": 554,
+        "CH_CLOSING_PRICE": 561.5,
+        "CH_LAST_TRADED_PRICE": 562.8,
+        "CH_PREVIOUS_CLS_PRICE": 547.85,
+        "CH_TOT_TRADED_QTY": 3204143,
+        "CH_TOT_TRADED_VAL": 1790138568.8,
+        "CH_52WEEK_HIGH_PRICE": 804.9,
+        "CH_52WEEK_LOW_PRICE": 451.65,
+        "CH_TOTAL_TRADES": 66962,
+        "CH_ISIN": "INE121E01018",
+        "createdAt": "2025-01-15T12:01:04.647Z",
+        "updatedAt": "2025-01-15T12:01:04.647Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1301382,
+        "COP_DELIV_PERC": 40.62,
+        "VWAP": 558.69,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

@@ -19159,5 +19159,32 @@
         "COP_DELIV_PERC": 55.98,
         "VWAP": 1705.81,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37f94a5d092266d4606",
+        "CH_SYMBOL": "BAJAJFINSV",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1730.45,
+        "CH_TRADE_LOW_PRICE": 1650,
+        "CH_OPENING_PRICE": 1721.1,
+        "CH_CLOSING_PRICE": 1671.65,
+        "CH_LAST_TRADED_PRICE": 1674.8,
+        "CH_PREVIOUS_CLS_PRICE": 1713.5,
+        "CH_TOT_TRADED_QTY": 2098490,
+        "CH_TOT_TRADED_VAL": 3512978879.75,
+        "CH_52WEEK_HIGH_PRICE": 2029.9,
+        "CH_52WEEK_LOW_PRICE": 1419.05,
+        "CH_TOTAL_TRADES": 115194,
+        "CH_ISIN": "INE918I01026",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "createdAt": "2025-01-15T12:01:03.225Z",
+        "updatedAt": "2025-01-15T12:01:03.225Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 830793,
+        "COP_DELIV_PERC": 39.59,
+        "VWAP": 1674.05,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

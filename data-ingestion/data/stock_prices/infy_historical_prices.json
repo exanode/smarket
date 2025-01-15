@@ -19051,5 +19051,32 @@
         "COP_DELIV_PERC": 61.64,
         "VWAP": 1943.92,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f2d5d",
+        "CH_SYMBOL": "INFY",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1958.05,
+        "CH_TRADE_LOW_PRICE": 1937.1,
+        "CH_OPENING_PRICE": 1947,
+        "CH_CLOSING_PRICE": 1949.65,
+        "CH_LAST_TRADED_PRICE": 1951.65,
+        "CH_PREVIOUS_CLS_PRICE": 1940.05,
+        "CH_TOT_TRADED_QTY": 2985439,
+        "CH_TOT_TRADED_VAL": 5819096239.5,
+        "CH_52WEEK_HIGH_PRICE": 2006.45,
+        "CH_52WEEK_LOW_PRICE": 1358.35,
+        "CH_TOTAL_TRADES": 153629,
+        "CH_ISIN": "INE009A01021",
+        "createdAt": "2025-01-15T12:01:02.997Z",
+        "updatedAt": "2025-01-15T12:01:02.997Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1890937,
+        "COP_DELIV_PERC": 63.34,
+        "VWAP": 1949.16,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

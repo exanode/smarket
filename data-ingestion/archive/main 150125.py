@@ -5,7 +5,6 @@ import subprocess
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 from logging.handlers import RotatingFileHandler
- 
 
 ###############################################################################
 # Logging Configuration
@@ -218,23 +217,6 @@ def run_populate_stock_metadata(config_file: str, metadata_file: str) -> None:
     ]
     subprocess.run(command, check=True)
 
-def run_db_ingest():
-    logger.info("Running DB ingestion using data_ingest.py")
-    command = [
-        "python",
-        "scripts/data_ingest.py"
-    ]
-    try:
-        subprocess.run(command, check=True, capture_output=True, text=True)
-        logger.info("DB ingestion completed successfully.")
-    except subprocess.CalledProcessError as e:
-        logger.error(
-            "DB ingestion failed with return code %d. Command: %s. Error: %s",
-            e.returncode, e.cmd, e.stderr
-        )
-        raise
-   
-
 ###############################################################################
 # Metadata (Read-Only)
 ###############################################################################
@@ -407,7 +389,6 @@ def main() -> None:
          merging new data with existing data files.
       5. Run 'transform_stock_list.py' to flatten the fetched stock list (if needed).
       6. Run 'populate_stock_metadata.py' to update/create metadata based on newly fetched data.
-      7. Insert transformed data into the database using `data_ingest.py`.
     """
     logger.info("Starting stock data fetch workflow.")
     config_path = "config.json"
@@ -448,11 +429,6 @@ def main() -> None:
         config_file=config_path,
         metadata_file=metadata_file_path
     )
-
-    # Step 6: Insert data into the database
-    logger.info("Inserting data into the database.")
-    run_db_ingest()
-    logger.info("Database ingestion completed successfully.")
 
     logger.info("Data ingestion pipeline completed successfully.")
 

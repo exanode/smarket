@@ -19105,5 +19105,32 @@
         "COP_DELIV_PERC": 34.18,
         "VWAP": 195.76,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f24cc",
+        "CH_SYMBOL": "BHEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 205.4,
+        "CH_TRADE_LOW_PRICE": 198.05,
+        "CH_OPENING_PRICE": 199,
+        "CH_CLOSING_PRICE": 202.16,
+        "CH_LAST_TRADED_PRICE": 202.8,
+        "CH_PREVIOUS_CLS_PRICE": 197.1,
+        "CH_TOT_TRADED_QTY": 13345400,
+        "CH_TOT_TRADED_VAL": 2700719746.36,
+        "CH_52WEEK_HIGH_PRICE": 335.35,
+        "CH_52WEEK_LOW_PRICE": 191.66,
+        "CH_TOTAL_TRADES": 146181,
+        "CH_ISIN": "INE257A01026",
+        "createdAt": "2025-01-15T12:01:02.247Z",
+        "updatedAt": "2025-01-15T12:01:02.247Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3201152,
+        "COP_DELIV_PERC": 23.99,
+        "VWAP": 202.37,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

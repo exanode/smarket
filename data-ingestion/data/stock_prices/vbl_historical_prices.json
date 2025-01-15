@@ -16441,5 +16441,32 @@
         "COP_DELIV_PERC": 60.76,
         "VWAP": 566.71,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a380a08366c8d01f4001",
+        "CH_SYMBOL": "VBL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 575.4,
+        "CH_TRADE_LOW_PRICE": 558.95,
+        "CH_OPENING_PRICE": 574.9,
+        "CH_CLOSING_PRICE": 560.5,
+        "CH_LAST_TRADED_PRICE": 560,
+        "CH_PREVIOUS_CLS_PRICE": 566.3,
+        "CH_TOT_TRADED_QTY": 4952149,
+        "CH_TOT_TRADED_VAL": 2784469822.35,
+        "CH_52WEEK_HIGH_PRICE": 1702.8,
+        "CH_52WEEK_LOW_PRICE": 536.85,
+        "CH_TOTAL_TRADES": 97821,
+        "CH_ISIN": "INE200M01039",
+        "createdAt": "2025-01-15T12:01:04.790Z",
+        "updatedAt": "2025-01-15T12:01:04.790Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3114526,
+        "COP_DELIV_PERC": 62.89,
+        "VWAP": 562.28,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

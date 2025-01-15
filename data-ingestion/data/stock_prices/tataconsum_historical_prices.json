@@ -19035,5 +19035,32 @@
         "COP_DELIV_PERC": 60.31,
         "VWAP": 966.45,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a381a08366c8d01f42b4",
+        "CH_SYMBOL": "TATACONSUM",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 963.15,
+        "CH_TRADE_LOW_PRICE": 944.6,
+        "CH_OPENING_PRICE": 963.15,
+        "CH_CLOSING_PRICE": 955.55,
+        "CH_LAST_TRADED_PRICE": 953,
+        "CH_PREVIOUS_CLS_PRICE": 963.15,
+        "CH_TOT_TRADED_QTY": 3190709,
+        "CH_TOT_TRADED_VAL": 3041340175.9,
+        "CH_52WEEK_HIGH_PRICE": 1269,
+        "CH_52WEEK_LOW_PRICE": 882.9,
+        "CH_TOTAL_TRADES": 71047,
+        "CH_ISIN": "INE192A01025",
+        "createdAt": "2025-01-15T12:01:05.083Z",
+        "updatedAt": "2025-01-15T12:01:05.083Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2387951,
+        "COP_DELIV_PERC": 74.84,
+        "VWAP": 953.19,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

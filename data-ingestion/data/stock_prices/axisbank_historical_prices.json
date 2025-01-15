@@ -19033,5 +19033,32 @@
         "COP_DELIV_PERC": 59.59,
         "VWAP": 1054.36,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37f94a5d092266d4574",
+        "CH_SYMBOL": "AXISBANK",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1052.9,
+        "CH_TRADE_LOW_PRICE": 1014.65,
+        "CH_OPENING_PRICE": 1043,
+        "CH_CLOSING_PRICE": 1026.8,
+        "CH_LAST_TRADED_PRICE": 1025,
+        "CH_PREVIOUS_CLS_PRICE": 1051.65,
+        "CH_TOT_TRADED_QTY": 11418721,
+        "CH_TOT_TRADED_VAL": 11740818455.55,
+        "CH_52WEEK_HIGH_PRICE": 1339.65,
+        "CH_52WEEK_LOW_PRICE": 995.7,
+        "CH_TOTAL_TRADES": 271695,
+        "CH_ISIN": "INE238A01034",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "createdAt": "2025-01-15T12:01:03.100Z",
+        "updatedAt": "2025-01-15T12:01:03.100Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 6672057,
+        "COP_DELIV_PERC": 58.43,
+        "VWAP": 1028.21,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

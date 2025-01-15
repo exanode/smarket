@@ -19141,5 +19141,32 @@
         "COP_DELIV_PERC": 53.11,
         "VWAP": 7442.64,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f341a",
+        "CH_SYMBOL": "NAUKRI",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 7513.5,
+        "CH_TRADE_LOW_PRICE": 7305,
+        "CH_OPENING_PRICE": 7499,
+        "CH_CLOSING_PRICE": 7455.15,
+        "CH_LAST_TRADED_PRICE": 7450,
+        "CH_PREVIOUS_CLS_PRICE": 7457.75,
+        "CH_TOT_TRADED_QTY": 450827,
+        "CH_TOT_TRADED_VAL": 3356518901.95,
+        "CH_52WEEK_HIGH_PRICE": 9128.9,
+        "CH_52WEEK_LOW_PRICE": 4862.2,
+        "CH_TOTAL_TRADES": 56112,
+        "CH_ISIN": "INE663F01024",
+        "createdAt": "2025-01-15T12:01:03.620Z",
+        "updatedAt": "2025-01-15T12:01:03.620Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 280346,
+        "COP_DELIV_PERC": 62.18,
+        "VWAP": 7445.25,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

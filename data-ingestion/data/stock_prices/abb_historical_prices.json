@@ -19069,5 +19069,32 @@
         "COP_DELIV_PERC": 54.25,
         "VWAP": 6137.28,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f2fdc",
+        "CH_SYMBOL": "ABB",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 6229.95,
+        "CH_TRADE_LOW_PRICE": 6106.7,
+        "CH_OPENING_PRICE": 6190.45,
+        "CH_CLOSING_PRICE": 6193.75,
+        "CH_LAST_TRADED_PRICE": 6190,
+        "CH_PREVIOUS_CLS_PRICE": 6146.6,
+        "CH_TOT_TRADED_QTY": 252993,
+        "CH_TOT_TRADED_VAL": 1559589382.7,
+        "CH_52WEEK_HIGH_PRICE": 9149.95,
+        "CH_52WEEK_LOW_PRICE": 4340.3,
+        "CH_TOTAL_TRADES": 45504,
+        "CH_ISIN": "INE117A01022",
+        "createdAt": "2025-01-15T12:01:03.228Z",
+        "updatedAt": "2025-01-15T12:01:03.228Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 125612,
+        "COP_DELIV_PERC": 49.65,
+        "VWAP": 6164.56,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

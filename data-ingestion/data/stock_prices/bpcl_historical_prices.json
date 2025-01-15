@@ -19213,5 +19213,32 @@
         "COP_DELIV_PERC": 51.91,
         "VWAP": 269.29,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37fa08366c8d01f3013",
+        "CH_SYMBOL": "BPCL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 275.9,
+        "CH_TRADE_LOW_PRICE": 265.25,
+        "CH_OPENING_PRICE": 273.9,
+        "CH_CLOSING_PRICE": 267,
+        "CH_LAST_TRADED_PRICE": 267.8,
+        "CH_PREVIOUS_CLS_PRICE": 270.2,
+        "CH_TOT_TRADED_QTY": 13448052,
+        "CH_TOT_TRADED_VAL": 3632445629.25,
+        "CH_52WEEK_HIGH_PRICE": 687.95,
+        "CH_52WEEK_LOW_PRICE": 264.25,
+        "CH_TOTAL_TRADES": 118092,
+        "CH_ISIN": "INE029A01011",
+        "createdAt": "2025-01-15T12:01:03.248Z",
+        "updatedAt": "2025-01-15T12:01:03.248Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 8094033,
+        "COP_DELIV_PERC": 60.19,
+        "VWAP": 270.11,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

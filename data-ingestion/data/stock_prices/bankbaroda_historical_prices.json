@@ -19069,5 +19069,32 @@
         "COP_DELIV_PERC": 44.16,
         "VWAP": 223.05,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f2546",
+        "CH_SYMBOL": "BANKBARODA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 225.89,
+        "CH_TRADE_LOW_PRICE": 221.25,
+        "CH_OPENING_PRICE": 224.88,
+        "CH_CLOSING_PRICE": 222.02,
+        "CH_LAST_TRADED_PRICE": 222,
+        "CH_PREVIOUS_CLS_PRICE": 223.72,
+        "CH_TOT_TRADED_QTY": 8409931,
+        "CH_TOT_TRADED_VAL": 1879435064.72,
+        "CH_52WEEK_HIGH_PRICE": 299.7,
+        "CH_52WEEK_LOW_PRICE": 216.35,
+        "CH_TOTAL_TRADES": 52607,
+        "CH_ISIN": "INE028A01039",
+        "createdAt": "2025-01-15T12:01:02.288Z",
+        "updatedAt": "2025-01-15T12:01:02.288Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3279029,
+        "COP_DELIV_PERC": 38.99,
+        "VWAP": 223.48,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

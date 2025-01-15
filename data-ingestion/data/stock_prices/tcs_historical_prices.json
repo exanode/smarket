@@ -19249,5 +19249,32 @@
         "COP_DELIV_PERC": 71.8,
         "VWAP": 4252.06,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a380a08366c8d01f387a",
+        "CH_SYMBOL": "TCS",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 4256.45,
+        "CH_TRADE_LOW_PRICE": 4207.45,
+        "CH_OPENING_PRICE": 4218,
+        "CH_CLOSING_PRICE": 4249.6,
+        "CH_LAST_TRADED_PRICE": 4255.4,
+        "CH_PREVIOUS_CLS_PRICE": 4233.05,
+        "CH_TOT_TRADED_QTY": 1653474,
+        "CH_TOT_TRADED_VAL": 6993667215.6,
+        "CH_52WEEK_HIGH_PRICE": 4592.25,
+        "CH_52WEEK_LOW_PRICE": 3591.5,
+        "CH_TOTAL_TRADES": 130857,
+        "CH_ISIN": "INE467B01029",
+        "createdAt": "2025-01-15T12:01:04.036Z",
+        "updatedAt": "2025-01-15T12:01:04.036Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1186396,
+        "COP_DELIV_PERC": 71.75,
+        "VWAP": 4229.68,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

@@ -19051,5 +19051,32 @@
         "COP_DELIV_PERC": 56.16,
         "VWAP": 1444.19,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f24ea",
+        "CH_SYMBOL": "CIPLA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1455,
+        "CH_TRADE_LOW_PRICE": 1429.85,
+        "CH_OPENING_PRICE": 1454.95,
+        "CH_CLOSING_PRICE": 1447.2,
+        "CH_LAST_TRADED_PRICE": 1448,
+        "CH_PREVIOUS_CLS_PRICE": 1447.75,
+        "CH_TOT_TRADED_QTY": 1126634,
+        "CH_TOT_TRADED_VAL": 1628201412.85,
+        "CH_52WEEK_HIGH_PRICE": 1702.05,
+        "CH_52WEEK_LOW_PRICE": 1267.9,
+        "CH_TOTAL_TRADES": 58670,
+        "CH_ISIN": "INE059A01026",
+        "createdAt": "2025-01-15T12:01:02.257Z",
+        "updatedAt": "2025-01-15T12:01:02.257Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 677083,
+        "COP_DELIV_PERC": 60.1,
+        "VWAP": 1445.19,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]

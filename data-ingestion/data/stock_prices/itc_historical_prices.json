@@ -19105,5 +19105,32 @@
         "COP_DELIV_PERC": 63.73,
         "VWAP": 438.04,
         "mTIMESTAMP": "14-Jan-2025"
+    },
+    {
+        "_id": "6787a37ea08366c8d01f2586",
+        "CH_SYMBOL": "ITC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-01-15",
+        "TIMESTAMP": "2025-01-14T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 441.8,
+        "CH_TRADE_LOW_PRICE": 435.35,
+        "CH_OPENING_PRICE": 436.6,
+        "CH_CLOSING_PRICE": 437.35,
+        "CH_LAST_TRADED_PRICE": 437,
+        "CH_PREVIOUS_CLS_PRICE": 436.6,
+        "CH_TOT_TRADED_QTY": 9786805,
+        "CH_TOT_TRADED_VAL": 4286512512.75,
+        "CH_52WEEK_HIGH_PRICE": 461.75,
+        "CH_52WEEK_LOW_PRICE": 435,
+        "CH_TOTAL_TRADES": 123376,
+        "CH_ISIN": "INE154A01025",
+        "createdAt": "2025-01-15T12:01:02.307Z",
+        "updatedAt": "2025-01-15T12:01:02.307Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 6253307,
+        "COP_DELIV_PERC": 63.9,
+        "VWAP": 437.99,
+        "mTIMESTAMP": "15-Jan-2025"
     }
 ]
