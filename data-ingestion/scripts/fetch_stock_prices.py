@@ -2,6 +2,7 @@ import os
 import argparse
 from datetime import datetime, timedelta
 from typing import Optional
+from urllib.parse import quote
 
 from utils.api_helpers import load_api_config, fetch_historical_security_archives, save_json_to_file
 
@@ -80,8 +81,12 @@ def main():
         # Default: Today
         to_date = datetime.now().strftime("%d-%m-%Y")
 
+
+    # Encode the symbol to handle special characters
+    encoded_symbol = quote(args.symbol)
+
     # Fetch historical stock prices
-    data = fetch_historical_security_archives(api_config, args.symbol, from_date, to_date)
+    data = fetch_historical_security_archives(api_config, encoded_symbol, from_date, to_date)
 
     if data:
         output_path = args.output.format(symbol=args.symbol.upper())
