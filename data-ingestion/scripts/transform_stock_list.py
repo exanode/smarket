@@ -88,15 +88,18 @@ def main():
         required=True,
         help="Path to the original stock list JSON"
     )
-    parser.add_argument(
-        "--output",
-        required=True,
-        help="Path to the flattened output JSON"
-    )
+    
     args = parser.parse_args()
 
     input_file = args.input
-    output_file = args.output
+
+    if not os.path.isfile(input_file):
+            logger.error("Provided input path is not a valid file: %s", input_file)
+            return
+    
+    input_dir = os.path.dirname(input_file)
+    input_basename = os.path.basename(input_file)
+    output_file = os.path.join(input_dir, f"transformed_{input_basename}")
 
     # 1) Load the original data
     stock_list = load_json_file(input_file)

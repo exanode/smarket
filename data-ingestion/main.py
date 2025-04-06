@@ -3,7 +3,7 @@ import json
 import logging
 import subprocess
 from datetime import datetime, timedelta
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 from logging.handlers import RotatingFileHandler
 
 ###############################################################################
@@ -319,15 +319,14 @@ def run_fetch_stock_prices(symbol: str, from_date: str, to_date: str, output_pat
         os.remove(temp_output_path)
 
 
-def run_transform_stock_list(input_file: str, output_file: str) -> None:
+def run_transform_stock_list(input_file: str) -> None:
     """
     Transform the raw stock list (flatten fields, rename columns, etc.)
     """
-    description = f"Transforming stock list {input_file} => {output_file}"
+    description = f"Transforming stock list {input_file}"
     command = [
         "python", "scripts/transform_stock_list.py",
-        "--input", input_file,
-        "--output", output_file
+        "--input", input_file
     ]
     run_command(command, description)
 
@@ -401,60 +400,187 @@ def fetch_stock_list_step(config: Dict[str, Any]) -> str:
 
 def fetch_stock_prices_step(stock_names: List[str], config: Dict[str, Any]) -> None:
     """
-    Fetch prices for each symbol, merging new data with existing data.
-    Resumes from metadata if available.
-
+    Intelligently fetch historical stock prices by identifying and downloading only missing data chunks.
+    
+    This function handles the complex process of fetching historical stock price data while:
+    1. Respecting stock listing dates to avoid requesting invalid pre-listing data
+    2. Identifying gaps in existing data and filling them efficiently
+    3. Updating only the required date ranges to minimize API usage and processing time
+    4. Handling edge cases and providing detailed logging
+    
     Args:
-        stock_names (List[str]): List of stock symbols.
-        config (Dict[str, Any]): Configuration dictionary.
+        stock_names: List of stock symbols to fetch data for
+        config: Configuration dictionary containing:
+            - price_fetch_settings: Dictionary with optional 'from_date' and 'to_date' 
+              in 'YYYY-MM-DD' format
+            - output_paths: Dictionary with 'stock_prices' template containing {symbol} placeholder
+    
+    Returns:
+        None: Results are saved to disk at paths specified in config
+    
+    Raises:
+        ValueError: If config is missing required fields or contains invalid values
     """
+    if not stock_names:
+        logger.warning("No stock symbols provided. Skipping price fetch.")
+        return
+    
+    # Validate config structure
+    if not isinstance(config, dict):
+        raise ValueError("Config must be a dictionary")
+    
+    price_settings = config.get("price_fetch_settings", {})
+    if not isinstance(price_settings, dict):
+        raise ValueError("price_fetch_settings must be a dictionary")
+    
+    output_paths = config.get("output_paths", {})
+    if not isinstance(output_paths, dict) or "stock_prices" not in output_paths:
+        raise ValueError("config must contain 'output_paths' with 'stock_prices' template")
+    
     logger.info("Fetching stock prices for %d symbols...", len(stock_names))
-
     today = datetime.now()
-    from_date = get_date_or_default(
-        config["price_fetch_settings"].get("from_date", ""), 
-        DEFAULT_EARLIEST_DATE
-    )
-    to_date = get_date_or_default(
-        config["price_fetch_settings"].get("to_date", ""), 
-        today.strftime(DATE_FMT)
-    )
-
+    
+    # Parse date ranges from config with validation
+    try:
+        from_date = get_date_or_default(
+            price_settings.get("from_date", ""), 
+            DEFAULT_EARLIEST_DATE
+        )
+        to_date = get_date_or_default(
+            price_settings.get("to_date", ""), 
+            today
+        )
+    except ValueError as e:
+        logger.error("Date parsing error: %s", str(e))
+        raise
+    
+    # Load metadata with error handling
     metadata_file_path = "symbol_metadata.json"
-    metadata_dict = load_symbol_metadata(metadata_file_path)
-
+    try:
+        metadata_dict = load_symbol_metadata(metadata_file_path)
+    except Exception as e:
+        logger.error("Failed to load metadata from %s: %s", metadata_file_path, str(e))
+        metadata_dict = {}
+    
+    processed_count = 0
+    error_count = 0
+    
     for symbol in stock_names:
-        # Build output path for each symbol
-        stock_prices_template = config["output_paths"]["stock_prices"]
-        output_path = stock_prices_template.format(symbol=symbol.upper()).lower()
-
-        # Determine start date from metadata
-        md_entry = metadata_dict.get(symbol, {})
-        if md_entry and md_entry.get("end_date"):
-            try:
-                # metadata end_date is 'YYYY-MM-DD'
-                last_fetched = datetime.strptime(md_entry["end_date"], DATE_FMT)
-                start_date = last_fetched + timedelta(days=1)
-            except ValueError:
-                logger.warning(
-                    "Invalid end_date in metadata for %s. Using config from_date.", symbol
+        try:
+            # Normalize symbol case
+            normalized_symbol = symbol.upper()
+            
+            # Build output path for each symbol
+            stock_prices_template = output_paths["stock_prices"]
+            output_path = stock_prices_template.format(symbol=normalized_symbol).lower()
+            
+            # Extract metadata for this symbol
+            md_entry = metadata_dict.get(normalized_symbol, {})
+            
+            # Determine effective date range accounting for listing date
+            listing_date = get_date_or_default(md_entry.get("listing_date", ""), DEFAULT_EARLIEST_DATE)
+            effective_start = max(from_date, listing_date)
+            effective_end = min(to_date, today)
+            
+            if effective_start > effective_end:
+                logger.info(
+                    "No valid date range for %s: listing_date=%s, requested range=[%s, %s]",
+                    normalized_symbol, 
+                    listing_date.strftime(DATE_FMT),
+                    from_date.strftime(DATE_FMT), 
+                    to_date.strftime(DATE_FMT)
                 )
-                start_date = from_date
-        else:
-            start_date = from_date
+                continue
+            
+            # Parse existing data ranges
+            fetched_start = None
+            fetched_end = None
+            if md_entry:
+                try:
+                    if md_entry.get("start_date"):
+                        fetched_start = datetime.strptime(md_entry["start_date"], DATE_FMT)
+                    if md_entry.get("end_date"):
+                        fetched_end = datetime.strptime(md_entry["end_date"], DATE_FMT)
+                except ValueError as e:
+                    logger.warning(
+                        "Invalid date format in metadata for %s: %s. Treating as no data.",
+                        normalized_symbol, str(e)
+                    )
+            
+            # Calculate date ranges that need to be fetched
+            ranges_to_fetch = calculate_missing_ranges(
+                effective_start, effective_end, fetched_start, fetched_end
+            )
+            
+            if not ranges_to_fetch:
+                logger.info(
+                    "Data for %s is already up to date (range %s to %s)",
+                    normalized_symbol,
+                    effective_start.strftime(DATE_FMT),
+                    effective_end.strftime(DATE_FMT)
+                )
+                continue
+            
+            # Fetch each missing range
+            for start, end in ranges_to_fetch:
+                logger.info(
+                    "Fetching %s: %s to %s", 
+                    normalized_symbol, 
+                    start.strftime(DATE_FMT), 
+                    end.strftime(DATE_FMT)
+                )
+                fetch_stock_prices_by_dates(normalized_symbol, start, end, output_path)
+            
+            processed_count += 1
+            
+        except Exception as e:
+            logger.error(
+                "Error processing %s: %s", 
+                symbol, str(e), 
+                exc_info=True
+            )
+            error_count += 1
+    
+    logger.info(
+        "Completed fetching stock prices. Successfully processed: %d, Errors: %d", 
+        processed_count, error_count
+    )
 
-        # Ensure we don't fetch beyond 'today'
-        end_date = min(to_date, today)
 
-        if start_date > end_date:
-            logger.info("No new data to fetch for %s (start_date=%s, end_date=%s).",
-                        symbol, start_date.strftime(DATE_FMT), end_date.strftime(DATE_FMT))
-            continue
-
-        # Fetch in yearly chunks
-        fetch_stock_prices_by_dates(symbol, start_date, end_date, output_path)
-
-    logger.info("Completed fetching stock prices for all symbols.")
+def calculate_missing_ranges(
+    effective_start: datetime, 
+    effective_end: datetime, 
+    fetched_start: Optional[datetime], 
+    fetched_end: Optional[datetime]
+) -> List[Tuple[datetime, datetime]]:
+    """
+    Calculate which date ranges need to be fetched based on requested and existing data.
+    
+    Args:
+        effective_start: The earliest date to consider fetching from
+        effective_end: The latest date to consider fetching to
+        fetched_start: The start date of data already fetched (None if no data)
+        fetched_end: The end date of data already fetched (None if no data)
+    
+    Returns:
+        List of (start_date, end_date) tuples representing ranges that need fetching
+    """
+    ranges_to_fetch = []
+    
+    # Case: No existing data
+    if fetched_start is None or fetched_end is None:
+        ranges_to_fetch.append((effective_start, effective_end))
+        return ranges_to_fetch
+    
+    # Case: Need to fetch data before existing data
+    if effective_start < fetched_start:
+        ranges_to_fetch.append((effective_start, fetched_start - timedelta(days=1)))
+    
+    # Case: Need to fetch data after existing data
+    if effective_end > fetched_end:
+        ranges_to_fetch.append((fetched_end + timedelta(days=1), effective_end))
+        
+    return ranges_to_fetch
 
 ###############################################################################
 # Main Entry Point
@@ -502,8 +628,7 @@ def main() -> None:
     fetch_stock_prices_step(stock_names, config)
 
     # Step 4: Transform the fetched stock list
-    transformed_stock_list_path = config["output_paths"]["transformed_stock_list"]
-    run_transform_stock_list(stock_list_path, transformed_stock_list_path)
+    run_transform_stock_list(stock_list_path)
 
     # Step 5: Populate/update metadata
     metadata_file_path = "symbol_metadata.json"

@@ -2,7 +2,7 @@
     "index_name": "NIFTY 100",
     "output_paths": {
         "stock_list": "data/indices/{index_name}_stock_list.json",
-        "transformed_stock_list": "data/indices/transformed_stock_list.json",
+        "transformed_stock_list": "data/indices/transformed_{index_name}_stock_list.json",
         "stock_prices": "data/stock_prices/{symbol}_historical_prices.json",
         "stock_names": "data/stock_names.json"
     },

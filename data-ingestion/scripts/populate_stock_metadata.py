@@ -266,7 +266,7 @@ def main():
     logger.info("Loaded config from %s", args.config)
 
     index_name = config["index_name"]
-    stock_list_path = config["output_paths"]["transformed_stock_list"]
+    stock_list_path = config["output_paths"]["transformed_stock_list"].format(index_name=index_name).replace(" ","_")
     prices_template = config["output_paths"]["stock_prices"]  # e.g. "data/stock_prices/{symbol}_historical_prices.json"
 
     # 2) Load the index stock list JSON
