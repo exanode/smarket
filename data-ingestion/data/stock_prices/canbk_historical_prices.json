@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 36.3,
         "VWAP": 93.3,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5f46",
+        "CH_SYMBOL": "CANBK",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 94.8,
+        "CH_TRADE_LOW_PRICE": 89.7,
+        "CH_OPENING_PRICE": 94.41,
+        "CH_CLOSING_PRICE": 90.39,
+        "CH_LAST_TRADED_PRICE": 90.6,
+        "CH_PREVIOUS_CLS_PRICE": 94.38,
+        "CH_TOT_TRADED_QTY": 33552098,
+        "CH_TOT_TRADED_VAL": 3076689101.25,
+        "CH_52WEEK_HIGH_PRICE": 632.9,
+        "CH_52WEEK_LOW_PRICE": 78.6,
+        "CH_TOTAL_TRADES": 96386,
+        "CH_ISIN": "INE476A01022",
+        "createdAt": "2025-04-04T12:01:04.595Z",
+        "updatedAt": "2025-04-04T12:01:04.595Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 14262402,
+        "COP_DELIV_PERC": 42.51,
+        "VWAP": 91.7,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

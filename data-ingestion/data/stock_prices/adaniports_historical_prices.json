@@ -20554,5 +20554,32 @@
         "COP_DELIV_PERC": 31.58,
         "VWAP": 1195.41,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e6807",
+        "CH_SYMBOL": "ADANIPORTS",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1200.1,
+        "CH_TRADE_LOW_PRICE": 1143,
+        "CH_OPENING_PRICE": 1196,
+        "CH_CLOSING_PRICE": 1148.35,
+        "CH_LAST_TRADED_PRICE": 1152,
+        "CH_PREVIOUS_CLS_PRICE": 1199.9,
+        "CH_TOT_TRADED_QTY": 1785093,
+        "CH_TOT_TRADED_VAL": 2074931546.6,
+        "CH_52WEEK_HIGH_PRICE": 1621.4,
+        "CH_52WEEK_LOW_PRICE": 995.65,
+        "CH_TOTAL_TRADES": 80561,
+        "CH_ISIN": "INE742F01042",
+        "createdAt": "2025-04-04T12:01:05.462Z",
+        "updatedAt": "2025-04-04T12:01:05.462Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 696314,
+        "COP_DELIV_PERC": 39.01,
+        "VWAP": 1162.37,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

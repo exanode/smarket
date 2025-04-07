@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 36.16,
         "VWAP": 154.44,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef2551e",
+        "CH_SYMBOL": "TATASTEEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 152.99,
+        "CH_TRADE_LOW_PRICE": 140,
+        "CH_OPENING_PRICE": 152.62,
+        "CH_CLOSING_PRICE": 140.39,
+        "CH_LAST_TRADED_PRICE": 140.67,
+        "CH_PREVIOUS_CLS_PRICE": 153.62,
+        "CH_TOT_TRADED_QTY": 80846143,
+        "CH_TOT_TRADED_VAL": 11589598417.4,
+        "CH_52WEEK_HIGH_PRICE": 184.6,
+        "CH_52WEEK_LOW_PRICE": 122.62,
+        "CH_TOTAL_TRADES": 439854,
+        "CH_ISIN": "INE081A01020",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.477Z",
+        "updatedAt": "2025-04-04T12:00:34.477Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 43389776,
+        "COP_DELIV_PERC": 53.67,
+        "VWAP": 143.35,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

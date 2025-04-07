@@ -20770,5 +20770,32 @@
         "COP_DELIV_PERC": 64.44,
         "VWAP": 295.98,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e513e",
+        "CH_SYMBOL": "POWERGRID",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 300.9,
+        "CH_TRADE_LOW_PRICE": 292.1,
+        "CH_OPENING_PRICE": 300,
+        "CH_CLOSING_PRICE": 293.9,
+        "CH_LAST_TRADED_PRICE": 294.3,
+        "CH_PREVIOUS_CLS_PRICE": 299.1,
+        "CH_TOT_TRADED_QTY": 21020875,
+        "CH_TOT_TRADED_VAL": 6234790959.5,
+        "CH_52WEEK_HIGH_PRICE": 366.25,
+        "CH_52WEEK_LOW_PRICE": 247.3,
+        "CH_TOTAL_TRADES": 133590,
+        "CH_ISIN": "INE752E01010",
+        "createdAt": "2025-04-04T12:01:03.230Z",
+        "updatedAt": "2025-04-04T12:01:03.230Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 14452453,
+        "COP_DELIV_PERC": 68.75,
+        "VWAP": 296.6,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

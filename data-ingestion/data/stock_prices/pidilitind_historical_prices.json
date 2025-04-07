@@ -20572,5 +20572,32 @@
         "COP_DELIV_PERC": 61.84,
         "VWAP": 2848.9,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e1123f84d3eef24f94",
+        "CH_SYMBOL": "PIDILITIND",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 2904,
+        "CH_TRADE_LOW_PRICE": 2851.5,
+        "CH_OPENING_PRICE": 2865,
+        "CH_CLOSING_PRICE": 2892,
+        "CH_LAST_TRADED_PRICE": 2903,
+        "CH_PREVIOUS_CLS_PRICE": 2861.5,
+        "CH_TOT_TRADED_QTY": 446499,
+        "CH_TOT_TRADED_VAL": 1283533466.7,
+        "CH_52WEEK_HIGH_PRICE": 3415,
+        "CH_52WEEK_LOW_PRICE": 2622.2,
+        "CH_TOTAL_TRADES": 30060,
+        "CH_ISIN": "INE318A01026",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:33.203Z",
+        "updatedAt": "2025-04-04T12:00:33.203Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 213497,
+        "COP_DELIV_PERC": 47.82,
+        "VWAP": 2874.66,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

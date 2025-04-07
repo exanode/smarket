@@ -19600,5 +19600,32 @@
         "COP_DELIV_PERC": 73.26,
         "VWAP": 5004.4,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e3123f84d3eef257bd",
+        "CH_SYMBOL": "INDIGO",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 5150,
+        "CH_TRADE_LOW_PRICE": 5045,
+        "CH_OPENING_PRICE": 5055.95,
+        "CH_CLOSING_PRICE": 5098.9,
+        "CH_LAST_TRADED_PRICE": 5099,
+        "CH_PREVIOUS_CLS_PRICE": 5003.6,
+        "CH_TOT_TRADED_QTY": 1413600,
+        "CH_TOT_TRADED_VAL": 7208739420.45,
+        "CH_52WEEK_HIGH_PRICE": 5190.35,
+        "CH_52WEEK_LOW_PRICE": 3441.05,
+        "CH_TOTAL_TRADES": 140035,
+        "CH_ISIN": "INE646L01027",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:35.136Z",
+        "updatedAt": "2025-04-04T12:00:35.136Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 530473,
+        "COP_DELIV_PERC": 37.53,
+        "VWAP": 5099.56,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

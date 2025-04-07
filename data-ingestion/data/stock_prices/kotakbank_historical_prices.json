@@ -20518,5 +20518,32 @@
         "COP_DELIV_PERC": 72.01,
         "VWAP": 2135.58,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5fe1",
+        "CH_SYMBOL": "KOTAKBANK",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 2146.3,
+        "CH_TRADE_LOW_PRICE": 2118.15,
+        "CH_OPENING_PRICE": 2130.9,
+        "CH_CLOSING_PRICE": 2131.95,
+        "CH_LAST_TRADED_PRICE": 2132.1,
+        "CH_PREVIOUS_CLS_PRICE": 2132.6,
+        "CH_TOT_TRADED_QTY": 3788403,
+        "CH_TOT_TRADED_VAL": 8068277988.85,
+        "CH_52WEEK_HIGH_PRICE": 2202.5,
+        "CH_52WEEK_LOW_PRICE": 1543.85,
+        "CH_TOTAL_TRADES": 206429,
+        "CH_ISIN": "INE237A01028",
+        "createdAt": "2025-04-04T12:01:04.656Z",
+        "updatedAt": "2025-04-04T12:01:04.656Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2778185,
+        "COP_DELIV_PERC": 73.33,
+        "VWAP": 2129.73,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20806,5 +20806,32 @@
         "COP_DELIV_PERC": 50.99,
         "VWAP": 1449.52,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e67ab",
+        "CH_SYMBOL": "CHOLAFIN",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1462.65,
+        "CH_TRADE_LOW_PRICE": 1433.05,
+        "CH_OPENING_PRICE": 1445,
+        "CH_CLOSING_PRICE": 1453.3,
+        "CH_LAST_TRADED_PRICE": 1451.3,
+        "CH_PREVIOUS_CLS_PRICE": 1445.45,
+        "CH_TOT_TRADED_QTY": 1303321,
+        "CH_TOT_TRADED_VAL": 1889760779.9,
+        "CH_52WEEK_HIGH_PRICE": 1652,
+        "CH_52WEEK_LOW_PRICE": 1100.5,
+        "CH_TOTAL_TRADES": 65291,
+        "CH_ISIN": "INE121A01024",
+        "createdAt": "2025-04-04T12:01:05.426Z",
+        "updatedAt": "2025-04-04T12:01:05.426Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 682555,
+        "COP_DELIV_PERC": 52.37,
+        "VWAP": 1449.96,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20590,5 +20590,32 @@
         "COP_DELIV_PERC": 70.81,
         "VWAP": 1746.33,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef25455",
+        "CH_SYMBOL": "BHARTIARTL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1770.8,
+        "CH_TRADE_LOW_PRICE": 1740,
+        "CH_OPENING_PRICE": 1754.5,
+        "CH_CLOSING_PRICE": 1743.45,
+        "CH_LAST_TRADED_PRICE": 1740.5,
+        "CH_PREVIOUS_CLS_PRICE": 1746,
+        "CH_TOT_TRADED_QTY": 7817334,
+        "CH_TOT_TRADED_VAL": 13704722222.15,
+        "CH_52WEEK_HIGH_PRICE": 1779,
+        "CH_52WEEK_LOW_PRICE": 1183.1,
+        "CH_TOTAL_TRADES": 258867,
+        "CH_ISIN": "INE397D01024",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.279Z",
+        "updatedAt": "2025-04-04T12:00:34.279Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 6061460,
+        "COP_DELIV_PERC": 77.54,
+        "VWAP": 1753.12,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20518,5 +20518,32 @@
         "COP_DELIV_PERC": 28.46,
         "VWAP": 528.48,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e667a",
+        "CH_SYMBOL": "ADANIPOWER",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 539.9,
+        "CH_TRADE_LOW_PRICE": 521.7,
+        "CH_OPENING_PRICE": 528,
+        "CH_CLOSING_PRICE": 532.55,
+        "CH_LAST_TRADED_PRICE": 533.1,
+        "CH_PREVIOUS_CLS_PRICE": 528.85,
+        "CH_TOT_TRADED_QTY": 8941177,
+        "CH_TOT_TRADED_VAL": 4745976052.5,
+        "CH_52WEEK_HIGH_PRICE": 895.85,
+        "CH_52WEEK_LOW_PRICE": 432,
+        "CH_TOTAL_TRADES": 144037,
+        "CH_ISIN": "INE814H01011",
+        "createdAt": "2025-04-04T12:01:05.304Z",
+        "updatedAt": "2025-04-04T12:01:05.304Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2201850,
+        "COP_DELIV_PERC": 24.63,
+        "VWAP": 530.8,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

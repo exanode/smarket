@@ -20770,5 +20770,32 @@
         "COP_DELIV_PERC": 51.51,
         "VWAP": 2472.4,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef255fe",
+        "CH_SYMBOL": "TVSMOTOR",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 2550.95,
+        "CH_TRADE_LOW_PRICE": 2450.4,
+        "CH_OPENING_PRICE": 2473.05,
+        "CH_CLOSING_PRICE": 2464.95,
+        "CH_LAST_TRADED_PRICE": 2467.55,
+        "CH_PREVIOUS_CLS_PRICE": 2476.05,
+        "CH_TOT_TRADED_QTY": 567198,
+        "CH_TOT_TRADED_VAL": 1400971912.8,
+        "CH_52WEEK_HIGH_PRICE": 2958,
+        "CH_52WEEK_LOW_PRICE": 1873,
+        "CH_TOTAL_TRADES": 67383,
+        "CH_ISIN": "INE494B01023",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.696Z",
+        "updatedAt": "2025-04-04T12:00:34.696Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 303084,
+        "COP_DELIV_PERC": 53.44,
+        "VWAP": 2469.99,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

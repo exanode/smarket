@@ -15749,5 +15749,32 @@
         "COP_DELIV_PERC": 47.01,
         "VWAP": 692.36,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e568c",
+        "CH_SYMBOL": "HDFCLIFE",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 695,
+        "CH_TRADE_LOW_PRICE": 684.15,
+        "CH_OPENING_PRICE": 687,
+        "CH_CLOSING_PRICE": 689.05,
+        "CH_LAST_TRADED_PRICE": 685.9,
+        "CH_PREVIOUS_CLS_PRICE": 692.9,
+        "CH_TOT_TRADED_QTY": 3867188,
+        "CH_TOT_TRADED_VAL": 2668099430.95,
+        "CH_52WEEK_HIGH_PRICE": 761.2,
+        "CH_52WEEK_LOW_PRICE": 511.4,
+        "CH_TOTAL_TRADES": 65940,
+        "CH_ISIN": "INE795G01014",
+        "createdAt": "2025-04-04T12:01:03.751Z",
+        "updatedAt": "2025-04-04T12:01:03.751Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2318878,
+        "COP_DELIV_PERC": 59.96,
+        "VWAP": 689.93,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

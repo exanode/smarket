@@ -17953,5 +17953,50 @@
         "COP_DELIV_PERC": 60.84,
         "VWAP": 544.27,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e6733",
+        "CH_SYMBOL": "VBL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 545,
+        "CH_TRADE_LOW_PRICE": 530.65,
+        "CH_OPENING_PRICE": 544,
+        "CH_CLOSING_PRICE": 535.45,
+        "CH_LAST_TRADED_PRICE": 536.65,
+        "CH_PREVIOUS_CLS_PRICE": 544.5,
+        "CH_TOT_TRADED_QTY": 3148688,
+        "CH_TOT_TRADED_VAL": 1685428476.8,
+        "CH_52WEEK_HIGH_PRICE": 1702.8,
+        "CH_52WEEK_LOW_PRICE": 419.55,
+        "CH_TOTAL_TRADES": 86906,
+        "CH_ISIN": "INE200M01039",
+        "createdAt": "2025-04-04T12:01:05.380Z",
+        "updatedAt": "2025-04-04T12:01:05.380Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1583071,
+        "COP_DELIV_PERC": 50.28,
+        "VWAP": 535.28,
+        "mTIMESTAMP": "04-Apr-2025",
+        "CA": [
+            {
+                "symbol": "VBL",
+                "series": "EQ",
+                "ind": "-",
+                "faceVal": "2",
+                "subject": "Dividend - Re 0.50 Per Share",
+                "exDate": "04-Apr-2025",
+                "recDate": "04-Apr-2025",
+                "bcStartDate": "-",
+                "bcEndDate": "-",
+                "ndStartDate": "-",
+                "comp": "Varun Beverages Limited",
+                "isin": "INE200M01013",
+                "ndEndDate": "-",
+                "caBroadcastDate": null
+            }
+        ]
     }
 ]

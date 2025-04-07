@@ -20518,5 +20518,32 @@
         "COP_DELIV_PERC": 59.15,
         "VWAP": 3432.72,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5f55",
+        "CH_SYMBOL": "LT",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 3403.8,
+        "CH_TRADE_LOW_PRICE": 3237.3,
+        "CH_OPENING_PRICE": 3400,
+        "CH_CLOSING_PRICE": 3260.15,
+        "CH_LAST_TRADED_PRICE": 3259,
+        "CH_PREVIOUS_CLS_PRICE": 3420.15,
+        "CH_TOT_TRADED_QTY": 2366979,
+        "CH_TOT_TRADED_VAL": 7753393787.4,
+        "CH_52WEEK_HIGH_PRICE": 3963.5,
+        "CH_52WEEK_LOW_PRICE": 3141,
+        "CH_TOTAL_TRADES": 156827,
+        "CH_ISIN": "INE018A01030",
+        "createdAt": "2025-04-04T12:01:04.601Z",
+        "updatedAt": "2025-04-04T12:01:04.601Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1446954,
+        "COP_DELIV_PERC": 61.13,
+        "VWAP": 3275.65,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20734,5 +20734,32 @@
         "COP_DELIV_PERC": 66.67,
         "VWAP": 1477.26,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e6504",
+        "CH_SYMBOL": "HCLTECH",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1456.2,
+        "CH_TRADE_LOW_PRICE": 1419.1,
+        "CH_OPENING_PRICE": 1449,
+        "CH_CLOSING_PRICE": 1422.1,
+        "CH_LAST_TRADED_PRICE": 1427,
+        "CH_PREVIOUS_CLS_PRICE": 1470.1,
+        "CH_TOT_TRADED_QTY": 4421312,
+        "CH_TOT_TRADED_VAL": 6338587669.2,
+        "CH_52WEEK_HIGH_PRICE": 2012.2,
+        "CH_52WEEK_LOW_PRICE": 1235,
+        "CH_TOTAL_TRADES": 196195,
+        "CH_ISIN": "INE860A01027",
+        "createdAt": "2025-04-04T12:01:05.158Z",
+        "updatedAt": "2025-04-04T12:01:05.158Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3017389,
+        "COP_DELIV_PERC": 68.25,
+        "VWAP": 1433.64,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

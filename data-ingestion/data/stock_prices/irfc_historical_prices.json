@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 22.33,
         "VWAP": 128.3,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e64b4",
+        "CH_SYMBOL": "IRFC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 128.71,
+        "CH_TRADE_LOW_PRICE": 124.1,
+        "CH_OPENING_PRICE": 127.62,
+        "CH_CLOSING_PRICE": 124.84,
+        "CH_LAST_TRADED_PRICE": 125.69,
+        "CH_PREVIOUS_CLS_PRICE": 129.16,
+        "CH_TOT_TRADED_QTY": 15394108,
+        "CH_TOT_TRADED_VAL": 1936307255.01,
+        "CH_52WEEK_HIGH_PRICE": 229,
+        "CH_52WEEK_LOW_PRICE": 108.04,
+        "CH_TOTAL_TRADES": 87891,
+        "CH_ISIN": "INE053F01010",
+        "createdAt": "2025-04-04T12:01:05.124Z",
+        "updatedAt": "2025-04-04T12:01:05.124Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 4100415,
+        "COP_DELIV_PERC": 26.64,
+        "VWAP": 125.78,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

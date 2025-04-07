@@ -20609,5 +20609,32 @@
         "COP_DELIV_PERC": 53.74,
         "VWAP": 615.87,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e1123f84d3eef2531f",
+        "CH_SYMBOL": "CGPOWER",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 619.15,
+        "CH_TRADE_LOW_PRICE": 570.75,
+        "CH_OPENING_PRICE": 612.55,
+        "CH_CLOSING_PRICE": 575.2,
+        "CH_LAST_TRADED_PRICE": 580.95,
+        "CH_PREVIOUS_CLS_PRICE": 615.95,
+        "CH_TOT_TRADED_QTY": 4572903,
+        "CH_TOT_TRADED_VAL": 2688740931.65,
+        "CH_52WEEK_HIGH_PRICE": 874.7,
+        "CH_52WEEK_LOW_PRICE": 479.25,
+        "CH_TOTAL_TRADES": 79671,
+        "CH_ISIN": "INE067A01029",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:33.987Z",
+        "updatedAt": "2025-04-04T12:00:33.987Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2712069,
+        "COP_DELIV_PERC": 59.31,
+        "VWAP": 587.97,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

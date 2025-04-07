@@ -20752,5 +20752,32 @@
         "COP_DELIV_PERC": 45.91,
         "VWAP": 257.42,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9fe3274471a0a2e4bb1",
+        "CH_SYMBOL": "WIPRO",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 253.95,
+        "CH_TRADE_LOW_PRICE": 244.85,
+        "CH_OPENING_PRICE": 253,
+        "CH_CLOSING_PRICE": 246.3,
+        "CH_LAST_TRADED_PRICE": 246.95,
+        "CH_PREVIOUS_CLS_PRICE": 256.35,
+        "CH_TOT_TRADED_QTY": 14639785,
+        "CH_TOT_TRADED_VAL": 3624185665.55,
+        "CH_52WEEK_HIGH_PRICE": 596,
+        "CH_52WEEK_LOW_PRICE": 244.85,
+        "CH_TOTAL_TRADES": 131920,
+        "CH_ISIN": "INE075A01022",
+        "createdAt": "2025-04-04T12:01:02.729Z",
+        "updatedAt": "2025-04-04T12:01:02.729Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 7725358,
+        "COP_DELIV_PERC": 52.77,
+        "VWAP": 247.56,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

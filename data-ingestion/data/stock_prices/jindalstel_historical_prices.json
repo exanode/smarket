@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 59.13,
         "VWAP": 904.72,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e6390",
+        "CH_SYMBOL": "JINDALSTEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 908.8,
+        "CH_TRADE_LOW_PRICE": 845,
+        "CH_OPENING_PRICE": 898,
+        "CH_CLOSING_PRICE": 850.1,
+        "CH_LAST_TRADED_PRICE": 852,
+        "CH_PREVIOUS_CLS_PRICE": 905.2,
+        "CH_TOT_TRADED_QTY": 2878135,
+        "CH_TOT_TRADED_VAL": 2480522930,
+        "CH_52WEEK_HIGH_PRICE": 1097,
+        "CH_52WEEK_LOW_PRICE": 723.35,
+        "CH_TOTAL_TRADES": 100409,
+        "CH_ISIN": "INE749A01030",
+        "createdAt": "2025-04-04T12:01:05.014Z",
+        "updatedAt": "2025-04-04T12:01:05.014Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1258966,
+        "COP_DELIV_PERC": 43.74,
+        "VWAP": 861.85,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

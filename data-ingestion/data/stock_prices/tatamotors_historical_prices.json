@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 41.96,
         "VWAP": 659.08,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef255fa",
+        "CH_SYMBOL": "TATAMOTORS",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 650,
+        "CH_TRADE_LOW_PRICE": 610,
+        "CH_OPENING_PRICE": 650,
+        "CH_CLOSING_PRICE": 613.85,
+        "CH_LAST_TRADED_PRICE": 615.1,
+        "CH_PREVIOUS_CLS_PRICE": 653.95,
+        "CH_TOT_TRADED_QTY": 26621179,
+        "CH_TOT_TRADED_VAL": 16504136462.55,
+        "CH_52WEEK_HIGH_PRICE": 1179,
+        "CH_52WEEK_LOW_PRICE": 606.3,
+        "CH_TOTAL_TRADES": 591360,
+        "CH_ISIN": "INE155A01022",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.691Z",
+        "updatedAt": "2025-04-04T12:00:34.691Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 11504869,
+        "COP_DELIV_PERC": 43.22,
+        "VWAP": 619.96,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

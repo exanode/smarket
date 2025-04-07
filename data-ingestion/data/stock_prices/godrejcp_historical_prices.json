@@ -20644,5 +20644,32 @@
         "COP_DELIV_PERC": 58.12,
         "VWAP": 1163.52,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5f8a",
+        "CH_SYMBOL": "GODREJCP",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1173.45,
+        "CH_TRADE_LOW_PRICE": 1142.95,
+        "CH_OPENING_PRICE": 1169.5,
+        "CH_CLOSING_PRICE": 1156.6,
+        "CH_LAST_TRADED_PRICE": 1156.95,
+        "CH_PREVIOUS_CLS_PRICE": 1162.05,
+        "CH_TOT_TRADED_QTY": 893054,
+        "CH_TOT_TRADED_VAL": 1031609642,
+        "CH_52WEEK_HIGH_PRICE": 1541.85,
+        "CH_52WEEK_LOW_PRICE": 979.5,
+        "CH_TOTAL_TRADES": 41070,
+        "CH_ISIN": "INE102D01028",
+        "createdAt": "2025-04-04T12:01:04.621Z",
+        "updatedAt": "2025-04-04T12:01:04.621Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 469434,
+        "COP_DELIV_PERC": 52.57,
+        "VWAP": 1155.15,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

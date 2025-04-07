@@ -20518,5 +20518,32 @@
         "COP_DELIV_PERC": 39.81,
         "VWAP": 829.85,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e5611",
+        "CH_SYMBOL": "INDHOTEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 834.8,
+        "CH_TRADE_LOW_PRICE": 796,
+        "CH_OPENING_PRICE": 831.05,
+        "CH_CLOSING_PRICE": 799.35,
+        "CH_LAST_TRADED_PRICE": 799,
+        "CH_PREVIOUS_CLS_PRICE": 831.05,
+        "CH_TOT_TRADED_QTY": 3294067,
+        "CH_TOT_TRADED_VAL": 2660026468.65,
+        "CH_52WEEK_HIGH_PRICE": 894.9,
+        "CH_52WEEK_LOW_PRICE": 506.45,
+        "CH_TOTAL_TRADES": 64331,
+        "CH_ISIN": "INE053A01029",
+        "createdAt": "2025-04-04T12:01:03.707Z",
+        "updatedAt": "2025-04-04T12:01:03.707Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1818107,
+        "COP_DELIV_PERC": 55.19,
+        "VWAP": 807.52,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

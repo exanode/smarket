@@ -20572,5 +20572,32 @@
         "COP_DELIV_PERC": 58.41,
         "VWAP": 358.07,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5fe6",
+        "CH_SYMBOL": "NTPC",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 358.85,
+        "CH_TRADE_LOW_PRICE": 348.55,
+        "CH_OPENING_PRICE": 358.85,
+        "CH_CLOSING_PRICE": 350.4,
+        "CH_LAST_TRADED_PRICE": 350.85,
+        "CH_PREVIOUS_CLS_PRICE": 358.9,
+        "CH_TOT_TRADED_QTY": 10872963,
+        "CH_TOT_TRADED_VAL": 3833076860.6,
+        "CH_52WEEK_HIGH_PRICE": 448.45,
+        "CH_52WEEK_LOW_PRICE": 292.8,
+        "CH_TOTAL_TRADES": 101700,
+        "CH_ISIN": "INE733E01010",
+        "createdAt": "2025-04-04T12:01:04.657Z",
+        "updatedAt": "2025-04-04T12:01:04.657Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 7239961,
+        "COP_DELIV_PERC": 66.59,
+        "VWAP": 352.53,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

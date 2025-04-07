@@ -16738,5 +16738,32 @@
         "COP_DELIV_PERC": 42.23,
         "VWAP": 4148.12,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e1123f84d3eef252e1",
+        "CH_SYMBOL": "DMART",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 4155,
+        "CH_TRADE_LOW_PRICE": 3943,
+        "CH_OPENING_PRICE": 4155,
+        "CH_CLOSING_PRICE": 4039.9,
+        "CH_LAST_TRADED_PRICE": 4039.95,
+        "CH_PREVIOUS_CLS_PRICE": 4157.8,
+        "CH_TOT_TRADED_QTY": 818952,
+        "CH_TOT_TRADED_VAL": 3291567531.9,
+        "CH_52WEEK_HIGH_PRICE": 5484.85,
+        "CH_52WEEK_LOW_PRICE": 3340,
+        "CH_TOTAL_TRADES": 81013,
+        "CH_ISIN": "INE192R01011",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:33.922Z",
+        "updatedAt": "2025-04-04T12:00:33.922Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 211572,
+        "COP_DELIV_PERC": 25.83,
+        "VWAP": 4019.24,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

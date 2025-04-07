@@ -20536,5 +20536,32 @@
                 "caBroadcastDate": null
             }
         ]
+    },
+    {
+        "_id": "67efc9fe3274471a0a2e465e",
+        "CH_SYMBOL": "UNITDSPR",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 1442.25,
+        "CH_TRADE_LOW_PRICE": 1417.15,
+        "CH_OPENING_PRICE": 1430.1,
+        "CH_CLOSING_PRICE": 1427.35,
+        "CH_LAST_TRADED_PRICE": 1432,
+        "CH_PREVIOUS_CLS_PRICE": 1430.15,
+        "CH_TOT_TRADED_QTY": 500497,
+        "CH_TOT_TRADED_VAL": 715071871.15,
+        "CH_52WEEK_HIGH_PRICE": 1700,
+        "CH_52WEEK_LOW_PRICE": 1111.15,
+        "CH_TOTAL_TRADES": 35009,
+        "CH_ISIN": "INE854D01024",
+        "createdAt": "2025-04-04T12:01:02.259Z",
+        "updatedAt": "2025-04-04T12:01:02.259Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 309358,
+        "COP_DELIV_PERC": 61.81,
+        "VWAP": 1428.72,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

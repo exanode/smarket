@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 38.84,
         "VWAP": 2643.47,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e566d",
+        "CH_SYMBOL": "GRASIM",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 2651.9,
+        "CH_TRADE_LOW_PRICE": 2610.1,
+        "CH_OPENING_PRICE": 2635.1,
+        "CH_CLOSING_PRICE": 2616.9,
+        "CH_LAST_TRADED_PRICE": 2623.75,
+        "CH_PREVIOUS_CLS_PRICE": 2651.9,
+        "CH_TOT_TRADED_QTY": 290533,
+        "CH_TOT_TRADED_VAL": 763849778.4,
+        "CH_52WEEK_HIGH_PRICE": 2877.75,
+        "CH_52WEEK_LOW_PRICE": 2171.6,
+        "CH_TOTAL_TRADES": 26976,
+        "CH_ISIN": "INE047A01021",
+        "createdAt": "2025-04-04T12:01:03.740Z",
+        "updatedAt": "2025-04-04T12:01:03.740Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 157231,
+        "COP_DELIV_PERC": 54.12,
+        "VWAP": 2629.13,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

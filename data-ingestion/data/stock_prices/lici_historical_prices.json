@@ -7306,5 +7306,32 @@
         "COP_DELIV_PERC": 47.94,
         "VWAP": 812.89,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef25670",
+        "CH_SYMBOL": "LICI",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 817.8,
+        "CH_TRADE_LOW_PRICE": 786.5,
+        "CH_OPENING_PRICE": 815.35,
+        "CH_CLOSING_PRICE": 792.15,
+        "CH_LAST_TRADED_PRICE": 794,
+        "CH_PREVIOUS_CLS_PRICE": 815.3,
+        "CH_TOT_TRADED_QTY": 1130431,
+        "CH_TOT_TRADED_VAL": 902338018.95,
+        "CH_52WEEK_HIGH_PRICE": 1222,
+        "CH_52WEEK_LOW_PRICE": 715.3,
+        "CH_TOTAL_TRADES": 38346,
+        "CH_ISIN": "INE0J1Y01017",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.806Z",
+        "updatedAt": "2025-04-04T12:00:34.806Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 516391,
+        "COP_DELIV_PERC": 45.68,
+        "VWAP": 798.22,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

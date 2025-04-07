@@ -20554,5 +20554,32 @@
         "COP_DELIV_PERC": 67.9,
         "VWAP": 1047.93,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef2550a",
+        "CH_SYMBOL": "JSWSTEEL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1038.95,
+        "CH_TRADE_LOW_PRICE": 997.85,
+        "CH_OPENING_PRICE": 1032.3,
+        "CH_CLOSING_PRICE": 1005.75,
+        "CH_LAST_TRADED_PRICE": 1008.35,
+        "CH_PREVIOUS_CLS_PRICE": 1044.05,
+        "CH_TOT_TRADED_QTY": 3818643,
+        "CH_TOT_TRADED_VAL": 3853101814.75,
+        "CH_52WEEK_HIGH_PRICE": 1074.9,
+        "CH_52WEEK_LOW_PRICE": 823.8,
+        "CH_TOTAL_TRADES": 79057,
+        "CH_ISIN": "INE019A01038",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.457Z",
+        "updatedAt": "2025-04-04T12:00:34.457Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2543722,
+        "COP_DELIV_PERC": 66.61,
+        "VWAP": 1009.02,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

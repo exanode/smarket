@@ -20786,5 +20786,32 @@
         "COP_DELIV_PERC": 55.67,
         "VWAP": 183.47,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e1123f84d3eef24f5d",
+        "CH_SYMBOL": "GAIL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 184.9,
+        "CH_TRADE_LOW_PRICE": 175,
+        "CH_OPENING_PRICE": 183.2,
+        "CH_CLOSING_PRICE": 176.61,
+        "CH_LAST_TRADED_PRICE": 177,
+        "CH_PREVIOUS_CLS_PRICE": 183.63,
+        "CH_TOT_TRADED_QTY": 12870074,
+        "CH_TOT_TRADED_VAL": 2296577176.62,
+        "CH_52WEEK_HIGH_PRICE": 246.3,
+        "CH_52WEEK_LOW_PRICE": 150.52,
+        "CH_TOTAL_TRADES": 146793,
+        "CH_ISIN": "INE129A01019",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:33.152Z",
+        "updatedAt": "2025-04-04T12:00:33.152Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 6480079,
+        "COP_DELIV_PERC": 50.35,
+        "VWAP": 178.44,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

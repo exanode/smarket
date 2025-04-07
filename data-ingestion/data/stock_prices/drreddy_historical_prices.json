@@ -20518,5 +20518,32 @@
         "COP_DELIV_PERC": 40.64,
         "VWAP": 1181.31,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef253bb",
+        "CH_SYMBOL": "DRREDDY",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1157.45,
+        "CH_TRADE_LOW_PRICE": 1076.2,
+        "CH_OPENING_PRICE": 1151.8,
+        "CH_CLOSING_PRICE": 1109.95,
+        "CH_LAST_TRADED_PRICE": 1114,
+        "CH_PREVIOUS_CLS_PRICE": 1151.45,
+        "CH_TOT_TRADED_QTY": 5423861,
+        "CH_TOT_TRADED_VAL": 5986709250.8,
+        "CH_52WEEK_HIGH_PRICE": 7107.45,
+        "CH_52WEEK_LOW_PRICE": 1076.2,
+        "CH_TOTAL_TRADES": 206413,
+        "CH_ISIN": "INE089A01031",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.126Z",
+        "updatedAt": "2025-04-04T12:00:34.126Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 2912097,
+        "COP_DELIV_PERC": 53.69,
+        "VWAP": 1103.77,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

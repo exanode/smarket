@@ -20698,5 +20698,32 @@
         "COP_DELIV_PERC": 41.01,
         "VWAP": 3760.69,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e1123f84d3eef25224",
+        "CH_SYMBOL": "HEROMOTOCO",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 3744.95,
+        "CH_TRADE_LOW_PRICE": 3632.55,
+        "CH_OPENING_PRICE": 3744.95,
+        "CH_CLOSING_PRICE": 3659.2,
+        "CH_LAST_TRADED_PRICE": 3662.45,
+        "CH_PREVIOUS_CLS_PRICE": 3753.35,
+        "CH_TOT_TRADED_QTY": 330498,
+        "CH_TOT_TRADED_VAL": 1211681429.75,
+        "CH_52WEEK_HIGH_PRICE": 6246.25,
+        "CH_52WEEK_LOW_PRICE": 3461.6,
+        "CH_TOTAL_TRADES": 46613,
+        "CH_ISIN": "INE158A01026",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:33.757Z",
+        "updatedAt": "2025-04-04T12:00:33.757Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 150365,
+        "COP_DELIV_PERC": 45.5,
+        "VWAP": 3666.23,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

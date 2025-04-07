@@ -20644,5 +20644,32 @@
         "COP_DELIV_PERC": 46.82,
         "VWAP": 11525.89,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e507c",
+        "CH_SYMBOL": "BAJAJHLDNG",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 11639.9,
+        "CH_TRADE_LOW_PRICE": 11201.15,
+        "CH_OPENING_PRICE": 11506.35,
+        "CH_CLOSING_PRICE": 11506.9,
+        "CH_LAST_TRADED_PRICE": 11490,
+        "CH_PREVIOUS_CLS_PRICE": 11499.85,
+        "CH_TOT_TRADED_QTY": 63954,
+        "CH_TOT_TRADED_VAL": 732248787.2,
+        "CH_52WEEK_HIGH_PRICE": 13238,
+        "CH_52WEEK_LOW_PRICE": 7659.95,
+        "CH_TOTAL_TRADES": 21308,
+        "CH_ISIN": "INE118A01012",
+        "createdAt": "2025-04-04T12:01:03.161Z",
+        "updatedAt": "2025-04-04T12:01:03.161Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 35359,
+        "COP_DELIV_PERC": 55.29,
+        "VWAP": 11449.62,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

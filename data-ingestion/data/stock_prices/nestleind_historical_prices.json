@@ -20588,5 +20588,32 @@
         "COP_DELIV_PERC": 55.42,
         "VWAP": 2227.92,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca013274471a0a2e6624",
+        "CH_SYMBOL": "NESTLEIND",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 2282.8,
+        "CH_TRADE_LOW_PRICE": 2217.25,
+        "CH_OPENING_PRICE": 2234,
+        "CH_CLOSING_PRICE": 2262.15,
+        "CH_LAST_TRADED_PRICE": 2258.55,
+        "CH_PREVIOUS_CLS_PRICE": 2245.65,
+        "CH_TOT_TRADED_QTY": 591735,
+        "CH_TOT_TRADED_VAL": 1336252649.85,
+        "CH_52WEEK_HIGH_PRICE": 2778,
+        "CH_52WEEK_LOW_PRICE": 2110,
+        "CH_TOTAL_TRADES": 50526,
+        "CH_ISIN": "INE239A01024",
+        "createdAt": "2025-04-04T12:01:05.269Z",
+        "updatedAt": "2025-04-04T12:01:05.269Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 252139,
+        "COP_DELIV_PERC": 42.61,
+        "VWAP": 2258.19,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

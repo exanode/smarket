@@ -1,1 +1,49 @@
-# Byte-compiled / optimized / DLL files__pycache__/*.py[cod]*$py.class# C extensions*.so# Virtual environmentsenv/.venv/venv/ENV/env.bak/venv.bak/# PyInstallerdist/build/*.spec# Installer logspip-log.txtpip-delete-this-directory.txt# Unit test / coverage resultshtmlcov/.tox/.nox/.coverage.coverage.*.cachenosetests.xmlcoverage.xml*.cover*.py,cover.hypothesis/.pytest_cache/# Django stuff*.loglocal_settings.pydb.sqlite3media/# Flask stuffinstance/.webassets-cache# Scrapy stuff.scrapy# Sphinx documentationdocs/_build/# PyBuildertarget/# Jupyter Notebook.ipynb_checkpoints# IPythonprofile_default/ipython_config.py# pyenv.python-version# mypy.mypy_cache/.dmypy.jsondmypy.json# VS Code / JetBrains IDE settings.idea/.vscode/*.sublime-project*.sublime-workspace# Mac system files.DS_Store# Windows system filesThumbs.dbehthumbs.dbDesktop.ini# Backup and temp files*.bak*.swp*.tmp*.temp*.old*.orig# Secrets, Credentials, and Sensitive Info*.pem*.key*.crt*.envsecrets.jsoncredentials.jsonconfig.json# Docker related*.pid# GitHub Codespaces.devcontainer/codespace.json
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage results
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Secrets, Credentials, and Sensitive Info
+*.pem
+*.key
+*.crt
+*.env
+secrets.json
+credentials.json
+
+# Other entries...
+*.bat

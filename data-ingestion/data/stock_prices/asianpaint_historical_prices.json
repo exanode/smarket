@@ -20626,5 +20626,32 @@
         "COP_DELIV_PERC": 59.59,
         "VWAP": 2339.57,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e577e",
+        "CH_SYMBOL": "ASIANPAINT",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 2363.95,
+        "CH_TRADE_LOW_PRICE": 2302.8,
+        "CH_OPENING_PRICE": 2349.4,
+        "CH_CLOSING_PRICE": 2356.05,
+        "CH_LAST_TRADED_PRICE": 2352.5,
+        "CH_PREVIOUS_CLS_PRICE": 2349.4,
+        "CH_TOT_TRADED_QTY": 1163188,
+        "CH_TOT_TRADED_VAL": 2718599396.85,
+        "CH_52WEEK_HIGH_PRICE": 3394.9,
+        "CH_52WEEK_LOW_PRICE": 2124.75,
+        "CH_TOTAL_TRADES": 59655,
+        "CH_ISIN": "INE021A01026",
+        "createdAt": "2025-04-04T12:01:03.844Z",
+        "updatedAt": "2025-04-04T12:01:03.844Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 720786,
+        "COP_DELIV_PERC": 61.97,
+        "VWAP": 2337.2,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

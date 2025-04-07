@@ -20572,5 +20572,32 @@
         "COP_DELIV_PERC": 28.71,
         "VWAP": 2403.94,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e59e0",
+        "CH_SYMBOL": "ADANIENT",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 2410.05,
+        "CH_TRADE_LOW_PRICE": 2315.5,
+        "CH_OPENING_PRICE": 2394.95,
+        "CH_CLOSING_PRICE": 2334.65,
+        "CH_LAST_TRADED_PRICE": 2336.3,
+        "CH_PREVIOUS_CLS_PRICE": 2410.8,
+        "CH_TOT_TRADED_QTY": 1219733,
+        "CH_TOT_TRADED_VAL": 2859260997.15,
+        "CH_52WEEK_HIGH_PRICE": 3743.9,
+        "CH_52WEEK_LOW_PRICE": 2025,
+        "CH_TOTAL_TRADES": 68843,
+        "CH_ISIN": "INE423A01024",
+        "createdAt": "2025-04-04T12:01:04.076Z",
+        "updatedAt": "2025-04-04T12:01:04.076Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 612656,
+        "COP_DELIV_PERC": 50.23,
+        "VWAP": 2344.17,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20536,5 +20536,32 @@
         "COP_DELIV_PERC": 54.85,
         "VWAP": 3129.58,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e56d4",
+        "CH_SYMBOL": "TITAN",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 3114.9,
+        "CH_TRADE_LOW_PRICE": 3050,
+        "CH_OPENING_PRICE": 3099,
+        "CH_CLOSING_PRICE": 3076.2,
+        "CH_LAST_TRADED_PRICE": 3078,
+        "CH_PREVIOUS_CLS_PRICE": 3127.55,
+        "CH_TOT_TRADED_QTY": 901801,
+        "CH_TOT_TRADED_VAL": 2780382869.15,
+        "CH_52WEEK_HIGH_PRICE": 3867,
+        "CH_52WEEK_LOW_PRICE": 2971.15,
+        "CH_TOTAL_TRADES": 53461,
+        "CH_ISIN": "INE280A01028",
+        "createdAt": "2025-04-04T12:01:03.776Z",
+        "updatedAt": "2025-04-04T12:01:03.776Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 581050,
+        "COP_DELIV_PERC": 64.43,
+        "VWAP": 3083.14,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

@@ -20770,5 +20770,32 @@
         "COP_DELIV_PERC": 43.87,
         "VWAP": 397.29,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e618c",
+        "CH_SYMBOL": "COALINDIA",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 396,
+        "CH_TRADE_LOW_PRICE": 382.6,
+        "CH_OPENING_PRICE": 396,
+        "CH_CLOSING_PRICE": 385.05,
+        "CH_LAST_TRADED_PRICE": 385.5,
+        "CH_PREVIOUS_CLS_PRICE": 397.05,
+        "CH_TOT_TRADED_QTY": 6718760,
+        "CH_TOT_TRADED_VAL": 2596445865.25,
+        "CH_52WEEK_HIGH_PRICE": 543.55,
+        "CH_52WEEK_LOW_PRICE": 349.25,
+        "CH_TOTAL_TRADES": 113957,
+        "CH_ISIN": "INE522F01014",
+        "createdAt": "2025-04-04T12:01:04.820Z",
+        "updatedAt": "2025-04-04T12:01:04.820Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 3813001,
+        "COP_DELIV_PERC": 56.75,
+        "VWAP": 386.45,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

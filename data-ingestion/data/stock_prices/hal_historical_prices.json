@@ -14974,5 +14974,32 @@
         "COP_DELIV_PERC": 30.89,
         "VWAP": 4271.44,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efca003274471a0a2e5d5d",
+        "CH_SYMBOL": "HAL",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 4351.85,
+        "CH_TRADE_LOW_PRICE": 4204,
+        "CH_OPENING_PRICE": 4309.55,
+        "CH_CLOSING_PRICE": 4239.1,
+        "CH_LAST_TRADED_PRICE": 4238,
+        "CH_PREVIOUS_CLS_PRICE": 4319.2,
+        "CH_TOT_TRADED_QTY": 2499556,
+        "CH_TOT_TRADED_VAL": 10671062241.95,
+        "CH_52WEEK_HIGH_PRICE": 5674.75,
+        "CH_52WEEK_LOW_PRICE": 3046.05,
+        "CH_TOTAL_TRADES": 137609,
+        "CH_ISIN": "INE066F01020",
+        "createdAt": "2025-04-04T12:01:04.411Z",
+        "updatedAt": "2025-04-04T12:01:04.411Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 932394,
+        "COP_DELIV_PERC": 37.3,
+        "VWAP": 4269.18,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

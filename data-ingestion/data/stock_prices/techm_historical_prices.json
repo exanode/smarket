@@ -20572,5 +20572,32 @@
         "COP_DELIV_PERC": 53.73,
         "VWAP": 1377.24,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e2123f84d3eef25474",
+        "CH_SYMBOL": "TECHM",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 1359.2,
+        "CH_TRADE_LOW_PRICE": 1318.85,
+        "CH_OPENING_PRICE": 1350,
+        "CH_CLOSING_PRICE": 1320.95,
+        "CH_LAST_TRADED_PRICE": 1322,
+        "CH_PREVIOUS_CLS_PRICE": 1369.35,
+        "CH_TOT_TRADED_QTY": 1757493,
+        "CH_TOT_TRADED_VAL": 2335248622.4,
+        "CH_52WEEK_HIGH_PRICE": 1807.7,
+        "CH_52WEEK_LOW_PRICE": 1162.95,
+        "CH_TOTAL_TRADES": 71252,
+        "CH_ISIN": "INE669C01036",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:34.306Z",
+        "updatedAt": "2025-04-04T12:00:34.306Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1096499,
+        "COP_DELIV_PERC": 62.39,
+        "VWAP": 1328.74,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

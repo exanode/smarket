@@ -14866,5 +14866,32 @@
         "COP_DELIV_PERC": 26.91,
         "VWAP": 950.67,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9e3123f84d3eef257e3",
+        "CH_SYMBOL": "ADANIGREEN",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TRADE_HIGH_PRICE": 956,
+        "CH_TRADE_LOW_PRICE": 917.65,
+        "CH_OPENING_PRICE": 949.95,
+        "CH_CLOSING_PRICE": 923.8,
+        "CH_LAST_TRADED_PRICE": 925.5,
+        "CH_PREVIOUS_CLS_PRICE": 955.3,
+        "CH_TOT_TRADED_QTY": 3226540,
+        "CH_TOT_TRADED_VAL": 3010822781.95,
+        "CH_52WEEK_HIGH_PRICE": 2174.1,
+        "CH_52WEEK_LOW_PRICE": 758,
+        "CH_TOTAL_TRADES": 83956,
+        "CH_ISIN": "INE364U01010",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "createdAt": "2025-04-04T12:00:35.174Z",
+        "updatedAt": "2025-04-04T12:00:35.174Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 1117628,
+        "COP_DELIV_PERC": 34.64,
+        "VWAP": 933.14,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]

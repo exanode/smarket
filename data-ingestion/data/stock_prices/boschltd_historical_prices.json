@@ -20572,5 +20572,32 @@
         "COP_DELIV_PERC": 47.05,
         "VWAP": 27903.7,
         "mTIMESTAMP": "03-Apr-2025"
+    },
+    {
+        "_id": "67efc9ff3274471a0a2e5045",
+        "CH_SYMBOL": "BOSCHLTD",
+        "CH_SERIES": "EQ",
+        "CH_MARKET_TYPE": "N",
+        "CH_TIMESTAMP": "2025-04-04",
+        "TIMESTAMP": "2025-04-03T18:30:00.000Z",
+        "CH_TRADE_HIGH_PRICE": 27780.55,
+        "CH_TRADE_LOW_PRICE": 27124.6,
+        "CH_OPENING_PRICE": 27750,
+        "CH_CLOSING_PRICE": 27289.1,
+        "CH_LAST_TRADED_PRICE": 27334,
+        "CH_PREVIOUS_CLS_PRICE": 28013.9,
+        "CH_TOT_TRADED_QTY": 21549,
+        "CH_TOT_TRADED_VAL": 590165665.7,
+        "CH_52WEEK_HIGH_PRICE": 39088.8,
+        "CH_52WEEK_LOW_PRICE": 26005,
+        "CH_TOTAL_TRADES": 8324,
+        "CH_ISIN": "INE323A01026",
+        "createdAt": "2025-04-04T12:01:03.138Z",
+        "updatedAt": "2025-04-04T12:01:03.138Z",
+        "__v": 0,
+        "COP_DELIV_QTY": 12575,
+        "COP_DELIV_PERC": 58.36,
+        "VWAP": 27387.15,
+        "mTIMESTAMP": "04-Apr-2025"
     }
 ]
