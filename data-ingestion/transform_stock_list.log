@@ -1,0 +1,48 @@
+2025-01-15 16:23:02 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 16:23:02 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 16:23:02 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 16:23:02 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-15 16:43:53 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 16:43:53 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 16:43:53 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 16:43:53 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-15 17:20:17 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 17:20:17 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 17:20:17 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 17:20:17 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-15 17:27:22 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 17:27:22 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 17:27:22 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 17:27:22 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-15 17:34:03 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 17:34:03 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 17:34:03 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 17:34:03 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-15 17:41:35 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-15 17:41:35 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-15 17:41:35 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-15 17:41:35 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-01-16 15:46:39 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-01-16 15:46:39 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-01-16 15:46:39 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-01-16 15:46:39 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-02-08 15:18:30 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-02-08 15:18:30 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-02-08 15:18:30 | INFO | Saved JSON to data/indices/transformed_stock_list.json
+2025-02-08 15:18:30 | INFO | Flattening complete. Results saved to data/indices/transformed_stock_list.json
+2025-04-03 09:38:15 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-04-03 09:38:15 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-04-03 09:38:15 | INFO | Saved JSON to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-03 09:38:15 | INFO | Flattening complete. Results saved to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-03 10:37:42 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-04-03 10:37:42 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-04-03 10:37:42 | INFO | Saved JSON to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-03 10:37:42 | INFO | Flattening complete. Results saved to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-04 08:21:43 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-04-04 08:21:43 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-04-04 08:21:43 | INFO | Saved JSON to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-04 08:21:43 | INFO | Flattening complete. Results saved to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-07 08:51:58 | INFO | Loading JSON from data/indices/NIFTY_100_stock_list.json
+2025-04-07 08:51:58 | INFO | Created backup of the original file at data/indices/NIFTY_100_stock_list.json.backup
+2025-04-07 08:51:58 | INFO | Saved JSON to data/indices\transformed_NIFTY_100_stock_list.json
+2025-04-07 08:51:58 | INFO | Flattening complete. Results saved to data/indices\transformed_NIFTY_100_stock_list.json
